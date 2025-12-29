@@ -1,0 +1,53 @@
+/* 1. GLI IMPORT SEMPRE IN CIMA */
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Lexend:wght@100..900&display=swap');
+@import "tailwindcss";
+
+/* 2. LE VARIABILI :ROOT */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --font-cal: "Cal Sans", sans-serif;
+  --font-lexend: "Lexend", sans-serif;
+}
+
+/* 3. IL TEMA TAILWIND V4 */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  
+  /* Cal Sans ovunque di default come richiesto */
+  --font-sans: var(--font-cal);
+  --font-lexend: var(--font-lexend);
+  
+  /* Definizione z-valore */
+  --z-60: 60;
+  --z-65: 65;
+  --z-70: 70;
+  --z-80: 80;
+}
+
+/* 4. RESTO DEGLI STILI */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-cal); /* Cal Sans applicato al body */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer utilities {
+  @keyframes expand {
+    from { width: 0%; opacity: 0; }
+    to { width: 100%; opacity: 1; }
+  }
+  .animate-expand {
+    animation: expand 1.5s ease-out forwards;
+  }
+}

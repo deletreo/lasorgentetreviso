@@ -1,0 +1,124 @@
+{
+  "prodotti": [
+    {
+      "id": "alaska-touch",
+      "nome": "Alaska Touch",
+      "categoria": "depuratori",
+      "target": ["aziende", "ristorazione"],
+      "tecnologia": "micro-ultrafiltrazione",
+      "installazione": "sopra banco",
+      "immagine": "/fotoProdotti/alaska.JPG",
+      "descrizione_breve": "Il top di gamma per la ristorazione con display touch.",
+      "specifiche": {
+        "capacita": "50/80/120 lt/ora",
+        "erogazione": ["ambiente", "fredda", "gassata"],
+        "plus": "Display touch e design premium"
+      }
+    },
+    {
+      "id": "atena",
+      "nome": "Atena",
+      "categoria": "depuratori",
+      "target": ["aziende", "ristorazione", "privati"],
+      "tecnologia": "micro-ultrafiltrazione",
+      "installazione": "colonna / terra",
+      "immagine": "/fotoProdotti/atena.jpg",
+      "descrizione_breve": "Robusto ed affidabile per grandi afflussi.",
+      "specifiche": {
+        "capacita": "50/80/120 lt/ora",
+        "erogazione": ["ambiente", "fredda", "gassata"],
+        "plus": "Alta resistenza meccanica"
+      }
+    },
+    {
+      "id": "elysium-cold",
+      "nome": "Elysium Cold",
+      "categoria": "depuratori",
+      "target": ["aziende", "privati"],
+      "tecnologia": "micro-ultrafiltrazione",
+      "installazione": "colonna",
+      "immagine": "/fotoProdotti/ELYSIUM COLD.jpg",
+      "descrizione_breve": "Colonna di design per uffici e case moderne.",
+      "specifiche": {
+        "capacita": "20 lt/ora",
+        "erogazione": ["ambiente", "fredda", "gassata"],
+        "plus": "Design slim salva spazio"
+      }
+    },
+    {
+      "id": "elysium-hot",
+      "nome": "Elysium Hot",
+      "categoria": "depuratori",
+      "target": ["aziende"],
+      "tecnologia": "micro-ultrafiltrazione",
+      "installazione": "colonna",
+      "immagine": "/fotoProdotti/ELYSIUM HOT.jpg",
+      "descrizione_breve": "L'unico con erogazione di acqua calda integrata.",
+      "specifiche": {
+        "capacita": "20 lt/ora",
+        "erogazione": ["ambiente", "fredda", "gassata", "calda"],
+        "plus": "Perfetto per aree break"
+      }
+    },
+    {
+      "id": "icon-iron",
+      "nome": "Icon-Iron Under Sink",
+      "categoria": "depuratori",
+      "target": ["privati", "aziende"],
+      "tecnologia": "osmosi-micro-ultrafiltrazione",
+      "installazione": "sotto banco",
+      "immagine": "/fotoProdotti/icon-iron under sink.png",
+      "descrizione_breve": "Sistemi sotto banco invisibili e versatili.",
+      "specifiche": {
+        "capacita": "20 lt/ora",
+        "erogazione": ["ambiente", "fredda", "gassata"],
+        "plus": "Invisibile e ultra-filtrante"
+      }
+    },
+    {
+      "id": "juice",
+      "nome": "Juice Meccanic / Touch",
+      "categoria": "depuratori",
+      "target": ["ristorazione"],
+      "tecnologia": "ultra-microfiltrazione",
+      "installazione": "sopra banco",
+      "immagine": "/fotoProdotti/juice meccanic.png",
+      "descrizione_breve": "Specifico per buffet hotel: acqua e succhi.",
+      "specifiche": {
+        "capacita": "30 lt/ora",
+        "erogazione": ["ambiente", "fredda", "gassata", "succhi"],
+        "plus": "Erogazione succhi integrata"
+      }
+    },
+    {
+      "id": "tower",
+      "nome": "Tower",
+      "categoria": "miscelatori",
+      "target": ["ristorazione"],
+      "tecnologia": "erogazione pura",
+      "installazione": "sopra banco",
+      "immagine": "/fotoProdotti/tower.png",
+      "descrizione_breve": "Spillatrice professionale di alto design.",
+      "specifiche": {
+        "capacita": "N/D (modulo esterno)",
+        "erogazione": ["fredda", "gassata"],
+        "plus": "Design iconico per il banco"
+      }
+    },
+    {
+      "id": "candy",
+      "nome": "Candy",
+      "categoria": "addolcitori",
+      "target": ["aziende", "privati", "ristorazione"],
+      "tecnologia": "scambio ionico",
+      "installazione": "ingresso idrico",
+      "immagine": "/fotoProdotti/candy addolcitori.png",
+      "descrizione_breve": "Elimina il calcare e protegge il tuo impianto.",
+      "specifiche": {
+        "resina": "da 12 a 20 lt",
+        "capacita_giorno": "1600 - 3200 lt",
+        "plus": "Protezione totale elettrodomestici"
+      }
+    }
+  ]
+}
