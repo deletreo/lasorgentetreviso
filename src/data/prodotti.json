@@ -1,124 +1,507 @@
 {
   "prodotti": [
     {
-      "id": "alaska-touch",
-      "nome": "Alaska Touch",
-      "categoria": "depuratori",
-      "target": ["aziende", "ristorazione"],
-      "tecnologia": "micro-ultrafiltrazione",
-      "installazione": "sopra banco",
-      "immagine": "/fotoProdotti/alaska.JPG",
-      "descrizione_breve": "Il top di gamma per la ristorazione con display touch.",
-      "specifiche": {
-        "capacita": "50/80/120 lt/ora",
-        "erogazione": ["ambiente", "fredda", "gassata"],
-        "plus": "Display touch e design premium"
-      }
-    },
-    {
       "id": "atena",
       "nome": "Atena",
       "categoria": "depuratori",
-      "target": ["aziende", "ristorazione", "privati"],
-      "tecnologia": "micro-ultrafiltrazione",
-      "installazione": "colonna / terra",
-      "immagine": "/fotoProdotti/atena.jpg",
-      "descrizione_breve": "Robusto ed affidabile per grandi afflussi.",
+      "target": ["aziende", "ristorazione"],
+      "tecnologia": "microfiltrazione",
+      "installazione": "colonna",
+      "immagini": [
+        "/fotoProdotti/prodotti uffici/atena/atena1.png",
+        "/fotoProdotti/prodotti uffici/atena/atena2.jpg",
+        "/fotoProdotti/prodotti uffici/atena/atena3.jpg"
+      ],
+      "descrizione_breve": "Erogatore potente e silenzioso, ideale per uffici e vending.",
+      "descrizione_estesa": "EROGATORE 3VIE acqua liscia ambiente, fredda e gassata... (tutto il testo precedente)",
       "specifiche": {
         "capacita": "50/80/120 lt/ora",
         "erogazione": ["ambiente", "fredda", "gassata"],
-        "plus": "Alta resistenza meccanica"
+        "plus": "Lampada UVC, Made in Italy"
       }
     },
     {
-      "id": "elysium-cold",
-      "nome": "Elysium Cold",
+      "id": "juicy-pulsanti",
+      "nome": "JUICY Pulsanti",
       "categoria": "depuratori",
-      "target": ["aziende", "privati"],
-      "tecnologia": "micro-ultrafiltrazione",
-      "installazione": "colonna",
-      "immagine": "/fotoProdotti/ELYSIUM COLD.jpg",
-      "descrizione_breve": "Colonna di design per uffici e case moderne.",
+      "target": ["ristorazione", "hotel"],
+      "tecnologia": "erogazione-bevande",
+      "installazione": "soprabanco",
+      "immagini": [
+        "/fotoProdotti/RistorantiBar/juice/juicePulsanti/juicePulsanti1.png",
+        "/fotoProdotti/RistorantiBar/juice/juicePulsanti/juicePulsanti2.jpg"
+      ],
+      "descrizione_breve": "Refrigeratore acqua con Erogazione Bevande 30Lt/h.",
+      "descrizione_estesa": "JUICY con pulsanti Refrigeratore acqua con Erogazione Bevande...",
       "specifiche": {
-        "capacita": "20 lt/ora",
-        "erogazione": ["ambiente", "fredda", "gassata"],
-        "plus": "Design slim salva spazio"
+        "capacita": "30 lt/h",
+        "plus": "Miscelazione concentrati"
       }
     },
     {
-      "id": "elysium-hot",
-      "nome": "Elysium Hot",
-      "categoria": "depuratori",
-      "target": ["aziende"],
-      "tecnologia": "micro-ultrafiltrazione",
-      "installazione": "colonna",
-      "immagine": "/fotoProdotti/ELYSIUM HOT.jpg",
-      "descrizione_breve": "L'unico con erogazione di acqua calda integrata.",
-      "specifiche": {
-        "capacita": "20 lt/ora",
-        "erogazione": ["ambiente", "fredda", "gassata", "calda"],
-        "plus": "Perfetto per aree break"
-      }
-    },
-    {
-      "id": "icon-iron",
-      "nome": "Icon-Iron Under Sink",
-      "categoria": "depuratori",
-      "target": ["privati", "aziende"],
-      "tecnologia": "osmosi-micro-ultrafiltrazione",
-      "installazione": "sotto banco",
-      "immagine": "/fotoProdotti/icon-iron under sink.png",
-      "descrizione_breve": "Sistemi sotto banco invisibili e versatili.",
-      "specifiche": {
-        "capacita": "20 lt/ora",
-        "erogazione": ["ambiente", "fredda", "gassata"],
-        "plus": "Invisibile e ultra-filtrante"
-      }
-    },
-    {
-      "id": "juice",
-      "nome": "Juice Meccanic / Touch",
+      "id": "juicy-touch",
+      "nome": "JUICY Touch",
       "categoria": "depuratori",
       "target": ["ristorazione"],
-      "tecnologia": "ultra-microfiltrazione",
-      "installazione": "sopra banco",
-      "immagine": "/fotoProdotti/juice meccanic.png",
-      "descrizione_breve": "Specifico per buffet hotel: acqua e succhi.",
+      "tecnologia": "erogazione-bevande",
+      "installazione": "soprabanco",
+      "immagini": [
+        "/fotoProdotti/RistorantiBar/juice/juiceTouch/juiceTouch1.png",
+        "/fotoProdotti/RistorantiBar/juice/juiceTouch/juiceTouch2.jpg"
+      ],
+      "descrizione_breve": "Versione Touch del refrigeratore acqua e bevande.",
+      "descrizione_estesa": "JUICY con display touch...",
       "specifiche": {
-        "capacita": "30 lt/ora",
-        "erogazione": ["ambiente", "fredda", "gassata", "succhi"],
-        "plus": "Erogazione succhi integrata"
+        "capacita": "30 lt/h",
+        "plus": "Display Touch"
       }
     },
     {
-      "id": "tower",
-      "nome": "Tower",
-      "categoria": "miscelatori",
+      "id": "tower-display",
+      "nome": "TOWER Display",
+      "categoria": "rubinetteria",
       "target": ["ristorazione"],
-      "tecnologia": "erogazione pura",
-      "installazione": "sopra banco",
-      "immagine": "/fotoProdotti/tower.png",
-      "descrizione_breve": "Spillatrice professionale di alto design.",
+      "tecnologia": "erogazione",
+      "installazione": "soprabanco",
+      "immagini": [
+        "/fotoProdotti/RistorantiBar/tower/towerDisplay/towerDisplay1.png",
+        "/fotoProdotti/RistorantiBar/tower/towerDisplay/towerDisplay2.jpg"
+      ],
+      "descrizione_breve": "Colonnina Elettronica con Display.",
+      "descrizione_estesa": "TOWER Colonnina Elettronica con display...",
       "specifiche": {
-        "capacita": "N/D (modulo esterno)",
-        "erogazione": ["fredda", "gassata"],
-        "plus": "Design iconico per il banco"
+        "capacita": "1 l/min per via",
+        "plus": "Display integrato"
       }
     },
     {
-      "id": "candy",
-      "nome": "Candy",
-      "categoria": "addolcitori",
-      "target": ["aziende", "privati", "ristorazione"],
-      "tecnologia": "scambio ionico",
-      "installazione": "ingresso idrico",
-      "immagine": "/fotoProdotti/candy addolcitori.png",
-      "descrizione_breve": "Elimina il calcare e protegge il tuo impianto.",
+      "id": "tower-pulsanti",
+      "nome": "TOWER Pulsanti",
+      "categoria": "rubinetteria",
+      "target": ["ristorazione"],
+      "tecnologia": "erogazione",
+      "installazione": "soprabanco",
+      "immagini": [
+        "/fotoProdotti/RistorantiBar/tower/towerPulsanti/towerPulsanti1.png",
+        "/fotoProdotti/RistorantiBar/tower/towerPulsanti/towerPulsanti2.jpg"
+      ],
+      "descrizione_breve": "Colonnina Elettronica Pulsanti.",
+      "descrizione_estesa": "TOWER Colonnina Elettronica...",
       "specifiche": {
-        "resina": "da 12 a 20 lt",
-        "capacita_giorno": "1600 - 3200 lt",
-        "plus": "Protezione totale elettrodomestici"
+        "capacita": "1 l/min per via",
+        "plus": "Pulsanti fisici"
       }
+    },
+    {
+      "id": "tower-touch",
+      "nome": "TOWER Touch",
+      "categoria": "rubinetteria",
+      "target": ["ristorazione"],
+      "tecnologia": "erogazione",
+      "installazione": "soprabanco",
+      "immagini": [
+        "/fotoProdotti/RistorantiBar/tower/towerTouch/towerTouch1.png",
+        "/fotoProdotti/RistorantiBar/tower/towerTouch/towerTouch2.jpg"
+      ],
+      "descrizione_breve": "Colonnina Elettronica Touch.",
+      "descrizione_estesa": "TOWER Colonnina Elettronica touch...",
+      "specifiche": {
+        "capacita": "1 l/min per via",
+        "plus": "Comandi Touch"
+      }
+    },
+    {
+      "id": "iron-3-vie",
+      "nome": "IRON 3 vie",
+      "categoria": "depuratori",
+      "target": ["privati"],
+      "tecnologia": "osmosi-inversa",
+      "installazione": "sopralavello",
+      "immagini": [
+        "/fotoProdotti/privati/iron/iron3Vie/iron3Vie1.png",
+        "/fotoProdotti/privati/iron/iron3Vie/iron3Vie2.jpg"
+      ],
+      "descrizione_breve": "Refrigeratore acqua con Osmosi Inversa.",
+      "descrizione_estesa": "IRON Refrigeratore acqua con Osmosi...",
+      "specifiche": {
+        "capacita": "25 lt/h",
+        "plus": "Sistema acqua stop"
+      }
+    },
+    {
+      "id": "icon-3-vie",
+      "nome": "ICON 3 Vie",
+      "categoria": "depuratori",
+      "target": ["privati"],
+      "tecnologia": "microfiltrazione",
+      "installazione": "sopralavello",
+      "immagini": [
+        "/fotoProdotti/privati/icon/icon3Vie/icon3Vie1.png",
+        "/fotoProdotti/privati/icon/icon3Vie/icon3Vie2.jpg"
+      ],
+      "descrizione_breve": "Refrigeratore sopralavello compatto.",
+      "descrizione_estesa": "ICON Refrigeratore acqua con Filtrazione...",
+      "specifiche": {
+        "capacita": "15 lt/h",
+        "plus": "Gasatore 0.8L"
+      }
+    },
+    {
+      "id": "icon-cassettone",
+      "nome": "ICON Cassettone",
+      "categoria": "depuratori",
+      "target": ["privati"],
+      "tecnologia": "microfiltrazione",
+      "installazione": "sottolavello",
+      "immagini": [
+        "/fotoProdotti/privati/icon/iconCassettone3Vie/iconCassettone3Vie1.png",
+        "/fotoProdotti/privati/icon/iconCassettone3Vie/iconCassettone3Vie2.jpg"
+      ],
+      "descrizione_breve": "Soluzione salvaspazio per cassettone.",
+      "descrizione_estesa": "ICON CASSETTONE...",
+      "specifiche": {
+        "capacita": "15 lt/h",
+        "plus": "Forma compatta"
+      }
+    },
+    {
+      "id": "iron-sotto-zoccolo",
+      "nome": "IRON Sottozoccolo",
+      "categoria": "depuratori",
+      "target": ["privati"],
+      "tecnologia": "osmosi-inversa",
+      "installazione": "sottozoccolo",
+      "immagini": [
+        "/fotoProdotti/privati/iron/ironSottoZoccolo3Vie/ironSottoZoccolo3Vie1.png",
+        "/fotoProdotti/privati/iron/ironSottoZoccolo3Vie/ironSottoZoccolo3Vie2.jpg"
+      ],
+      "descrizione_breve": "Frigogasatore da zoccolo cucina.",
+      "descrizione_estesa": "IRON SOTTO ZOCCOLO...",
+      "specifiche": {
+        "capacita": "15 lt/h",
+        "plus": "Invisibile"
+      }
+    },
+    {
+      "id": "icon-sotto-zoccolo",
+      "nome": "ICON Sottozoccolo",
+      "categoria": "depuratori",
+      "target": ["privati"],
+      "tecnologia": "microfiltrazione",
+      "installazione": "sottozoccolo",
+      "immagini": [
+        "/fotoProdotti/privati/icon/iconSottoZoccolo3Vie/iconSottoZoccolo3Vie1.png",
+        "/fotoProdotti/privati/icon/iconSottoZoccolo3Vie/iconSottoZoccolo3Vie2.jpg"
+      ],
+      "descrizione_breve": "Microfiltrazione da zoccolo cucina.",
+      "descrizione_estesa": "ICON SOTTO ZOCCOLO...",
+      "specifiche": {
+        "capacita": "15 lt/h",
+        "plus": "Invisibile"
+      }
+    },
+    {
+      "id": "iron-undersink-1-via",
+      "nome": "Iron Undersink 1 Via",
+      "categoria": "depuratori",
+      "target": ["privati"],
+      "tecnologia": "osmosi-inversa",
+      "installazione": "sottolavello",
+      "immagini": [
+        "/fotoProdotti/privati/iron/ironUndersink1Via/ironUndersink1Via.jpg",
+        "/fotoProdotti/privati/iron/ironUndersink1Via/ironUndersink1Via1.png"
+      ],
+      "descrizione_breve": "Osmosi inversa diretta 1 via.",
+      "descrizione_estesa": "Iron udersink...",
+      "specifiche": {
+        "capacita": "120 lt/h",
+        "plus": "Ultraslim"
+      }
+    },
+    {
+      "id": "iron-undersink-2-vie",
+      "nome": "Iron Undersink 2 Vie",
+      "categoria": "depuratori",
+      "target": ["privati"],
+      "tecnologia": "osmosi-inversa",
+      "installazione": "sottolavello",
+      "immagini": [
+        "/fotoProdotti/privati/iron/ironUndersink2Vie/ironUndersink2Vie.jpg",
+        "/fotoProdotti/privati/iron/ironUndersink2Vie/ironUndersink2Vie1.png"
+      ],
+      "descrizione_breve": "Osmosi inversa diretta 2 vie.",
+      "descrizione_estesa": "Iron undersink 2 vie...",
+      "specifiche": {
+        "capacita": "120 lt/h",
+        "plus": "Ultraslim, Gassata"
+      }
+    },
+    {
+      "id": "iron-undersink-3-vie",
+      "nome": "Iron Undersink 3 Vie",
+      "categoria": "depuratori",
+      "target": ["privati"],
+      "tecnologia": "osmosi-inversa",
+      "installazione": "sottolavello",
+      "immagini": [
+        "/fotoProdotti/privati/iron/ironUndersink3Vie/ironUndersink3Vie1.png",
+        "/fotoProdotti/privati/iron/ironUndersink3Vie/ironUndersink3Vie2.jpg"
+      ],
+      "descrizione_breve": "Osmosi inversa diretta 3 vie.",
+      "descrizione_estesa": "IRON UNDERSINK 3 vie...",
+      "specifiche": {
+        "capacita": "15 lt/h",
+        "plus": "Fredda e Gassata"
+      }
+    },
+    {
+      "id": "icon-undersink-2-vie",
+      "nome": "ICON Undersink 2 Vie",
+      "categoria": "depuratori",
+      "target": ["privati"],
+      "tecnologia": "ultrafiltrazione",
+      "installazione": "sottolavello",
+      "immagini": [
+        "/fotoProdotti/privati/icon/iconUndersink2Vie/iconUndersink2Vie.jpg",
+        "/fotoProdotti/privati/icon/iconUndersink2Vie/iconUndersink2Vie1.png"
+      ],
+      "descrizione_breve": "Ultrafiltrazione 2 vie.",
+      "descrizione_estesa": "ICON UNDERSINK 2 vie...",
+      "specifiche": {
+        "capacita": "120 lt/h",
+        "plus": "Acqua Liscia/Gassata"
+      }
+    },
+    {
+      "id": "icon-undersink-3-vie",
+      "nome": "ICON Undersink 3 Vie",
+      "categoria": "depuratori",
+      "target": ["privati"],
+      "tecnologia": "ultrafiltrazione",
+      "installazione": "sottolavello",
+      "immagini": [
+        "/fotoProdotti/privati/icon/iconUndersink3Vie/iconUndersink3Vie1.png",
+        "/fotoProdotti/privati/icon/iconUndersink3Vie/iconUndersink3Vie2.jpg"
+      ],
+      "descrizione_breve": "Ultrafiltrazione 3 vie completa.",
+      "descrizione_estesa": "ICON UNDERSINK 3 vie...",
+      "specifiche": {
+        "capacita": "15 lt/h",
+        "plus": "Fredda e Gassata"
+      }
+    },
+    {
+      "id": "icon-undersink-1-via",
+      "nome": "Icon Undersink 1 Via",
+      "categoria": "depuratori",
+      "target": ["privati"],
+      "tecnologia": "ultrafiltrazione",
+      "installazione": "sottolavello",
+      "immagini": [
+        "/fotoProdotti/privati/icon/iconUndersinkMeccanic1Vie/iconUndersink1Via.jpg",
+        "/fotoProdotti/privati/icon/iconUndersinkMeccanic1Vie/iconUndersinkMeccanic1Vie1.png"
+      ],
+      "descrizione_breve": "Depuratore meccanico 1 via.",
+      "descrizione_estesa": "Icon undersink meccanico...",
+      "specifiche": {
+        "capacita": "120 lt/h",
+        "plus": "Meccanico"
+      }
+    },
+    {
+      "id": "alaska-spillatrice",
+      "nome": "ALASKA con Spillatrice",
+      "categoria": "depuratori",
+      "target": ["ristorazione"],
+      "tecnologia": "banco-ghiaccio",
+      "installazione": "soprabanco",
+      "immagini": ["/fotoProdotti/RistorantiBar/alaska/alaskaSpillatrice/alaskaSpillatrice1.png"],
+      "descrizione_breve": "Erogatore sopra banco con spillatrice.",
+      "descrizione_estesa": "Erogatore sopra banco a 3 vie...",
+      "specifiche": { "capacita": "200 lt/h", "plus": "Spillatrice meccanica" }
+    },
+    {
+      "id": "alaska-touch",
+      "nome": "ALASKA Touch",
+      "categoria": "depuratori",
+      "target": ["ristorazione"],
+      "tecnologia": "banco-ghiaccio",
+      "installazione": "soprabanco",
+      "immagini": [
+        "/fotoProdotti/RistorantiBar/alaska/alaskaTouch/alaskaTouch1.png",
+        "/fotoProdotti/RistorantiBar/alaska/alaskaTouch/alaskaTouch2.jpg",
+        "/fotoProdotti/RistorantiBar/alaska/alaskaTouch/alaskaTouch3.jpg"
+      ],
+      "descrizione_breve": "Refrigeratore Elettronico Touch.",
+      "descrizione_estesa": "Il Refrigeratore ALASKA Elettronico...",
+      "specifiche": { "capacita": "50/80 lt/h", "plus": "Touch screen" }
+    },
+    {
+      "id": "alaska-undersink",
+      "nome": "ALASKA Undersink",
+      "categoria": "depuratori",
+      "target": ["ristorazione"],
+      "tecnologia": "banco-ghiaccio",
+      "installazione": "sottobanco",
+      "immagini": ["/fotoProdotti/RistorantiBar/alaska/alaskaUndersink/alaskaUndersink1.png"],
+      "descrizione_breve": "Refrigeratore potente sottobanco.",
+      "descrizione_estesa": "ALASKA Refrigeratore acqua sottobanco...",
+      "specifiche": { "capacita": "30-200 lt/h", "plus": "Alta capacità" }
+    },
+    {
+      "id": "spill-pro",
+      "nome": "Spillatrice Spill Pro",
+      "categoria": "rubinetteria",
+      "target": ["ristorazione"],
+      "tecnologia": "erogazione",
+      "installazione": "soprabanco",
+      "immagini": [
+        "/fotoProdotti/RistorantiBar/spillPro/spillPro1.png",
+        "/fotoProdotti/RistorantiBar/spillPro/spillPro2.jpg"
+      ],
+      "descrizione_breve": "Colonnina meccanica cromata.",
+      "descrizione_estesa": "spill pro Colonnina meccanica...",
+      "specifiche": { "plus": "Compensatore incluso" }
+    },
+    {
+      "id": "spill-line",
+      "nome": "Spillatrice Spill Line",
+      "categoria": "rubinetteria",
+      "target": ["ristorazione"],
+      "tecnologia": "erogazione",
+      "installazione": "soprabanco",
+      "immagini": [
+        "/fotoProdotti/RistorantiBar/spillLine/spillLine1.jpg",
+        "/fotoProdotti/RistorantiBar/spillLine/spillLine2.jpg",
+        "/fotoProdotti/RistorantiBar/spillLine/spillLine3.jpg"
+      ],
+      "descrizione_breve": "Colonnina Nero Opaco.",
+      "descrizione_estesa": "spill line Colonnina Meccanica...",
+      "specifiche": { "plus": "Design Nero Opaco" }
+    },
+    {
+      "id": "tritarifiuti",
+      "nome": "Tritarifiuti Facile",
+      "categoria": "accessori",
+      "target": ["privati"],
+      "tecnologia": "meccanico",
+      "installazione": "sottolavello",
+      "immagini": [
+        "/fotoProdotti/trita rifiuti/tritaFacile/tritaFacile1.png",
+        "/fotoProdotti/trita rifiuti/tritaFacile/tritaFacile2.png",
+        "/fotoProdotti/trita rifiuti/tritaFacile/tritaFacile3.JPG"
+      ],
+      "descrizione_breve": "Dissipatore di rifiuti alimentari.",
+      "descrizione_estesa": "LA SORGENTE Tritarifiuti alimentari...",
+      "specifiche": { "plus": "Silenzioso" }
+    },
+    {
+      "id": "blueoxy",
+      "nome": "Blueoxy",
+      "categoria": "accessori",
+      "target": ["privati"],
+      "tecnologia": "ozono",
+      "installazione": "lavatrice",
+      "immagini": [
+        "/fotoProdotti/ozonizatore/blueoxy1.png",
+        "/fotoProdotti/ozonizatore/blueoxy2.jpg"
+      ],
+      "descrizione_breve": "Generatore di Ozono per lavatrice.",
+      "descrizione_estesa": "Blueoxy Generatore di Ozono...",
+      "specifiche": { "plus": "Ecologico" }
+    },
+    {
+      "id": "roma",
+      "nome": "Rubinetto Roma",
+      "categoria": "rubinetteria",
+      "target": ["privati"],
+      "tecnologia": "meccanico",
+      "installazione": "lavello",
+      "immagini": [
+        "/fotoProdotti/rubinetti/roma/roma1.jpg",
+        "/fotoProdotti/rubinetti/roma/roma2.jpg"
+      ],
+      "descrizione_breve": "Rubinetto con doccetta a molla.",
+      "descrizione_estesa": "LA SORGENTE ROMA...",
+      "specifiche": { "plus": "Doccetta estraibile" }
+    },
+    {
+      "id": "cairo",
+      "nome": "Rubinetto Cairo",
+      "categoria": "rubinetteria",
+      "target": ["privati"],
+      "tecnologia": "meccanico",
+      "installazione": "lavello",
+      "immagini": [
+        "/fotoProdotti/rubinetti/cairo/cairo1.jpg",
+        "/fotoProdotti/rubinetti/cairo/cairo2.jpg"
+      ],
+      "descrizione_breve": "Rubinetto design angolare.",
+      "descrizione_estesa": "LA SORGENTE CAIRO...",
+      "specifiche": { "plus": "Doppio flusso" }
+    },
+    {
+      "id": "seul",
+      "nome": "Rubinetto Seul",
+      "categoria": "rubinetteria",
+      "target": ["privati"],
+      "tecnologia": "meccanico",
+      "installazione": "lavello",
+      "immagini": [
+        "/fotoProdotti/rubinetti/seul/seul1.jpg",
+        "/fotoProdotti/rubinetti/seul/seul2.jpg",
+        "/fotoProdotti/rubinetti/seul/seul3.jpg",
+        "/fotoProdotti/rubinetti/seul/seul4.jpg",
+        "/fotoProdotti/rubinetti/seul/seul5.jpg"
+      ],
+      "descrizione_breve": "Rubinetto con canna snodabile.",
+      "descrizione_estesa": "LA SORGENTE SEUL...",
+      "specifiche": { "plus": "Canna flessibile" }
+    },
+    {
+      "id": "siena",
+      "nome": "Rubinetto Siena",
+      "categoria": "rubinetteria",
+      "target": ["privati"],
+      "tecnologia": "meccanico",
+      "installazione": "lavello",
+      "immagini": [
+        "/fotoProdotti/rubinetti/siena/siena1.jpg",
+        "/fotoProdotti/rubinetti/siena/siena2.jpg"
+      ],
+      "descrizione_breve": "Rubinetto Granito Avena.",
+      "descrizione_estesa": "LA SORGENTE SIENA...",
+      "specifiche": { "plus": "Finitura Granito" }
+    },
+    {
+      "id": "porto",
+      "nome": "Rubinetto Porto",
+      "categoria": "rubinetteria",
+      "target": ["privati"],
+      "tecnologia": "meccanico",
+      "installazione": "lavello",
+      "immagini": [
+        "/fotoProdotti/rubinetti/porto/porto1.jpg",
+        "/fotoProdotti/rubinetti/porto/porto2.jpg"
+      ],
+      "descrizione_breve": "Rubinetto design moderno.",
+      "descrizione_estesa": "LA SORGENTE PORTO...",
+      "specifiche": { "plus": "Design squadrato" }
+    },
+    {
+      "id": "tokyo",
+      "nome": "Rubinetto Tokyo",
+      "categoria": "rubinetteria",
+      "target": ["privati"],
+      "tecnologia": "meccanico",
+      "installazione": "lavello",
+      "immagini": [
+        "/fotoProdotti/rubinetti/tokyo/tokyo1.jpg",
+        "/fotoProdotti/rubinetti/tokyo/tokyo2.jpg"
+      ],
+      "descrizione_breve": "Rubinetto con doccetta a molla Nero/Cromo.",
+      "descrizione_estesa": "TOKYO 360...",
+      "specifiche": { "plus": "Molla industriale" }
     }
   ]
 }

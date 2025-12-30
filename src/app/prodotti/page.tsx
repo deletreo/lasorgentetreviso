@@ -7,6 +7,7 @@ import prodottiData from '@/data/prodotti.json';
 import Link from 'next/link';
 import { FiArrowLeft } from 'react-icons/fi';
 
+// Aggiornato il tipo per includere immagini array
 type Product = {
   id: string;
   nome: string;
@@ -14,7 +15,7 @@ type Product = {
   target: string[];
   tecnologia: string;
   installazione: string;
-  immagine: string;
+  immagini: string[]; // Modificato da immagine: string a immagini: string[]
   descrizione_breve: string;
   specifiche: {
     capacita?: string;
@@ -25,13 +26,15 @@ type Product = {
   };
 };
 
-// 1. COMPONENTE CONTENUTO (Contiene la logica con useSearchParams)
 function ProdottiContent() {
   const searchParams = useSearchParams();
   const urlFilter = searchParams.get('filter');
 
   const [activeFilter, setActiveFilter] = useState<string | null>(urlFilter);
-  const [filteredProducts, setFilteredProducts] = useState<Product[]>(prodottiData.prodotti);
+  
+  // Castiamo i dati importati per assicurarci che TS li legga correttamente
+  const allProducts = prodottiData.prodotti as unknown as Product[];
+  const [filteredProducts, setFilteredProducts] = useState<Product[]>(allProducts);
   const [isLoaded, setIsLoaded] = useState(false);
 
   const filters = [
@@ -44,25 +47,23 @@ function ProdottiContent() {
   useEffect(() => {
     setIsLoaded(true);
     if (activeFilter) {
-      const filtered = prodottiData.prodotti.filter(product => {
+      const filtered = allProducts.filter(product => {
         const filterLower = activeFilter.toLowerCase();
         return product.target.includes(filterLower) || product.categoria.toLowerCase() === filterLower;
       });
       setFilteredProducts(filtered);
     } else {
-      setFilteredProducts(prodottiData.prodotti);
+      setFilteredProducts(allProducts);
     }
-  }, [activeFilter]);
+  }, [activeFilter, allProducts]);
 
   const handleFilterChange = (filterId: string | null) => {
     setActiveFilter(filterId);
-    // Nota: window.history.pushState aggiorna l'URL senza ricaricare la pagina
     const url = filterId ? `/prodotti?filter=${encodeURIComponent(filterId)}` : '/prodotti';
     window.history.pushState({}, '', url);
   };
 
   return (
-    // MODIFICA: Aggiornato font-cal a font-['Cal_Sans']
     <div className="min-h-screen bg-[#050505] text-[#F2F2F2] font-['Cal_Sans'] pt-6 pb-20 relative overflow-hidden selection:bg-[#7faeb2] selection:text-black">
       
       {/* Grain Overlay */}
@@ -86,11 +87,6 @@ function ProdottiContent() {
                     <span className="text-xs font-mono uppercase tracking-[0.4em] opacity-40">
                         Catalogo Ufficiale 2025
                     </span>
-                </div>
-                <div className="text-right hidden md:block">
-                    <p className="text-sm uppercase tracking-widest opacity-60 max-w-xs">
-                        Soluzioni certificate per ogni esigenza di depurazione.
-                    </p>
                 </div>
             </div>
         </div>
@@ -135,7 +131,9 @@ function ProdottiContent() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 gap-y-16">
           {filteredProducts.map((product) => (
             <div key={product.id}>
-                <ProductCard product={product} />
+                {/* NOTA: ProductCard deve essere aggiornata per gestire product.immagini[0] invece di product.immagine */}
+                {/* Sto passando l'oggetto product adattato se ProductCard si aspetta ancora 'immagine' */}
+                <ProductCard product={{...product, immagine: product.immagini[0]}} />
             </div>
           ))}
         </div>
@@ -157,7 +155,6 @@ function ProdottiContent() {
   );
 }
 
-// 2. COMPONENTE PAGINA PRINCIPALE (Wrapper con Suspense)
 export default function ProdottiPage() {
   return (
     <Suspense fallback={
