@@ -1,452 +1,529 @@
 {
   "prodotti": [
     {
-      "id": "atena",
-      "nome": "Atena",
-      "categoria": "depuratori",
-      "target": ["aziende", "ristorazione"],
-      "tecnologia": "microfiltrazione",
-      "installazione": "colonna",
-      "immagini": [
-        "/fotoProdotti/prodotti uffici/atena/atena1.png",
-        "/fotoProdotti/prodotti uffici/atena/atena2.jpg",
-        "/fotoProdotti/prodotti uffici/atena/atena3.jpg"
-      ],
-      "descrizione_breve": "Erogatore potente e silenzioso, ideale per uffici e vending.",
-      "descrizione_estesa": "EROGATORE 3VIE acqua liscia ambiente, fredda e gassata... (tutto il testo precedente)",
-      "specifiche": {
-        "capacita": "50/80/120 lt/ora",
-        "erogazione": ["ambiente", "fredda", "gassata"],
-        "plus": "Lampada UVC, Made in Italy"
-      }
-    },
-    {
-      "id": "juicy-pulsanti",
-      "nome": "JUICY Pulsanti",
-      "categoria": "depuratori",
-      "target": ["ristorazione", "hotel"],
-      "tecnologia": "erogazione-bevande",
-      "installazione": "soprabanco",
-      "immagini": [
-        "/fotoProdotti/RistorantiBar/juice/juicePulsanti/juicePulsanti1.png",
-        "/fotoProdotti/RistorantiBar/juice/juicePulsanti/juicePulsanti2.jpg"
-      ],
-      "descrizione_breve": "Refrigeratore acqua con Erogazione Bevande 30Lt/h.",
-      "descrizione_estesa": "JUICY con pulsanti Refrigeratore acqua con Erogazione Bevande...",
-      "specifiche": {
-        "capacita": "30 lt/h",
-        "plus": "Miscelazione concentrati"
-      }
-    },
-    {
-      "id": "juicy-touch",
-      "nome": "JUICY Touch",
-      "categoria": "depuratori",
-      "target": ["ristorazione"],
-      "tecnologia": "erogazione-bevande",
-      "installazione": "soprabanco",
-      "immagini": [
-        "/fotoProdotti/RistorantiBar/juice/juiceTouch/juiceTouch1.png",
-        "/fotoProdotti/RistorantiBar/juice/juiceTouch/juiceTouch2.jpg"
-      ],
-      "descrizione_breve": "Versione Touch del refrigeratore acqua e bevande.",
-      "descrizione_estesa": "JUICY con display touch...",
-      "specifiche": {
-        "capacita": "30 lt/h",
-        "plus": "Display Touch"
-      }
-    },
-    {
-      "id": "tower-display",
-      "nome": "TOWER Display",
-      "categoria": "rubinetteria",
-      "target": ["ristorazione"],
-      "tecnologia": "erogazione",
-      "installazione": "soprabanco",
-      "immagini": [
-        "/fotoProdotti/RistorantiBar/tower/towerDisplay/towerDisplay1.png",
-        "/fotoProdotti/RistorantiBar/tower/towerDisplay/towerDisplay2.jpg"
-      ],
-      "descrizione_breve": "Colonnina Elettronica con Display.",
-      "descrizione_estesa": "TOWER Colonnina Elettronica con display...",
-      "specifiche": {
-        "capacita": "1 l/min per via",
-        "plus": "Display integrato"
-      }
-    },
-    {
-      "id": "tower-pulsanti",
-      "nome": "TOWER Pulsanti",
-      "categoria": "rubinetteria",
-      "target": ["ristorazione"],
-      "tecnologia": "erogazione",
-      "installazione": "soprabanco",
-      "immagini": [
-        "/fotoProdotti/RistorantiBar/tower/towerPulsanti/towerPulsanti1.png",
-        "/fotoProdotti/RistorantiBar/tower/towerPulsanti/towerPulsanti2.jpg"
-      ],
-      "descrizione_breve": "Colonnina Elettronica Pulsanti.",
-      "descrizione_estesa": "TOWER Colonnina Elettronica...",
-      "specifiche": {
-        "capacita": "1 l/min per via",
-        "plus": "Pulsanti fisici"
-      }
-    },
-    {
-      "id": "tower-touch",
-      "nome": "TOWER Touch",
-      "categoria": "rubinetteria",
-      "target": ["ristorazione"],
-      "tecnologia": "erogazione",
-      "installazione": "soprabanco",
-      "immagini": [
-        "/fotoProdotti/RistorantiBar/tower/towerTouch/towerTouch1.png",
-        "/fotoProdotti/RistorantiBar/tower/towerTouch/towerTouch2.jpg"
-      ],
-      "descrizione_breve": "Colonnina Elettronica Touch.",
-      "descrizione_estesa": "TOWER Colonnina Elettronica touch...",
-      "specifiche": {
-        "capacita": "1 l/min per via",
-        "plus": "Comandi Touch"
-      }
-    },
-    {
       "id": "iron-3-vie",
-      "nome": "IRON 3 vie",
-      "categoria": "depuratori",
-      "target": ["privati"],
-      "tecnologia": "osmosi-inversa",
-      "installazione": "sopralavello",
+      "nome": "IRON 3 Vie",
+      "categoria": "privati",
+      "target": ["casa", "ufficio"],
+      "tecnologia": "Osmosi Inversa",
+      "installazione": "Sopralavello",
       "immagini": [
         "/fotoProdotti/privati/iron/iron3Vie/iron3Vie1.png",
         "/fotoProdotti/privati/iron/iron3Vie/iron3Vie2.jpg"
       ],
-      "descrizione_breve": "Refrigeratore acqua con Osmosi Inversa.",
-      "descrizione_estesa": "IRON Refrigeratore acqua con Osmosi...",
+      "descrizione_breve": "Refrigeratore acqua con Osmosi Inversa diretta Sopralavello - 3 vie.",
+      "descrizione_estesa": "IRON Refrigeratore acqua con Osmosi Inversa diretta Sopralavello Nero – 3 vie, Liscia, Gassata e Fredda\n\nSistema acqua stop.\nPreviene perdite d’acqua bloccando il sistema.\nCentralina elettronica di controllo.\nControllo di ogni fase di funzionamento e soprattutto controllo della qualità dell’acqua erogata.\n\nCaratteristiche:\nSistema raffreddamento: Aluminium block a secco\nImp. frigorifero: Ermetico\nPotenza frigorifera: 155 W\nIngresso H2O: 8 mm\nUscita H2O: 6 mm3\nIngresso CO2: 6 mm\nScarico: 6 mm\nProduzione H2O fredda: 25 lt/h\nRegolatore TDS: Sì\nPressione H2O ingresso: 1.8 – 4 bar **La pressione deve restare stabile.**\nCompressore: 1/12 HP\nRaffreddamento: Ad accumulo\nFiltro Baionetta: Esterno\nMembrane osmosi: 2 x 200 GDP\nPotenza assorbita max: 180 W\nPompa Booster: V220 150 Psi 110 l/h\nLitri Gasatore: 700 ml\nLitri Banco ghiaccio: 50 Lt\nAlimentazione: 230V – 50Hz\nVaschetta raccogligocce: Sì\nPeso: 20 Kg\nDimensioni (LxPxH): 18,5 x 55 x 44 cm",
       "specifiche": {
-        "capacita": "25 lt/h",
-        "plus": "Sistema acqua stop"
+        "plus": "Sistema Acqua Stop",
+        "capacita": "25 lt/h"
       }
     },
     {
-      "id": "icon-3-vie",
-      "nome": "ICON 3 Vie",
-      "categoria": "depuratori",
-      "target": ["privati"],
-      "tecnologia": "microfiltrazione",
-      "installazione": "sopralavello",
+      "id": "icon-undersink-1-via-meccanico",
+      "nome": "Icon Undersink 1 Via Meccanico",
+      "categoria": "privati",
+      "target": ["casa"],
+      "tecnologia": "Ultrafiltrazione",
+      "installazione": "Sottolavello",
       "immagini": [
-        "/fotoProdotti/privati/icon/icon3Vie/icon3Vie1.png",
-        "/fotoProdotti/privati/icon/icon3Vie/icon3Vie2.jpg"
+        "/fotoProdotti/privati/icon/iconUndersinkMeccanic1Via/iconUndersinkMeccanic1Via1.png",
+        "/fotoProdotti/privati/icon/iconUndersinkMeccanic1Via/iconUndersinkMeccanic1Via2.jpg"
       ],
-      "descrizione_breve": "Refrigeratore sopralavello compatto.",
-      "descrizione_estesa": "ICON Refrigeratore acqua con Filtrazione...",
+      "descrizione_breve": "Depuratore meccanico acqua con Ultrafiltrazione Sottolavello - 1 via.",
+      "descrizione_estesa": "Icon undersink Depuratore meccanico acqua con Ultrafiltrazione Sottolavello – 1 via, Liscia\n\nStruttura impianto:\n• Ingresso acqua 6mm.\n• Uscita acqua 6mm.\n• Flusso in uscita 120l/h.\n• Temperatura: 3°C – 30°C.\n• Dimensioni: B 9,4 x A 39,5 x P 28,5.\n• Peso: 6Kg.",
       "specifiche": {
-        "capacita": "15 lt/h",
-        "plus": "Gasatore 0.8L"
+        "plus": "Ultrafiltrazione Meccanica",
+        "capacita": "120 lt/h"
       }
     },
     {
-      "id": "icon-cassettone",
-      "nome": "ICON Cassettone",
-      "categoria": "depuratori",
-      "target": ["privati"],
-      "tecnologia": "microfiltrazione",
-      "installazione": "sottolavello",
+      "id": "icon-undersink-2-vie",
+      "nome": "Icon Undersink 2 Vie",
+      "categoria": "privati",
+      "target": ["casa"],
+      "tecnologia": "Filtrazione",
+      "installazione": "Sottolavello",
       "immagini": [
-        "/fotoProdotti/privati/icon/iconCassettone3Vie/iconCassettone3Vie1.png",
-        "/fotoProdotti/privati/icon/iconCassettone3Vie/iconCassettone3Vie2.jpg"
+        "/fotoProdotti/privati/icon/iconUndersink2Vie/iconUndersink2Vie1.png",
+        "/fotoProdotti/privati/icon/iconUndersink2Vie/iconUndersink2Vie2.jpg"
       ],
-      "descrizione_breve": "Soluzione salvaspazio per cassettone.",
-      "descrizione_estesa": "ICON CASSETTONE...",
+      "descrizione_breve": "Depuratore acqua con Filtrazione Sottolavello – 2 vie, Liscia/Gassata.",
+      "descrizione_estesa": "ICON UNDERSINK Depuratore acqua con Filtrazione Sottolavello – 2 vie, Liscia/Gassata\n\nL’ultrafiltrazione elimina dall’acqua cloro, microorganismi, sedimento, ruggine, odore, colore, sapore, torbidità rendendola limpida e cristallina, buona da bere e per tutti gli usi alimentari. Il sistema opera in posizione verticale oppure orizzontale a seconda del modello scelto, occupa pochissimo spazio e quindi può essere collocato sotto lavello.\n\nCaratteristiche:\nIngresso H2O: 6 mm\nIngresso H2O: 8 mm\nUscita H2O: 6 mm\nIngresso CO2: 6 mm\nProduzione: 120 lt/h\nPressione H20 ingresso: 1.8 – 4 bar **La pressione deve restare stabile.**\nTemperatura 3°C – 30°C\nManometro: Interno\nPotenza assorbita max: 180 W\nAntiallagamento: Elettronico\nPompa Booster: V220 150 Psi 120l/h\nLitri Gasatore: 600ml\nAlimentazione: 230V – 50Hz\nManometro Interno\nPeso: 9Kg\nDimensioni (HxPxL): 45,5 x 42 x 9,5 cm",
       "specifiche": {
-        "capacita": "15 lt/h",
-        "plus": "Forma compatta"
-      }
-    },
-    {
-      "id": "iron-sotto-zoccolo",
-      "nome": "IRON Sottozoccolo",
-      "categoria": "depuratori",
-      "target": ["privati"],
-      "tecnologia": "osmosi-inversa",
-      "installazione": "sottozoccolo",
-      "immagini": [
-        "/fotoProdotti/privati/iron/ironSottoZoccolo3Vie/ironSottoZoccolo3Vie1.png",
-        "/fotoProdotti/privati/iron/ironSottoZoccolo3Vie/ironSottoZoccolo3Vie2.jpg"
-      ],
-      "descrizione_breve": "Frigogasatore da zoccolo cucina.",
-      "descrizione_estesa": "IRON SOTTO ZOCCOLO...",
-      "specifiche": {
-        "capacita": "15 lt/h",
-        "plus": "Invisibile"
-      }
-    },
-    {
-      "id": "icon-sotto-zoccolo",
-      "nome": "ICON Sottozoccolo",
-      "categoria": "depuratori",
-      "target": ["privati"],
-      "tecnologia": "microfiltrazione",
-      "installazione": "sottozoccolo",
-      "immagini": [
-        "/fotoProdotti/privati/icon/iconSottoZoccolo3Vie/iconSottoZoccolo3Vie1.png",
-        "/fotoProdotti/privati/icon/iconSottoZoccolo3Vie/iconSottoZoccolo3Vie2.jpg"
-      ],
-      "descrizione_breve": "Microfiltrazione da zoccolo cucina.",
-      "descrizione_estesa": "ICON SOTTO ZOCCOLO...",
-      "specifiche": {
-        "capacita": "15 lt/h",
-        "plus": "Invisibile"
+        "plus": "Posizionamento Verticale/Orizzontale",
+        "capacita": "120 lt/h"
       }
     },
     {
       "id": "iron-undersink-1-via",
       "nome": "Iron Undersink 1 Via",
-      "categoria": "depuratori",
-      "target": ["privati"],
-      "tecnologia": "osmosi-inversa",
-      "installazione": "sottolavello",
+      "categoria": "privati",
+      "target": ["casa"],
+      "tecnologia": "Osmosi Inversa",
+      "installazione": "Sottolavello",
       "immagini": [
-        "/fotoProdotti/privati/iron/ironUndersink1Via/ironUndersink1Via.jpg",
-        "/fotoProdotti/privati/iron/ironUndersink1Via/ironUndersink1Via1.png"
+        "/fotoProdotti/privati/iron/ironUndersink1Via/ironUndersink1Via1.png",
+        "/fotoProdotti/privati/iron/ironUndersink1Via/ironUndersink1Via2.jpg"
       ],
-      "descrizione_breve": "Osmosi inversa diretta 1 via.",
-      "descrizione_estesa": "Iron udersink...",
+      "descrizione_breve": "Depuratore acqua Osmosi inversa diretta – 1 Via Acqua Liscia.",
+      "descrizione_estesa": "Iron udersink Depuratore acqua Osmosi inversa diretta – 1 Via Acqua Liscia\n• ULTRASLIM 9,5cm!\n\nSistema acqua stop.\nPreviene perdite d’acqua bloccando il sistema.\nCentralina elettronica di controllo.\nControllo di ogni fase di funzionamento e soprattutto controllo della qualità dell’acqua erogata.\n\nCARATTERISTICHE:\nIngresso H2O: 8 mm\nUscita: H2O 6 mm\nIngresso CO2: 6 mm\nScarico: 6 mm\nProduzione: 120 lt/h\nRegolatore: TDS\nPressione H20 ingresso: 1.8 – 4 bar **La pressione deve restare stabile.**\nMembrane osmosi 2 x 200 GPD\nManometro: Interno\nFiltro: Carboni attivi In line 1/4” – 2,5”x11”\nPotenza assorbita max: 180 W\nAntiallagamento: Elettronico\nPompa Booster: V220 150 PSI 120 l/h\nLitri Gasatore: 600 ml\nAlimentazione: 230V – 50Hz\nPeso 9 Kg\nDimensioni (HxPxL): 45,5 x 42 x 9,5 cm",
       "specifiche": {
-        "capacita": "120 lt/h",
-        "plus": "Ultraslim"
+        "plus": "Ultraslim 9.5cm",
+        "capacita": "120 lt/h"
       }
     },
     {
       "id": "iron-undersink-2-vie",
       "nome": "Iron Undersink 2 Vie",
-      "categoria": "depuratori",
-      "target": ["privati"],
-      "tecnologia": "osmosi-inversa",
-      "installazione": "sottolavello",
+      "categoria": "privati",
+      "target": ["casa"],
+      "tecnologia": "Osmosi Inversa",
+      "installazione": "Sottolavello",
       "immagini": [
-        "/fotoProdotti/privati/iron/ironUndersink2Vie/ironUndersink2Vie.jpg",
-        "/fotoProdotti/privati/iron/ironUndersink2Vie/ironUndersink2Vie1.png"
+        "/fotoProdotti/privati/iron/ironUndersink2Vie/ironUndersink2Vie1.png",
+        "/fotoProdotti/privati/iron/ironUndersink2Vie/ironUndersink2Vie2.jpg"
       ],
-      "descrizione_breve": "Osmosi inversa diretta 2 vie.",
-      "descrizione_estesa": "Iron undersink 2 vie...",
+      "descrizione_breve": "Depuratore acqua Osmosi inversa diretta – 2 Vie Acqua Liscia/Gassata.",
+      "descrizione_estesa": "Iron undersink Depuratore acqua Osmosi inversa diretta – 2 Vie Acqua Liscia/Gassata\n• ULTRASLIM 9,5cm!\n\nSistema acqua stop.\nPreviene perdite d’acqua bloccando il sistema.\nCentralina elettronica di controllo.\nControllo di ogni fase di funzionamento e soprattutto controllo della qualità dell’acqua erogata.\n\nCaratteristiche:\nIngresso H2O: 8 mm\nUscita: H2O 6 mm\nIngresso CO2: 6 mm\nScarico: 6 mm\nProduzione: 120 lt/h\nRegolatore: TDS\nPressione H20 ingresso: 1.8 – 4 bar **La pressione deve restare stabile.**\nMembrane osmosi 2 x 200 GPD\nManometro: Interno\nFiltro: Carboni attivi In line 1/4” – 2,5”x11”\nPotenza assorbita max: 180 W\nAntiallagamento: Elettronico\nPompa Booster: V220 150 PSI 120 l/h\nLitri Gasatore: 600 ml\nAlimentazione: 230V – 50Hz\nPeso 9 Kg\nDimensioni (HxPxL): 45,5 x 42 x 9,5 cm",
       "specifiche": {
-        "capacita": "120 lt/h",
-        "plus": "Ultraslim, Gassata"
+        "plus": "Ultraslim 9.5cm",
+        "capacita": "120 lt/h"
+      }
+    },
+    {
+      "id": "icon-3-vie",
+      "nome": "Icon 3 Vie",
+      "categoria": "privati",
+      "target": ["casa"],
+      "tecnologia": "Filtrazione",
+      "installazione": "Sopralavello",
+      "immagini": [
+        "/fotoProdotti/privati/icon/icon3Vie/icon3Vie1.png",
+        "/fotoProdotti/privati/icon/icon3Vie/icon3Vie2.jpg"
+      ],
+      "descrizione_breve": "Refrigeratore acqua con Filtrazione Sopralavello 15Lt/h – 3 Vie.",
+      "descrizione_estesa": "ICON Refrigeratore acqua con Filtrazione Sopralavello 15Lt/h. – 3 Vie Liscia ambiente, fredda e gassata\nPRODOTTO MADE IN ITALY\nErogatore potente e silenzioso, di facile manutenzione e caratterizzato da un design innovativo.\nInstallazione alla portata di tutti.\nIl modello ICON è dotato di tecnologia di raffreddamento Aluminium Block a secco e gasatore da 0,8L.\nEroga Acqua Liscia/Fredda/Gassata.\n\nCaratteristiche:\nSistema raffreddamento: Aluminium block a secco\nImp. frigorifero: Ermetico\nPotenza frigorifera: 244 W\nIngresso H2O: 8 mm\nIngresso CO2: 6 mm\nProduzione H2O fredda: 15 Lt\nPressione H2O ingresso: 1.8 – 4 bar\nCompressore: 1/12 HP\nGas Refrigerante: R290a\nRaffreddamento Ad accumulo\nFiltro Baionetta: Esterno\nPotenza assorbita max: 220 W\nPompa Booster: 120 l/h\nLitri Gasatore: 0,8 Lt\nAlimentazione 230V – 50Hz\nPeso 20 Kg\nDimensioni(LxPxH): 18,4 × 46,5 × 48 cm",
+      "specifiche": {
+        "plus": "Facile Installazione",
+        "capacita": "15 lt/h"
+      }
+    },
+    {
+      "id": "iron-sotto-zoccolo-3-vie",
+      "nome": "Iron Sotto Zoccolo 3 Vie",
+      "categoria": "privati",
+      "target": ["casa"],
+      "tecnologia": "Osmosi Inversa",
+      "installazione": "Sottozoccolo",
+      "immagini": [
+        "/fotoProdotti/privati/iron/ironSottoZoccolo3Vie/ironSottoZoccolo3Vie1.png",
+        "/fotoProdotti/privati/iron/ironSottoZoccolo3Vie/ironSottoZoccolo3Vie2.jpg"
+      ],
+      "descrizione_breve": "Frigogasatore acqua con Osmosi Inversa diretta Sottozoccolo – 3 vie.",
+      "descrizione_estesa": "IRON SOTTO ZOCCOLO Frigogasatore acqua con Osmosi Inversa diretta Sottozoccolo – 3 vie, Liscia, Gassata e Fredda\n\nSistema acqua stop.\nPreviene perdite d’acqua bloccando il sistema.\nCentralina elettronica di controllo.\nControllo di ogni fase di funzionamento e soprattutto controllo della qualità dell’acqua erogata.\n\nCaratteristiche:\nSistema raffreddamento: Aluminium block a secco\nImp. frigorifero: Ermetico\nPotenza frigorifera: 155 W\nIngresso H2O: 8 mm\nUscita H2O: 6 mm\nIngresso CO2: 6 mm\nScarico: 6 mm\nProduzione H2O fredda: 15 Lt\nRegolatore TDS: Sì\nPressione H2O ingresso: 1.8 – 4 bar **La pressione deve restare stabile.**\nPressione d’esercizio: 8 – 10 bar\nCompressore: 156 W\nGas Refrigerante: R290\nRaffreddamento Ad accumulo\nFiltro Baionetta: Esterno\nMembrane osmosi: 2 x 200 GPD\nPotenza assorbita max: 220 W\nAntiallagamento: Elettronico\nPompa Booster: V220 150 Psi 110 l/h\nLitri Gasatore: 600 ml\nAlimentazione: 230V – 50Hz\nPeso: 22 Kg\nDimensioni (HxLxP): 10,8 × 46,5 x 54 cm",
+      "specifiche": {
+        "plus": "Sottozoccolo Salvaspazio",
+        "capacita": "15 lt/h"
       }
     },
     {
       "id": "iron-undersink-3-vie",
       "nome": "Iron Undersink 3 Vie",
-      "categoria": "depuratori",
-      "target": ["privati"],
-      "tecnologia": "osmosi-inversa",
-      "installazione": "sottolavello",
+      "categoria": "privati",
+      "target": ["casa"],
+      "tecnologia": "Osmosi Inversa",
+      "installazione": "Sottolavello",
       "immagini": [
         "/fotoProdotti/privati/iron/ironUndersink3Vie/ironUndersink3Vie1.png",
         "/fotoProdotti/privati/iron/ironUndersink3Vie/ironUndersink3Vie2.jpg"
       ],
-      "descrizione_breve": "Osmosi inversa diretta 3 vie.",
-      "descrizione_estesa": "IRON UNDERSINK 3 vie...",
+      "descrizione_breve": "Refrigeratore acqua con Osmosi Inversa diretta Sottolavello – 3 vie.",
+      "descrizione_estesa": "IRON UNDERSINK Refrigeratore acqua con Osmosi Inversa diretta Sottolavello – 3 vie, Liscia, Gassata e Fredda\n\nSistema acqua stop.\nPreviene perdite d’acqua bloccando il sistema.\nCentralina elettronica di controllo.\nControllo di ogni fase di funzionamento e soprattutto controllo della qualità dell’acqua erogata.\n\nCaratteristiche:\nSistema raffreddamento: Aluminium block a secco\nImp. frigorifero: Ermetico\nPotenza frigorifera: 155 W\nIngresso H2O: 8 mm\nUscita H2O: 6 mm\nIngresso CO2: 6 mm\nScarico: 6 mm\nProduzione H2O fredda: 15 Lt\nRegolatore TDS: Sì\nPressione H2O ingresso: 1.8 – 4 bar\nPressione d’esercizio: 8 – 10 bar\nCompressore: 156 W\nGas Refrigerante: R290\nRaffreddamento Ad accumulo\nFiltro Baionetta: Esterno\nMembrane osmosi: 2 x 200 GPD\nPotenza assorbita max: 180 W\nAntiallagamento: Elettronico\nPompa Booster: V220 150 Psi 110 l/h\nLitri Gasatore: 700 ml\nAlimentazione: 230V – 50Hz\nPeso: 12 Kg\nDimensioni (LxPxH): 19,8 x 43,20 x 44,17 cm",
       "specifiche": {
-        "capacita": "15 lt/h",
-        "plus": "Fredda e Gassata"
+        "plus": "Centralina Elettronica",
+        "capacita": "15 lt/h"
       }
     },
     {
-      "id": "icon-undersink-2-vie",
-      "nome": "ICON Undersink 2 Vie",
-      "categoria": "depuratori",
-      "target": ["privati"],
-      "tecnologia": "ultrafiltrazione",
-      "installazione": "sottolavello",
+      "id": "icon-sotto-zoccolo-3-vie",
+      "nome": "Icon Sotto Zoccolo 3 Vie",
+      "categoria": "privati",
+      "target": ["casa"],
+      "tecnologia": "Filtrazione",
+      "installazione": "Sottozoccolo",
       "immagini": [
-        "/fotoProdotti/privati/icon/iconUndersink2Vie/iconUndersink2Vie.jpg",
-        "/fotoProdotti/privati/icon/iconUndersink2Vie/iconUndersink2Vie1.png"
+        "/fotoProdotti/privati/icon/iconSottoZoccolo3Vie/iconSottoZoccolo3Vie1.png",
+        "/fotoProdotti/privati/icon/iconSottoZoccolo3Vie/iconSottoZoccolo3Vie2.jpg"
       ],
-      "descrizione_breve": "Ultrafiltrazione 2 vie.",
-      "descrizione_estesa": "ICON UNDERSINK 2 vie...",
+      "descrizione_breve": "Frigogasatore acqua con Filtrazione Sottozoccolo – 3 vie.",
+      "descrizione_estesa": "ICON SOTTO ZOCCOLO Frigogasatore acqua con Filtrazione Sottozoccolo – 3 vie, Liscia, Gassata e Fredda\n\nL’erogatore ICON SOTTO ZOCCOLO è dotato di carenatura in acciaio inox, tecnologia di raffreddamento con banco a secco Alluminium Block e gasatore in acciaio inox.\n\nCaratteristiche:\nSistema raffreddamento: Aluminium block a secco\nImp. frigorifero: Ermetico\nPotenza frigorifera: 155 W\nIngresso H2O: 8 mm\nUscita H2O: 6 mm\nIngresso CO2: 6 mm\nProduzione H2O fredda: 15 Lt\nPressione H2O ingresso: 1.8 – 4 bar\nCompressore: 1/12 HP\nGas Refrigerante: R124A\nRaffreddamento Ad accumulo\nFiltro Baionetta: Esterno\nPotenza assorbita max: 77 W\nPompa Booster: V220 150 Psi 120 l/h\nLitri Gasatore: 600 ml\nAlimentazione: 230V – 50Hz\nPeso 22 Kg\nDimensioni(HxPxL): 11 × 47,5 × 45 cm",
       "specifiche": {
-        "capacita": "120 lt/h",
-        "plus": "Acqua Liscia/Gassata"
+        "plus": "Sottozoccolo",
+        "capacita": "15 lt/h"
       }
     },
     {
       "id": "icon-undersink-3-vie",
-      "nome": "ICON Undersink 3 Vie",
-      "categoria": "depuratori",
-      "target": ["privati"],
-      "tecnologia": "ultrafiltrazione",
-      "installazione": "sottolavello",
+      "nome": "Icon Undersink 3 Vie",
+      "categoria": "privati",
+      "target": ["casa"],
+      "tecnologia": "Filtrazione",
+      "installazione": "Sottolavello",
       "immagini": [
         "/fotoProdotti/privati/icon/iconUndersink3Vie/iconUndersink3Vie1.png",
         "/fotoProdotti/privati/icon/iconUndersink3Vie/iconUndersink3Vie2.jpg"
       ],
-      "descrizione_breve": "Ultrafiltrazione 3 vie completa.",
-      "descrizione_estesa": "ICON UNDERSINK 3 vie...",
+      "descrizione_breve": "Refrigeratore acqua con Filtrazione 15Lt/h. Sottolavello – 3 vie.",
+      "descrizione_estesa": "ICON UNDERSINK Refrigeratore acqua con Filtrazione 15Lt/h. Sottolavello – 3 vie, Liscia, Gassata e Fredda\n\nL’erogatore ICON UNDERSINK è dotato di carenatura in acciaio inox, tecnologia di raffreddamento con banco a secco Alluminium Block e gasatore in acciaio inox.\n\nCaratteristiche:\nSistema raffreddamento: Aluminium block a secco\nImp. frigorifero: Ermetico\nPotenza frigorifera: 155 W\nIngresso H2O: 8 mm\nUscita H2O: 6 mm\nIngresso CO2: 6 mm\nProduzione H2O fredda: 15 Lt\nPressione H2O ingresso: 1.8 – 4 bar\nCompressore: 1/12 HP\nGas Refrigerante: R124A\nRaffreddamento Ad accumulo\nFiltro Baionetta: Esterno\nPotenza assorbita max: 77 W\nPompa Booster: V220 150 Psi 120 l/h\nLitri Gasatore: 700 ml\nAlimentazione: 230V – 50Hz\nPeso 19 Kg\nDimensioni (LxPxH): 18 x 34x 43,6 cm",
       "specifiche": {
-        "capacita": "15 lt/h",
-        "plus": "Fredda e Gassata"
+        "plus": "Compatto Sottolavello",
+        "capacita": "15 lt/h"
       }
     },
     {
-      "id": "icon-undersink-1-via",
-      "nome": "Icon Undersink 1 Via",
-      "categoria": "depuratori",
-      "target": ["privati"],
-      "tecnologia": "ultrafiltrazione",
-      "installazione": "sottolavello",
+      "id": "icon-cassettone-3-vie",
+      "nome": "Icon Cassettone 3 Vie",
+      "categoria": "privati",
+      "target": ["casa"],
+      "tecnologia": "Filtrazione",
+      "installazione": "Cassettone",
       "immagini": [
-        "/fotoProdotti/privati/icon/iconUndersinkMeccanic1Vie/iconUndersink1Via.jpg",
-        "/fotoProdotti/privati/icon/iconUndersinkMeccanic1Vie/iconUndersinkMeccanic1Vie1.png"
+        "/fotoProdotti/privati/icon/iconCassettone3Vie/iconCassettone3Vie1.png",
+        "/fotoProdotti/privati/icon/iconCassettone3Vie/iconCassettone3Vie2.jpg"
       ],
-      "descrizione_breve": "Depuratore meccanico 1 via.",
-      "descrizione_estesa": "Icon undersink meccanico...",
+      "descrizione_breve": "Frigogasatore acqua con Filtrazione per Cassettone Cucina – 3 vie.",
+      "descrizione_estesa": "ICON CASSETTONE Frigogasatore acqua con Filtrazione per Cassettone Cucina – 3 vie, Liscia, Gassata e Fredda\n\nCaratteristiche:\nSistema raffreddamento: Aluminium block a secco\nImp. frigorifero: Ermetico\nPotenza frigorifera: 155 W\nIngresso H2O: 8 mm\nUscita H2O: 6 mm\nIngresso CO2: 6 mm\nProduzione H2O fredda: 15 Lt\nPressione H2O ingresso: 1.8 – 4 bar **La pressione deve restare stabile.**\nCompressore: 1/12 HP\nGas Refrigerante: R124A\nRaffreddamento Ad accumulo\nFiltro Baionetta: Esterno\nPotenza assorbita max: 77 W\nPompa Booster: Pump 24V\nLitri Gasatore: 800 ml\nAlimentazione: 230V – 50Hz\nPeso 19 Kg\nDimensioni (LxPxH): 29,90×37,20×28,5 cm",
       "specifiche": {
-        "capacita": "120 lt/h",
-        "plus": "Meccanico"
+        "plus": "Perfetto per Cassettoni",
+        "capacita": "15 lt/h"
+      }
+    },
+    {
+      "id": "atena",
+      "nome": "Atena",
+      "categoria": "aziende",
+      "target": ["ufficio", "vending"],
+      "tecnologia": "Microfiltrazione",
+      "installazione": "Colonna",
+      "immagini": [
+        "/fotoProdotti/prodotti uffici/atena/atena1.png",
+        "/fotoProdotti/prodotti uffici/atena/atena2.jpg",
+        "/fotoProdotti/prodotti uffici/atena/atena3.jpg"
+      ],
+      "descrizione_breve": "Erogatore 3 vie acqua liscia ambiente, fredda e gassata.",
+      "descrizione_estesa": "ATENA EROGATORE 3VIE acqua liscia ambiente, fredda e gassata, da 50 a 120lt\\h di acqua fredda\n\nPRODOTTO MADE IN ITALY\nErogatore potente e silenzioso, di facile manutenzione e caratterizzato da un design innovativo.\nComponentistica interna di altissima qualità e conforme al DM 174/2004.\n\nREFRIGERATORE ACQUA CON MICROFILTRAZIONE\nEroga acqua liscia a temperatura ambiente, acqua liscia fredda e acqua gasata fredda.\nL’erogatore ATENA é progettato per contenere nel suo mobiletto filtro, lampada UVC in linea, bombola di CO2 ricaricabile, e scarico (diretto o con tanica), ed è caratterizzato da un ampio vano d’erogazione, che permette il facile utilizzo con borracce, caraffe e bottiglie.\nIdeale per uffici e nel settore vending, è dotato di UVC led sul punto di erogazione per prevenire la retrocontaminazione batterica.\nL’erogatore ATENA è dotato di tre pulsanti, display e porzionatura volumentrica automatica, pulsanti infrared o due rubinetti manuali. Tecnologia di raffreddamento Icermetic o con banco di ghiaccio.\n\nCaratteristiche:\nMateriale carrozzeria: lamiera verniciata\nPressione H2O ingresso: 1.8 – 4 bar, non-shock. **La pressione deve restare stabile.**\nTemperatura ambiente d’esercizio: 10 – 35° C\nTemperatura acqua alimentazione (min-max): 10-25° C\nAlimentazione elettrica: 230 V AC\nPotenza carbonatore: 100 l/h\nPompa carbonatore: Booster\nLitri Gasatore: 2,2 lt.\nPotenza assorbita: 156 W\nProduttività: 25l/h\nRaffreddamento: Ad accumulo\nPeso: 32Kg.\nDimensioni (LxPxH): 38x38x133cm\nConnessioni: H2O: 8mm / Co2: 6mm",
+      "specifiche": {
+        "plus": "Lampada UVC in linea",
+        "capacita": "25-120 lt/h"
+      }
+    },
+    {
+      "id": "elysium-cold-2-vie",
+      "nome": "Elysium Cold 2 Vie",
+      "categoria": "aziende",
+      "target": ["ufficio", "palestra"],
+      "tecnologia": "Filtrazione",
+      "installazione": "Colonna",
+      "immagini": [
+        "/fotoProdotti/prodotti uffici/elysiumCold2Vie/elysiumCold2Vie.jpg"
+      ],
+      "descrizione_breve": "Acqua Refrigerata a Colonna con Filtrazione, Nero – 2 vie.",
+      "descrizione_estesa": "ELYSIUM COLD Acqua Refrigerata a Colonna con Filtrazione, Nero – 2 vie Liscia ambiente e fredda\nProduzione 20Lt/h.\nKIT COMPLETO PRONTO ALL’USO\nMADE IN ITALY\n\nACQUA LISCIA A TEMPERATURA/FREDDA\nErogatore d’acqua fredda/gasata/ambiente realizzato per uffici, palestre, sale riunioni, centri d’estetica, etc.\nOffice è caratterizzato da un design moderno e adatto ad ogni ambiente, non presenta viti a vista e ha un vano erogazione importante, permettendo l’utilizzo di borracce e caraffe di altezza di 30 cm.\nNel vano posteriore è predisposto l’alloggiamento di filtro a carboni attivi e bombola Co2.\n\nCaratteristiche:\n• Materiale carrozzeria: Lamiera galvanizzata verniciata a polveri\n• Vano di erogazione: Acciaio inox\n• Pressione H2O ingresso: 1.8 – 4 bar, non-shock. **La pressione deve restare stabile.**\n• Temperatura ambiente d’esercizio: 10 – 35° C\n• Temperatura acqua alimentazione (min-max): 10-25° C\n• Produzione acqua refrigerata: 20 l/h\n• Alimentazione elettrica: 230 V- 50 Hz\n• Potenza elettrica assorbita: 280 W\n• Unità refrigerante compressore ermetico: 1/ 8” Hp\n• Pompa carbonatore: Volumetrica 150 l/h\n• Dimensioni: 28 x 28 x 108 cm",
+      "specifiche": {
+        "plus": "Aluminium Block Dry",
+        "capacita": "20 lt/h"
+      }
+    },
+    {
+      "id": "elysium-2-vie",
+      "nome": "Elysium 2 Vie",
+      "categoria": "aziende",
+      "target": ["ufficio"],
+      "tecnologia": "Filtrazione",
+      "installazione": "Colonna",
+      "immagini": [
+        "/fotoProdotti/prodotti uffici/elysium2Vie/elysium2Vie.png"
+      ],
+      "descrizione_breve": "Acqua Refrigerata a Colonna con Filtrazione – 2 vie Liscia ambiente e fredda.",
+      "descrizione_estesa": "ELYSIUM Acqua Refrigerata a Colonna con Filtrazione – 2 vie Liscia ambiente e fredda\nProduzione 20Lt/h.\nKIT COMPLETO PRONTO ALL’USO\nMADE IN ITALY\n\nFrigogasatore a colonna dal design minimale, pratico e funzionale particolarmente indicato per l’ufficio.\nIl frigogasatore garantisce in ogni momento acqua a temperatura ambiente, liscia refrigerata.\n\nL’apparecchiatura è caratterizzata da:\n• Design ergonomico, funzionale e resistente ai fattori esterni\n• Grande vano di erogazione per bicchieri, bottglie e caraffe\n• Portabicchieri incorporato con vano interno\n• Punto di erogazione protetto per evitare contaminazione batterica dall’esterno\n• Vano facilmente accessibile per cambio bombola CO2 e per il sistema di filtrazione\n• Scambiatore diretto che permette di ottenere acqua calda\n\nCaratteristiche:\n• Sistema di raffreddamento: a secco con Aluminium Block\n• Condensazione a ventilazione forzata Alimentazione 230V – 50Hz\n• Gas: R134a a norma HFC\n• Pressione H2O ingresso: 1.8 – 4 bar, non-shock.\n• Produzione acqua fredda: 20 l/h\n• Produzione acqua calda: 5 l/h\n• Rumorosità: <67 db.\n• Dimensioni (mm): 280(L) x 290(P) x 1180(H)\n• Peso: 27,00 kg",
+      "specifiche": {
+        "plus": "Erogazione Acqua Calda",
+        "capacita": "20 lt/h"
+      }
+    },
+    {
+      "id": "elysium-3-vie",
+      "nome": "Elysium 3 Vie",
+      "categoria": "aziende",
+      "target": ["ufficio"],
+      "tecnologia": "Filtrazione",
+      "installazione": "Colonna",
+      "immagini": [
+        "/fotoProdotti/prodotti uffici/elysium3Vie/elysium3Vie.png"
+      ],
+      "descrizione_breve": "Acqua Refrigerata a Colonna con Filtrazione – 3 vie.",
+      "descrizione_estesa": "ELYSIUM Acqua Refrigerata a Colonna con Filtrazione – 3vie Liscia ambiente, fredda e gassata\nProduzione 20Lt/h.\nKIT COMPLETO PRONTO ALL’USO\nMADE IN ITALY\n\nACQUA LISCIA A TEMPERATURA AMBIENTE/FREDDA E GASATA FREDDA\nFrigogasatore a colonna dal design minimale, pratico e funzionale.\n\nL’apparecchiatura è caratterizzata da:\n• Design ergonomico, funzionale e resistente ai fattori esterni\n• Grande vano di erogazione per bicchieri, bottiglie e caraffe\n• Portabicchieri incorporato con vano interno\n• Punto di erogazione protetto\n• Conta-litri integrato e sistema di blocco macchina a filtro esaurito\n• Scambiatore diretto che permette di ottenere acqua calda\n\nCaratteristiche:\n• Sistema di raffreddamento: a secco con Aluminium Block\n• Condensazione a ventilazione forzata Alimentazione 230V – 50Hz\n• Gas: R134a a norma HFC\n• Pressione H2O ingresso: 1.8 – 4 bar, non-shock.\n• Produzione acqua fredda: 20 l/h\n• Produzione acqua calda: 5 l/h\n• Rumorosità: <67 db.\n• Dimensioni (mm): 280(L) x 290(P) x 1180(H)\n• Peso: 27,00 kg",
+      "specifiche": {
+        "plus": "Acqua Calda e Gassata",
+        "capacita": "20 lt/h"
+      }
+    },
+    {
+      "id": "elysium-cold-3-vie",
+      "nome": "Elysium Cold 3 Vie",
+      "categoria": "aziende",
+      "target": ["ufficio"],
+      "tecnologia": "Filtrazione",
+      "installazione": "Colonna",
+      "immagini": [
+        "/fotoProdotti/prodotti uffici/elysiumCold3Vie/elysiumCold3Vie.png"
+      ],
+      "descrizione_breve": "Acqua Refrigerata a Colonna con Filtrazione, Nero – 3 vie.",
+      "descrizione_estesa": "ELISYUM COLD Acqua Refrigerata a Colonna con Filtrazione, Nero – 3 vie Liscia ambiente, fredda e gassata\nProduzione 20Lt/h.\nKIT COMPLETO PRONTO ALL’USO\nMADE IN ITALY\n\nACQUA LISCIA A TEMPERATURA/FREDDA & GASSATA FREDDA\nErogatore d’acqua fredda/gasata/ambiente realizzato per uffici, palestre, sale riunioni, centri d’estetica, etc.\nDesign moderno e adatto ad ogni ambiente, non presenta viti a vista.\nNel vano posteriore è predisposto l’alloggiamento di filtro a carboni attivi e bombola Co2.\n\nCaratteristiche:\n• Materiale carrozzeria: Lamiera galvanizzata verniciata a polveri\n• Vano di erogazione: Acciaio inox\n• Pressione H2O ingresso: 1.8 – 4 bar, non-shock.\n• Temperatura ambiente d’esercizio: 10 – 35° C\n• Temperatura acqua alimentazione (min-max): 10-25° C\n• Produzione acqua refrigerata: 20 l/h\n• Alimentazione elettrica: 230 V- 50 Hz\n• Potenza elettrica assorbita: 280 W\n• Unità refrigerante compressore ermetico: 1/ 8” Hp\n• Pompa carbonatore: Volumetrica 150 l/h\n• Capacità carbonatore: 1l\n• Dimensioni: 28 x 28 x 108 cm",
+      "specifiche": {
+        "plus": "Design Viti Nascoste",
+        "capacita": "20 lt/h"
+      }
+    },
+    {
+      "id": "elysium-hot",
+      "nome": "Elysium Hot",
+      "categoria": "aziende",
+      "target": ["ufficio"],
+      "tecnologia": "Ultrafiltrazione",
+      "installazione": "Colonna",
+      "immagini": [
+        "/fotoProdotti/prodotti uffici/elysiumHot/elysiumHot.jpg"
+      ],
+      "descrizione_breve": "Acqua Refrigerata a Colonna con Ultrafiltrazione – 3 vie acqua fredda, calda e ambiente.",
+      "descrizione_estesa": "ELISYUM HOT Acqua Refrigerata a Colonna con Ultrafiltrazione – 3 vie acqua fredda, calda e ambiente\nKIT COMPLETO PRONTO ALL’USO\n1 PULSANTE ACQUA CALDA CON BLOCCO DI SICUREZZA (SINISTRO)\n1 PULSANTE ACQUA FREDDA (DESTRO)\n1 PULSANTE ACQUA T. AMBIENTE (CENTRO)\n\nCabinato in ABS, pannelli laterali in ferro verniciatura a fuoco.\nSerbatoio acqua fredda in acciaio inox AISI-304 con doppia valvola variabile e filtro aspirazione aria.\nCompressore di raffreddamento.\nL’altezza sotto l’erogatore d’acqua permette di poter inserire sia borracce che bottiglie.\n\nSpecifiche:\n• Temperatura acqua fredda: 2-15 ºC.\n• Pressione H2O ingresso: 1.8 – 4 bar, non-shock.\n• Refrigerante compressore: R-600 a.\n• Alimentazione: 220-240 VAC/50-60 Hz.\n• Capacità raffreddamento: 5lt\n• Potenza compressore: 85 W\n• Dimensioni: H 111,5 L 30 P 39 cm\n\nCaratteristiche:\n• Uscita in plastica antibatterica. Ricambiabile e levabile.\n• Produzione acqua a temperatura ambiente. (Tasto termostato acqua calda su off.)\n• Serbatoio acqua fredda con grande capacità. Realizzato in acciaio inox.",
+      "specifiche": {
+        "plus": "Erogazione Acqua Calda",
+        "capacita": "5 lt Raffreddamento"
+      }
+    },
+    {
+      "id": "juicy-pulsanti",
+      "nome": "Juicy Pulsanti",
+      "categoria": "ristorazione",
+      "target": ["bar", "ristorante"],
+      "tecnologia": "Refrigerazione",
+      "installazione": "Soprabanco",
+      "immagini": [
+        "/fotoProdotti/RistorantiBar/juice/juicePulsanti/juicePulsanti1.png",
+        "/fotoProdotti/RistorantiBar/juice/juicePulsanti/juicePulsanti2.jpg"
+      ],
+      "descrizione_breve": "Refrigeratore acqua con Erogazione Bevande con Pulsanti 30Lt/h.",
+      "descrizione_estesa": "JUICY con pulsanti Refrigeratore acqua con Erogazione Bevande con Pulsanti 30Lt/h. Soprabanco – 6 vie, Acqua e Bevande\n\nEroga le tue bevande preferite, sempre alla tua portata!\nSelezioni Previste: Ambiente / Fredda / Gassata; nr.3 concentrati da miscelare con acqua fredda; regolazione della ratio per ogni concentrato; erogazione a pressione pulsante START / STOP.\n\nCaratteristiche:\nAlimentazione: 230V 50hz.\nPerformance lt/h: 30lt/h.\nCompressore: GAS r290 – Compressore 180w.\nCondensatore: Ventilato.\nPompa carbonazione: Pompa booster 230v.\nRefrigerazione: Fusione alluminio; Serpentina Acciaio INOX.\nCarbonatore: 1,0 lt.\nConnessioni ingresso: Acqua Ø8mm / Co2 Ø6mm.\nHMI: NR.6 Pulsanti anti vandalo.\nRegolazione temperatura: Termostato positivo.\nCarrozzeria: Verniciata a polvere in nero opaco testurizzato.\nPannelli frontale: Metacrilato in colore NERO.\nVaschetta raccogli gocce: Inox AISI 304.\nAltezza bottiglia / bicchiere: Max 300mm ; bicchiere su ribaltina 160mm.\nDimensioni LxPxH: 39x58x68 cm (con raccogli gocce).\nPeso: 30 Kg circa.",
+      "specifiche": {
+        "plus": "6 Vie (Acqua + Bevande)",
+        "capacita": "30 lt/h"
+      }
+    },
+    {
+      "id": "juicy-touch",
+      "nome": "Juicy Touch",
+      "categoria": "ristorazione",
+      "target": ["bar", "ristorante"],
+      "tecnologia": "Refrigerazione Touch",
+      "installazione": "Soprabanco",
+      "immagini": [
+        "/fotoProdotti/RistorantiBar/juice/juiceTouch/juiceTouch1.png",
+        "/fotoProdotti/RistorantiBar/juice/juiceTouch/juiceTouch2.jpg"
+      ],
+      "descrizione_breve": "Refrigeratore acqua con Erogazione Bevande Touch 30Lt/h.",
+      "descrizione_estesa": "JUICY con display touch Refrigeratore acqua con Erogazione Bevande con Pulsanti 30Lt/h. Soprabanco – 6 vie, Acqua e Bevande\n\nEroga le tue bevande preferite, sempre alla tua portata!\nSelezioni Previste: Ambiente / Fredda / Gassata; nr.3 concentrati da miscelare con acqua fredda; regolazione della ratio per ogni concentrato; erogazione a pressione pulsante START / STOP.\n\nCaratteristiche:\nAlimentazione: 230V 50hz.\nPerformance lt/h: 30lt/h.\nCompressore: GAS r290 – Compressore 180w.\nCondensatore: Ventilato.\nPompa carbonazione: Pompa booster 230v.\nRefrigerazione: Fusione alluminio; Serpentina Acciaio INOX.\nCarbonatore: 1,0 lt.\nConnessioni ingresso: Acqua Ø8mm / Co2 Ø6mm.\nHMI: NR.6 Pulsanti anti vandalo.\nRegolazione temperatura: Termostato positivo.\nCarrozzeria: Verniciata a polvere in nero opaco testurizzato.\nPannelli frontale: Metacrilato in colore NERO.\nVaschetta raccogli gocce: Inox AISI 304.\nAltezza bottiglia / bicchiere: Max 300mm ; bicchiere su ribaltina 160mm.\nDimensioni LxPxH: 39x58x68 cm (con raccogli gocce).\nPeso: 30 Kg circa.",
+      "specifiche": {
+        "plus": "Display Touch",
+        "capacita": "30 lt/h"
       }
     },
     {
       "id": "alaska-spillatrice",
-      "nome": "ALASKA con Spillatrice",
-      "categoria": "depuratori",
-      "target": ["ristorazione"],
-      "tecnologia": "banco-ghiaccio",
-      "installazione": "soprabanco",
-      "immagini": ["/fotoProdotti/RistorantiBar/alaska/alaskaSpillatrice/alaskaSpillatrice1.png"],
-      "descrizione_breve": "Erogatore sopra banco con spillatrice.",
-      "descrizione_estesa": "Erogatore sopra banco a 3 vie...",
-      "specifiche": { "capacita": "200 lt/h", "plus": "Spillatrice meccanica" }
+      "nome": "Alaska con Spillatrice",
+      "categoria": "ristorazione",
+      "target": ["bar", "ristorante", "mensa"],
+      "tecnologia": "Microfiltrazione",
+      "installazione": "Soprabanco",
+      "immagini": [
+        "/fotoProdotti/RistorantiBar/alaska/alaskaSpillatrice/alaskaSpillatrice1.png"
+      ],
+      "descrizione_breve": "Erogatore sopra banco a 3 vie con spillatrice, acqua liscia ambiente, fredda e gassata.",
+      "descrizione_estesa": "ALASKA CON SPILLATRICE\nErogatore sopra banco a 3 vie con spillatrice, acqua liscia ambiente, fredda e gassata, con capacità da 50 a 200lt\\h di acqua fredda\n\nPRODOTTO MADE IN ITALY\nErogatore potente e silenzioso, di facile manutenzione e caratterizzato da un design innovativo.\n\nREFRIGERATORE ACQUA CON MICROFILTRAZIONE\nEroga acqua liscia fredda e acqua gasata fredda.\n3 rubinetti meccanici: Acqua liscia temperatura ambiente, fredda e Gassata fredda.\nL’erogatore ALASKA comprende un’ampia scelta di frigogasatori professionali, robusti ed affidabili nel tempo, che rispondono ai più alti standard qualitativi per prestazioni e qualità di prodotto erogato.\nIdeali per bar, ristoranti, mense, cantine sono disponibili nelle versioni soprabanco in diversi colori o sottolavello in abbinamento ad eleganti ed ergonomiche colonnine e rubinetti; le capacità variano da 30 lt/h a 200 lt/h.\nL’erogatore ALASKA è dotato di carenatura in acciaio inox, tecnologia di raffreddamento con banco di ghiaccio e gasatore in acciaio inox.\n\nCaratteristiche:\nMateriale carrozzeria: Acciaio INOX\nPressione H2O ingresso: 1.8 – 4 bar, non-shock. **La pressione deve restare stabile.**\nTemperatura ambiente d’esercizio: 10 – 35° C\nTemperatura acqua alimentazione (min-max): 10-25° C\nAlimentazione elettrica: 230 V / 50 HZ\nProduzione acqua fredda: 200lt./h\nPompa acqua frizzante: 200lt./h\nPompa booster: 300lt./h\nLitri banco ghiaccio: 40 lt.\nLitri Gasatore: 1,7 lt.\nPotenza assorbita: 150 W\nPotenza frigorifera: 213 W\nProduttività: 200lt./h\nCompressore: 1/2 Hp\nGas refrigerate: R290\nRaffreddamento: Ad accumulo\nPeso: 39Kg.\nDimensioni (LxPxH): 40x90x46cm\nConnessioni: H2O: 8mm / Co2: 6mm",
+      "specifiche": {
+        "plus": "Banco di Ghiaccio",
+        "capacita": "200 lt/h"
+      }
+    },
+    {
+      "id": "alaska-undersink",
+      "nome": "Alaska Undersink",
+      "categoria": "ristorazione",
+      "target": ["bar", "ristorante"],
+      "tecnologia": "Filtrazione",
+      "installazione": "Sottobanco",
+      "immagini": [
+        "/fotoProdotti/RistorantiBar/alaska/alaskaUndersink/alaskaUndersink1.png"
+      ],
+      "descrizione_breve": "Refrigeratore acqua con Filtrazione Sottobanco – 3 vie.",
+      "descrizione_estesa": "ALASKA undersink Refrigeratore acqua con Filtrazione, capcità acqua fredda da 30 a 200Lt/h. Sottobanco – 3 vie, Liscia, Gassata e Fredda\n\nPRODOTTO MADE IN ITALY\nErogatore potente e silenzioso, di facile manutenzione e caratterizzato da un design innovativo.\n• Eroga Acqua Liscia a Temperatura Ambiente, Fredda e Gassata Fredda.\nL’erogatore ALASKA comprende una gamma completa di frigogasatori professionali, caratterizzati da elevata resistenza, affidabilità operativa e performance costanti, conformi ai più rigorosi standard qualitativi in termini di efficienza e qualità dell’acqua erogata.\nIdeali per bar, ristoranti, mense e cantine, sono disponibili in versioni soprabanco e sottobanco, abbinabili a colonnine e rubinetti eleganti ed ergonomici.\n\nCaratteristiche Tecniche:\nMateriale carrozzeria: Acciaio INOX\nPressione H2O ingresso: 1.8 – 4 bar, non-shock. **La pressione deve restare stabile.**\nTemperatura ambiente d’esercizio: 10 – 35° C\nTemperatura acqua alimentazione (min-max): 10-25° C\nAlimentazione elettrica: 230 V / 50 HZ\nProduzione acqua fredda: 30lt./h\nPompa acqua frizzante: 30lt./h\nPompa booster: 130lt./h\nLitri banco ghiaccio: 7 lt.\nLitri Gasatore: 1 lt.\nPotenza assorbita: 150 W\nPotenza frigorifera: 213 W\nProduttività: 30lt./h\nCompressore: 1/12 HP\nGas refrigerate: R124A\nRaffreddamento: Ad accumulo\nPeso: 19.5Kg.\nDimensioni (LxPxH): 18x39x44cm\nConnessioni: H2O: 8mm / Co2: 6mm",
+      "specifiche": {
+        "plus": "Carenatura Inox",
+        "capacita": "30-200 lt/h"
+      }
     },
     {
       "id": "alaska-touch",
-      "nome": "ALASKA Touch",
-      "categoria": "depuratori",
-      "target": ["ristorazione"],
-      "tecnologia": "banco-ghiaccio",
-      "installazione": "soprabanco",
+      "nome": "Alaska Touch",
+      "categoria": "ristorazione",
+      "target": ["bar", "ristorante"],
+      "tecnologia": "Touch Screen",
+      "installazione": "Soprabanco",
       "immagini": [
         "/fotoProdotti/RistorantiBar/alaska/alaskaTouch/alaskaTouch1.png",
         "/fotoProdotti/RistorantiBar/alaska/alaskaTouch/alaskaTouch2.jpg",
         "/fotoProdotti/RistorantiBar/alaska/alaskaTouch/alaskaTouch3.jpg"
       ],
-      "descrizione_breve": "Refrigeratore Elettronico Touch.",
-      "descrizione_estesa": "Il Refrigeratore ALASKA Elettronico...",
-      "specifiche": { "capacita": "50/80 lt/h", "plus": "Touch screen" }
+      "descrizione_breve": "Erogatore sopra banco Alaska con interfaccia Touch avanzata.",
+      "descrizione_estesa": "ALASKA TOUCH\nL'evoluzione tecnologica della gamma Alaska.\n\nCombina la robustezza e l'affidabilità professionale del sistema Alaska con un'interfaccia Touch Screen moderna e intuitiva.\nIdeale per ambienti che richiedono elevate prestazioni e un design all'avanguardia.\n\nCaratteristiche principali:\n• Interfaccia completamente Touch Screen\n• Erogazione: Acqua liscia ambiente, fredda e gassata\n• Struttura in acciaio INOX resistente\n• Tecnologia a Banco di Ghiaccio per alte prestazioni\n• Design pulito e igienico\n\nAdatto per bar, ristoranti moderni e aree self-service di alto livello.",
+      "specifiche": {
+        "plus": "Interfaccia Touch",
+        "capacita": "200 lt/h"
+      }
     },
     {
-      "id": "alaska-undersink",
-      "nome": "ALASKA Undersink",
-      "categoria": "depuratori",
-      "target": ["ristorazione"],
-      "tecnologia": "banco-ghiaccio",
-      "installazione": "sottobanco",
-      "immagini": ["/fotoProdotti/RistorantiBar/alaska/alaskaUndersink/alaskaUndersink1.png"],
-      "descrizione_breve": "Refrigeratore potente sottobanco.",
-      "descrizione_estesa": "ALASKA Refrigeratore acqua sottobanco...",
-      "specifiche": { "capacita": "30-200 lt/h", "plus": "Alta capacità" }
-    },
-    {
-      "id": "spill-pro",
-      "nome": "Spillatrice Spill Pro",
-      "categoria": "rubinetteria",
-      "target": ["ristorazione"],
-      "tecnologia": "erogazione",
-      "installazione": "soprabanco",
+      "id": "tower-pulsanti",
+      "nome": "Tower Pulsanti",
+      "categoria": "rubinetti",
+      "target": ["casa", "ufficio", "bar"],
+      "tecnologia": "Elettronica",
+      "installazione": "Colonnina",
       "immagini": [
-        "/fotoProdotti/RistorantiBar/spillPro/spillPro1.png",
-        "/fotoProdotti/RistorantiBar/spillPro/spillPro2.jpg"
+        "/fotoProdotti/RistorantiBar/tower/towerPulsanti/towerPulsanti1.png",
+        "/fotoProdotti/RistorantiBar/tower/towerPulsanti/towerPulsanti2.jpg"
       ],
-      "descrizione_breve": "Colonnina meccanica cromata.",
-      "descrizione_estesa": "spill pro Colonnina meccanica...",
-      "specifiche": { "plus": "Compensatore incluso" }
+      "descrizione_breve": "Colonnina Elettronica con Pulsanti, 3 Vie.",
+      "descrizione_estesa": "TOWER Colonnina Elettronica con Pulsanti, 3 Vie – 1 Erogatore\nLa colonnina elettronica 3 vie è un dispositivo di erogazione professionale per uso domestico, uffici, bar e ristorazione.\nDal design moderno, dalle linee semplici e super funzionale.\n\nTipologie di Acqua erogate:\n• Liscia a temperatura ambiente;\n• Refrigerata liscia;\n• Refrigerata frizzante.\n\nCaratteristiche Tecniche:\nAlimentazione elettrica: 24 V (alimentatore incluso)\nTipologie di erogazione: 3 Vie\nMateriale struttura: acciaio inox\nEscursione anteriori erogatore: 10 cm\nForo: 47 mm\nAttacchi idrici: 8 mm\nPressione acqua in ingresso: 2–6 bar\nPortata nominale: 1l/min per via\nGrado di protezione elettronica: IP44\nDimensioni: H 49,4 cm, L 22,2 cm, P 10,5 cm",
+      "specifiche": {
+        "plus": "Design Moderno",
+        "capacita": "1 l/min per via"
+      }
     },
     {
-      "id": "spill-line",
-      "nome": "Spillatrice Spill Line",
-      "categoria": "rubinetteria",
-      "target": ["ristorazione"],
-      "tecnologia": "erogazione",
-      "installazione": "soprabanco",
+      "id": "tower-touch",
+      "nome": "Tower Touch",
+      "categoria": "rubinetti",
+      "target": ["casa", "ufficio", "bar"],
+      "tecnologia": "Touch",
+      "installazione": "Colonnina",
       "immagini": [
-        "/fotoProdotti/RistorantiBar/spillLine/spillLine1.jpg",
-        "/fotoProdotti/RistorantiBar/spillLine/spillLine2.jpg",
-        "/fotoProdotti/RistorantiBar/spillLine/spillLine3.jpg"
+        "/fotoProdotti/RistorantiBar/tower/towerTouch/towerTouch1.png",
+        "/fotoProdotti/RistorantiBar/tower/towerTouch/towerTouch2.jpg"
       ],
-      "descrizione_breve": "Colonnina Nero Opaco.",
-      "descrizione_estesa": "spill line Colonnina Meccanica...",
-      "specifiche": { "plus": "Design Nero Opaco" }
+      "descrizione_breve": "Colonnina Elettronica Touch, 3 Vie.",
+      "descrizione_estesa": "TOWER Colonnina Elettronica touch, 3 Vie – 1 Erogatore\nLa colonnina elettronica 3 vie è un dispositivo di erogazione professionale per uso domestico, uffici, bar e ristorazione.\nDal design moderno, dalle linee semplici e super funzionale.\n\nTipologie di Acqua erogate:\n• Liscia a temperatura ambiente;\n• Refrigerata liscia;\n• Refrigerata frizzante.\n\nCaratteristiche Tecniche:\nAlimentazione elettrica: 24 V (alimentatore incluso)\nTipologie di erogazione: 3 Vie\nMateriale struttura: acciaio inox\nEscursione anteriori erogatore: 10 cm\nForo: 47 mm\nAttacchi idrici: 8 mm\nPressione acqua in ingresso: 2–6 bar\nPortata nominale: 1l/min per via\nGrado di protezione elettronica: IP44\nDimensioni: H 49,4 cm, L 22,2 cm, P 10,5 cm",
+      "specifiche": {
+        "plus": "Comandi Touch",
+        "capacita": "1 l/min per via"
+      }
     },
     {
-      "id": "tritarifiuti",
-      "nome": "Tritarifiuti Facile",
-      "categoria": "accessori",
-      "target": ["privati"],
-      "tecnologia": "meccanico",
-      "installazione": "sottolavello",
+      "id": "tower-display",
+      "nome": "Tower Display",
+      "categoria": "rubinetti",
+      "target": ["casa", "ufficio", "bar"],
+      "tecnologia": "Display Elettronico",
+      "installazione": "Colonnina",
       "immagini": [
-        "/fotoProdotti/trita rifiuti/tritaFacile/tritaFacile1.png",
-        "/fotoProdotti/trita rifiuti/tritaFacile/tritaFacile2.png",
-        "/fotoProdotti/trita rifiuti/tritaFacile/tritaFacile3.JPG"
+        "/fotoProdotti/RistorantiBar/tower/towerDisplay/towerDisplay1.png",
+        "/fotoProdotti/RistorantiBar/tower/towerDisplay/towerDisplay2.jpg"
       ],
-      "descrizione_breve": "Dissipatore di rifiuti alimentari.",
-      "descrizione_estesa": "LA SORGENTE Tritarifiuti alimentari...",
-      "specifiche": { "plus": "Silenzioso" }
+      "descrizione_breve": "Colonnina Elettronica con Display, 3 Vie.",
+      "descrizione_estesa": "TOWER Colonnina Elettronica con display, 3 Vie – 1 Erogatore\nLa colonnina elettronica 3 vie è un dispositivo di erogazione professionale per uso domestico, uffici, bar e ristorazione.\nDal design moderno, dalle linee semplici e super funzionale.\n\nTipologie di Acqua erogate:\n• Liscia a temperatura ambiente;\n• Refrigerata liscia;\n• Refrigerata frizzante.\n\nCaratteristiche Tecniche:\nAlimentazione elettrica: 24 V (alimentatore incluso)\nTipologie di erogazione: 3 Vie\nMateriale struttura: acciaio inox\nEscursione anteriori erogatore: 10 cm\nForo: 47 mm\nAttacchi idrici: 8 mm\nPressione acqua in ingresso: 2–6 bar\nPortata nominale: 1l/min per via\nGrado di protezione elettronica: IP44\nDimensioni: H 49,4 cm, L 22,2 cm, P 10,5 cm",
+      "specifiche": {
+        "plus": "Display Informativo",
+        "capacita": "1 l/min per via"
+      }
     },
     {
-      "id": "blueoxy",
-      "nome": "Blueoxy",
-      "categoria": "accessori",
-      "target": ["privati"],
-      "tecnologia": "ozono",
-      "installazione": "lavatrice",
+      "id": "atena-erogatore",
+      "nome": "Atena Erogatore",
+      "categoria": "rubinetti",
+      "target": ["bar", "ristorante", "casa"],
+      "tecnologia": "Meccanica",
+      "installazione": "Soprabanco",
       "immagini": [
-        "/fotoProdotti/ozonizatore/blueoxy1.png",
-        "/fotoProdotti/ozonizatore/blueoxy2.jpg"
+        "/fotoProdotti/rubinetti/atenaErogatore/atenaErogatore.png",
+        "/fotoProdotti/rubinetti/atenaErogatore/atenaErogatore.jpg"
       ],
-      "descrizione_breve": "Generatore di Ozono per lavatrice.",
-      "descrizione_estesa": "Blueoxy Generatore di Ozono...",
-      "specifiche": { "plus": "Ecologico" }
+      "descrizione_breve": "Colonnina meccanica 3 vie con pulsanti Inox/Grigia-BIANCA-NERA.",
+      "descrizione_estesa": "ATENA EROGATORE Colonnina meccanica 3 vie con pulsanti Inox/Grigia\nColonnina meccanica per bar, ristoranti, casa.\nDal design moderno, dalle linee semplici e super funzionale!\n\n• 3 Vie\n• Dimensioni (LxPxH): 12,5x11x43 cm.\n• Foro installazione: 35mm.\n• 3 innesti rapidi da 6mm.\n• Alimentazione 24Vdc per pulsanti.\n• Cavo Alimentazione 3×0,75mm.\n• Elettrovalvole all’interno della colonna.\n• Beccuccio: Grigio-NERP-BIANCO\n• Materiale: Acciaio inox",
+      "specifiche": {
+        "plus": "Design Moderno",
+        "capacita": "N/A"
+      }
     },
     {
-      "id": "roma",
-      "nome": "Rubinetto Roma",
-      "categoria": "rubinetteria",
-      "target": ["privati"],
-      "tecnologia": "meccanico",
-      "installazione": "lavello",
-      "immagini": [
-        "/fotoProdotti/rubinetti/roma/roma1.jpg",
-        "/fotoProdotti/rubinetti/roma/roma2.jpg"
-      ],
-      "descrizione_breve": "Rubinetto con doccetta a molla.",
-      "descrizione_estesa": "LA SORGENTE ROMA...",
-      "specifiche": { "plus": "Doccetta estraibile" }
-    },
-    {
-      "id": "cairo",
+      "id": "rubinetto-cairo",
       "nome": "Rubinetto Cairo",
-      "categoria": "rubinetteria",
-      "target": ["privati"],
-      "tecnologia": "meccanico",
-      "installazione": "lavello",
+      "categoria": "rubinetti",
+      "target": ["casa"],
+      "tecnologia": "Meccanica",
+      "installazione": "Sopralavello",
       "immagini": [
         "/fotoProdotti/rubinetti/cairo/cairo1.jpg",
         "/fotoProdotti/rubinetti/cairo/cairo2.jpg"
       ],
-      "descrizione_breve": "Rubinetto design angolare.",
-      "descrizione_estesa": "LA SORGENTE CAIRO...",
-      "specifiche": { "plus": "Doppio flusso" }
+      "descrizione_breve": "Rubinetto di design modello Cairo.",
+      "descrizione_estesa": "Rubinetto modello Cairo.\nDesign elegante e funzionale, perfetto per cucine moderne.\nRealizzato con materiali di alta qualità per garantire durata e resistenza nel tempo.\nIdeale per l'erogazione di acqua filtrata.",
+      "specifiche": {
+        "plus": "Design Curvo",
+        "capacita": "N/A"
+      }
     },
     {
-      "id": "seul",
+      "id": "rubinetto-porto",
+      "nome": "Rubinetto Porto",
+      "categoria": "rubinetti",
+      "target": ["casa"],
+      "tecnologia": "Meccanica",
+      "installazione": "Sopralavello",
+      "immagini": [
+        "/fotoProdotti/rubinetti/porto/porto1.jpg",
+        "/fotoProdotti/rubinetti/porto/porto2.jpg"
+      ],
+      "descrizione_breve": "Rubinetto professionale modello Porto.",
+      "descrizione_estesa": "Rubinetto modello Porto.\nLinee pulite e robuste, adatto ad ogni tipologia di lavello.\nFiniture di pregio.",
+      "specifiche": {
+        "plus": "Finitura Premium",
+        "capacita": "N/A"
+      }
+    },
+    {
+      "id": "rubinetto-roma",
+      "nome": "Rubinetto Roma",
+      "categoria": "rubinetti",
+      "target": ["casa"],
+      "tecnologia": "Meccanica",
+      "installazione": "Sopralavello",
+      "immagini": [
+        "/fotoProdotti/rubinetti/roma/roma1.jpg",
+        "/fotoProdotti/rubinetti/roma/roma2.jpg"
+      ],
+      "descrizione_breve": "Rubinetto classico modello Roma.",
+      "descrizione_estesa": "Rubinetto modello Roma.\nUn classico senza tempo, combina estetica e praticità d'uso.",
+      "specifiche": {
+        "plus": "Stile Classico",
+        "capacita": "N/A"
+      }
+    },
+    {
+      "id": "rubinetto-seul",
       "nome": "Rubinetto Seul",
-      "categoria": "rubinetteria",
-      "target": ["privati"],
-      "tecnologia": "meccanico",
-      "installazione": "lavello",
+      "categoria": "rubinetti",
+      "target": ["casa"],
+      "tecnologia": "Meccanica",
+      "installazione": "Sopralavello",
       "immagini": [
         "/fotoProdotti/rubinetti/seul/seul1.jpg",
         "/fotoProdotti/rubinetti/seul/seul2.jpg",
@@ -454,54 +531,241 @@
         "/fotoProdotti/rubinetti/seul/seul4.jpg",
         "/fotoProdotti/rubinetti/seul/seul5.jpg"
       ],
-      "descrizione_breve": "Rubinetto con canna snodabile.",
-      "descrizione_estesa": "LA SORGENTE SEUL...",
-      "specifiche": { "plus": "Canna flessibile" }
+      "descrizione_breve": "Rubinetto moderno modello Seul, disponibile in varie finiture.",
+      "descrizione_estesa": "Rubinetto modello Seul.\nDesign contemporaneo e versatile, disponibile in diverse finiture per adattarsi al tuo stile.\nMateriali resistenti e meccanica di precisione.",
+      "specifiche": {
+        "plus": "Varie Finiture",
+        "capacita": "N/A"
+      }
     },
     {
-      "id": "siena",
+      "id": "rubinetto-siena",
       "nome": "Rubinetto Siena",
-      "categoria": "rubinetteria",
-      "target": ["privati"],
-      "tecnologia": "meccanico",
-      "installazione": "lavello",
+      "categoria": "rubinetti",
+      "target": ["casa"],
+      "tecnologia": "Meccanica",
+      "installazione": "Sopralavello",
       "immagini": [
         "/fotoProdotti/rubinetti/siena/siena1.jpg",
         "/fotoProdotti/rubinetti/siena/siena2.jpg"
       ],
-      "descrizione_breve": "Rubinetto Granito Avena.",
-      "descrizione_estesa": "LA SORGENTE SIENA...",
-      "specifiche": { "plus": "Finitura Granito" }
+      "descrizione_breve": "Rubinetto elegante modello Siena.",
+      "descrizione_estesa": "Rubinetto modello Siena.\nEleganza e semplicità per la tua cucina. Ottima erogazione e facile da pulire.",
+      "specifiche": {
+        "plus": "Eleganza",
+        "capacita": "N/A"
+      }
     },
     {
-      "id": "porto",
-      "nome": "Rubinetto Porto",
-      "categoria": "rubinetteria",
-      "target": ["privati"],
-      "tecnologia": "meccanico",
-      "installazione": "lavello",
+      "id": "rubinetto-spill-line",
+      "nome": "Rubinetto Spill Line",
+      "categoria": "rubinetti",
+      "target": ["bar", "ristorante"],
+      "tecnologia": "Meccanica",
+      "installazione": "Soprabanco",
       "immagini": [
-        "/fotoProdotti/rubinetti/porto/porto1.jpg",
-        "/fotoProdotti/rubinetti/porto/porto2.jpg"
+        "/fotoProdotti/rubinetti/spillLine/spillLine1.jpg",
+        "/fotoProdotti/rubinetti/spillLine/spillLine2.jpg",
+        "/fotoProdotti/rubinetti/spillLine/spillLine3.jpg"
       ],
-      "descrizione_breve": "Rubinetto design moderno.",
-      "descrizione_estesa": "LA SORGENTE PORTO...",
-      "specifiche": { "plus": "Design squadrato" }
+      "descrizione_breve": "Colonna di spillatura professionale Spill Line.",
+      "descrizione_estesa": "Rubinetto Spill Line.\nIdeale per banchi bar e ristorazione, design robusto a colonna per spillatura professionale.",
+      "specifiche": {
+        "plus": "Professionale",
+        "capacita": "N/A"
+      }
     },
     {
-      "id": "tokyo",
+      "id": "rubinetto-spill-pro",
+      "nome": "Rubinetto Spill Pro",
+      "categoria": "rubinetti",
+      "target": ["bar", "ristorante"],
+      "tecnologia": "Meccanica",
+      "installazione": "Soprabanco",
+      "immagini": [
+        "/fotoProdotti/rubinetti/spillPro/spillPro1.png",
+        "/fotoProdotti/rubinetti/spillPro/spillPro2.jpg"
+      ],
+      "descrizione_breve": "Colonna di spillatura avanzata Spill Pro.",
+      "descrizione_estesa": "Rubinetto Spill Pro.\nLa scelta per i professionisti. Massima affidabilità e design ergonomico per un servizio veloce.",
+      "specifiche": {
+        "plus": "Ergonomico",
+        "capacita": "N/A"
+      }
+    },
+    {
+      "id": "rubinetto-tokyo",
       "nome": "Rubinetto Tokyo",
-      "categoria": "rubinetteria",
-      "target": ["privati"],
-      "tecnologia": "meccanico",
-      "installazione": "lavello",
+      "categoria": "rubinetti",
+      "target": ["casa"],
+      "tecnologia": "Meccanica",
+      "installazione": "Sopralavello",
       "immagini": [
         "/fotoProdotti/rubinetti/tokyo/tokyo1.jpg",
         "/fotoProdotti/rubinetti/tokyo/tokyo2.jpg"
       ],
-      "descrizione_breve": "Rubinetto con doccetta a molla Nero/Cromo.",
-      "descrizione_estesa": "TOKYO 360...",
-      "specifiche": { "plus": "Molla industriale" }
+      "descrizione_breve": "Rubinetto minimalista modello Tokyo.",
+      "descrizione_estesa": "Rubinetto modello Tokyo.\nStile minimalista e orientale, perfetto per ambienti moderni ed essenziali.",
+      "specifiche": {
+        "plus": "Minimalista",
+        "capacita": "N/A"
+      }
+    },
+    {
+      "id": "candy-30lt",
+      "nome": "Candy 30lt",
+      "categoria": "addolcitori",
+      "target": ["casa"],
+      "tecnologia": "Addolcitore",
+      "installazione": "Cabinato",
+      "immagini": [
+        "/fotoProdotti/addolcitori/candy/candy30/candy30.png"
+      ],
+      "descrizione_breve": "Addolcitore acqua Cabinato 30 lt. Resina – 6/10 Persone.",
+      "descrizione_estesa": "Candy Addolcitore acqua Cabinato 30 lt. Resina, 4.500lt. Acqua – 6/10 Persone\n30 Litri ideale per 6/10 Persone con ByPass.\nElimina per Sempre il calcare dall’Acqua!\nCandy non solo garantisce acqua dolce e cristallina, ma protegge anche impianti ed elettrodomestici dai depositi calcarei.\n\nCaratteristiche:\nPressione: 1,4 – 6 bar\nTemperatura acqua: 1 – 40°C\nTemperatura ambiente max: 40°C\nPerdita carico a portata max: 1,10 bar\nRaccordi entrata / uscita acqua: 1” BSPT\nRaccordo di scarico: Portagomma 12 mm\nCollegamento elettrico: 230V-50Hz\nDimensioni: 48 x 29 x 113,3 cm\nCaratteristiche Valvola:\nIngresso/Uscita: 1”\nRigenerazione: Downflow\nPortata di servizio: 0,15 m3/h\nCorpo valvola: in plastica",
+      "specifiche": {
+        "plus": "Per 6-10 Persone",
+        "capacita": "30 lt Resina"
+      }
+    },
+    {
+      "id": "candy-20lt",
+      "nome": "Candy 20lt",
+      "categoria": "addolcitori",
+      "target": ["casa"],
+      "tecnologia": "Addolcitore",
+      "installazione": "Cabinato",
+      "immagini": [
+        "/fotoProdotti/addolcitori/candy/candy20/candy20.png"
+      ],
+      "descrizione_breve": "Addolcitore Cabinato 20 lt. Resina – 4/6 Persone.",
+      "descrizione_estesa": "Candy Addolcitore Cabinato 20 lt. Resina, 3.200lt. Acqua – 4/6 Persone\n20 Litri ideale per 4/6 Persone con ByPass.\nElimina per Sempre il calcare dall’Acqua!\n\nCaratteristiche:\nPressione: 1,4 – 6 bar\nTemperatura acqua: 1 – 40°C\nTemperatura ambiente max: 40°C\nPerdita carico a portata max: 1,10 bar\nRaccordi entrata / uscita acqua: 1” BSPT\nRaccordo di scarico: Portagomma 12 mm\nCollegamento elettrico: 230V-50Hz\nDimensioni: 48 x 29 x 113,3 cm\nCaratteristiche Valvola:\nIngresso/Uscita: 1”\nRigenerazione: Downflow\nPortata di servizio: 0,15 m3/h\nCorpo valvola: in plastica",
+      "specifiche": {
+        "plus": "Per 4-6 Persone",
+        "capacita": "20 lt Resina"
+      }
+    },
+    {
+      "id": "candy-12lt",
+      "nome": "Candy 12lt",
+      "categoria": "addolcitori",
+      "target": ["casa"],
+      "tecnologia": "Addolcitore",
+      "installazione": "Cabinato",
+      "immagini": [
+        "/fotoProdotti/addolcitori/candy/candy12/candy12.png"
+      ],
+      "descrizione_breve": "Addolcitore Cabinato 12 lt. Resina – 1/2 Persone.",
+      "descrizione_estesa": "Candy Addolcitore Cabinato 12 lt. Resina, 1.600lt. Acqua – 1/2 Persone\n12 Litri ideale per 1/2 Persone con ByPass.\nElimina per Sempre il calcare dall’Acqua!\n\nCaratteristiche:\nPressione: 1,4 – 6 bar\nTemperatura acqua: 1 – 40°C\nTemperatura ambiente max: 40°C\nPerdita carico a portata max: 1,10 bar\nRaccordi entrata/uscita acqua: 1”\nRaccordo di scarico: Portagomma 12 mm\nCollegamento elettrico: 230V-50Hz\nDimensioni: 48 x 29 x 67,4 cm\nCaratteristiche Valvola:\nIngresso/Uscita: 1”\nRigenerazione: Downflow\nPortata di servizio: 0,15 m3/h\nCorpo valvola: in plastica",
+      "specifiche": {
+        "plus": "Per 1-2 Persone",
+        "capacita": "12 lt Resina"
+      }
+    },
+    {
+      "id": "crystal-nylon",
+      "nome": "Crystal Nylon",
+      "categoria": "borracce",
+      "target": ["personale"],
+      "tecnologia": "Vetro",
+      "installazione": "Portatile",
+      "immagini": [
+        "/fotoProdotti/borrace/crystal/crystalNylon.png"
+      ],
+      "descrizione_breve": "Borraccia crystal in vetro 500ml con tappo argento.",
+      "descrizione_estesa": "Borraccia crystal in vetro 500ml. Con Tappo Argento\nBorraccia moderna in vetro resistente, con tappo a vite e un pratico laccetto in nylon.\nComoda e utilizzabile in qualsiasi contesto, per uso personale o per un regalo speciale!\n\nCARATTERISTICHE:\nCapacità: 50 cl.\nPeso: 400 gr.\nAltezza: 21,7 cm.\nDiametro: 6,3 cm.",
+      "specifiche": {
+        "plus": "Laccetto in Nylon",
+        "capacita": "500 ml"
+      }
+    },
+    {
+      "id": "crystal-legno",
+      "nome": "Crystal Legno",
+      "categoria": "borracce",
+      "target": ["personale"],
+      "tecnologia": "Vetro",
+      "installazione": "Portatile",
+      "immagini": [
+        "/fotoProdotti/borrace/crystal/crystalLegno.png"
+      ],
+      "descrizione_breve": "Borraccia Crystal in vetro 500ml con tappo in legno.",
+      "descrizione_estesa": "Borraccia Crystal in vetro 500ml. Con Tappo in legno\nBorraccia moderna in vetro resistente\nComoda e utilizzabile in qualsiasi contesto, per uso personale o per un regalo speciale!\n\nCARATTERISTICHE:\nCapacità: 50 cl.\nPeso: 400 gr.\nAltezza: 21,7 cm.\nDiametro: 6,3 cm.",
+      "specifiche": {
+        "plus": "Tappo in Legno",
+        "capacita": "500 ml"
+      }
+    },
+    {
+      "id": "hydrox-ceramica",
+      "nome": "Hydrox Ceramica",
+      "categoria": "borracce",
+      "target": ["personale"],
+      "tecnologia": "Ceramica",
+      "installazione": "Portatile",
+      "immagini": [
+        "/fotoProdotti/borrace/hydroxCeramic/hydroxCeramic600.png"
+      ],
+      "descrizione_breve": "Borraccia Acciaio inox con rivestimento in ceramica 600ml.",
+      "descrizione_estesa": "Borraccia la sorgente hydrox ceramica Acciaio inox con rivestimento in ceramica 600ml. Bianca\nMateriale: Ceramica\nColore: Bianco\nCapacità: 600ml\nDimensioni: 25 x 8 x 8 cm\n\nUN NUOVO MODO DI IDRATAZIONE: temperatura, gusto e sostenibilità. Questi tre concetti sono ciò che rendono la hydrox molto più di una bottiglia riutilizzabile. Il segreto è l’interno rivestito in ceramica, che permette di mantenere la temperatura della nostra bevanda per lunghe ore senza esporla al metallo, evitando anche spiacevoli trasferimenti di sapore.\nIGIENE E PULIZIA: È molto facile da pulire, basta un po’ d’acqua di rete.\nRIVESTIMENTO IN CERAMICA: Progettato per essere molto leggero e con rivestimento in ceramica, ha un manico per portarlo comodamente con voi.",
+      "specifiche": {
+        "plus": "Interno in Ceramica",
+        "capacita": "600 ml"
+      }
+    },
+    {
+      "id": "tritarifiuti-la-sorgente",
+      "nome": "Tritarifiuti La Sorgente",
+      "categoria": "tritarifiuti",
+      "target": ["casa"],
+      "tecnologia": "Triturazione",
+      "installazione": "Sottolavello",
+      "immagini": [
+        "/fotoProdotti/trita rifiuti/tritaFacile/tritaFacile1.png",
+        "/fotoProdotti/trita rifiuti/tritaFacile/tritaFacile2.png",
+        "/fotoProdotti/trita rifiuti/tritaFacile/tritaFacile3.JPG"
+      ],
+      "descrizione_breve": "Dissipatore di rifiuti alimentari compatto.",
+      "descrizione_estesa": "LA SORGENTE Tritarifiuti alimentari\nLa scelta pratica per lo smaltimento dei rifiuti alimentari!\nIl dissipatore di rifiuti ideale per famiglie piccole o per un’unica persona.\nPuoi triturare tutti i tipi di rifiuti alimentari, dalla buccia di frutta e verdura alle ossa di pollo, lische di pesce e croste di pane.\nOltre a eliminare il problema degli odori sgradevoli in casa dovuti ai rifiuti alimentari, riduci la necessità di “viaggi” frequenti al cassonetto dell’immondizia.\nInstallazione facile e veloce, la dimensione compatta del dissipatore ne assicura la collocazione perfetta perfino sotto il più piccolo dei lavelli.\n\nCARATTERISTICHE:\nPotenza: 750W\nFrequenta: 50HZ/60HZ\nTensione: 110V/220V\nCorrente elettrica: 4A\nVelocità rotazione: 4000-4500RPm\nMotore: A corrente continua permanente\nCavità: Antisettica\nCapacità: 1100ml\nSistema macinazione: Forza centrifuga\nSistema anello: Quattro pezzi\nSistema di accensione: Testa di taglio in lega\nGuscio esterno: ABS\nGruppo di macinazione: Acciaio inossidabile\nSuono isolato: Dirigibile + Cotone insonorizzato",
+      "specifiche": {
+        "plus": "Compatto e Silenzioso",
+        "capacita": "1100 ml"
+      }
+    },
+    {
+      "id": "ozonizzatore-blueoxy",
+      "nome": "Ozonizzatore BlueOxy",
+      "categoria": "ozonizzatori",
+      "target": ["casa", "ufficio"],
+      "tecnologia": "Ozono",
+      "installazione": "Portatile / Muro",
+      "immagini": [
+        "/fotoProdotti/ozonizatore/blueoxy1.png",
+        "/fotoProdotti/ozonizatore/blueoxy2.jpg"
+      ],
+      "descrizione_breve": "Sistema di sanificazione ad ozono BlueOxy.",
+      "descrizione_estesa": "Ozonizzatore BlueOxy per la sanificazione degli ambienti e delle acque.\nL'ozono è un potente ossidante naturale che elimina batteri, virus, muffe e cattivi odori senza lasciare residui chimici.\nIdeale per igienizzare frutta e verdura, sterilizzare contenitori o purificare l'aria di stanze e uffici.\nFacile da utilizzare e sicuro.",
+      "specifiche": {
+        "plus": "Sanificazione Naturale",
+        "capacita": "N/A"
+      }
+    },
+    {
+      "id": "decalcificatore-la-sorgente",
+      "nome": "Decalcificatore La Sorgente",
+      "categoria": "decalcificatori",
+      "target": ["casa"],
+      "tecnologia": "Magnetica/Elettronica",
+      "installazione": "Tubazione",
+      "immagini": [
+        "/fotoProdotti/decalcificatore/decalcificatoreLaSorgente.png"
+      ],
+      "descrizione_breve": "Sistema anticalcare ecologico per tutta la casa.",
+      "descrizione_estesa": "Decalcificatore La Sorgente.\nProteggi le tubature e gli elettrodomestici dal calcare senza l'uso di sali o prodotti chimici.\nQuesto dispositivo agisce sulla struttura fisica del calcare impedendone il deposito e favorendone l'eliminazione con il flusso dell'acqua.\nEcologico, senza manutenzione e facile da installare.",
+      "specifiche": {
+        "plus": "Ecologico Senza Sale",
+        "capacita": "Illimitata"
+      }
     }
   ]
 }

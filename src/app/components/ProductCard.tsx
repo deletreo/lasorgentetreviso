@@ -29,15 +29,15 @@ export default function ProductCard({ product }: ProductCardProps) {
       {/* MODIFICA: hover:border-[#7faeb2] 
           Il bordo diventa colorato quando passi sopra col mouse 
       */}
-      <div className="flex flex-col h-full bg-[#111] border border-white/5 hover:border-[#7faeb2] transition-all duration-500 overflow-hidden relative">
+      <div className="flex flex-col h-full bg-gray-700 border border-gray-300 hover:border-[#7faeb2] transition-all duration-500 overflow-hidden relative">
         
         {/* Immagine */}
         <div className="relative aspect-4/5 overflow-hidden">
-          <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors duration-500 z-10" />
+          <div className="absolute inset-0  group-hover:bg-transparent transition-colors duration-500 z-10" />
           <img
             src={product.immagine}
             alt={product.nome}
-            className="w-full h-full object-cover transition-transform duration-1500 ease-[cubic-bezier(0.25,1,0.5,1)] group-hover:scale-110"
+            className="w-full h-full object-cover transition-transform duration-1500 bg-white ease-[cubic-bezier(0.25,1,0.5,1)] group-hover:scale-110"
           />
           
           {/* MODIFICA: Badge Categoria con bordo e testo colorato (#7faeb2) 
