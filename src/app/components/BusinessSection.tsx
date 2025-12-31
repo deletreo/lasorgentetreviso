@@ -13,7 +13,7 @@ export default function BusinessSection() {
                         </span>
                         <h2 className="text-5xl md:text-6xl xl:text-7xl uppercase leading-snug tracking-tighter mb-6 py-4">
                             Apri il tuo <br/>
-                            <span className="text-transparent bg-clip-text bg-linear-to-r from-white to-[#7faeb2] italic pr-2">
+                            <span className="text-transparent bg-clip-text bg-linear-to-r from-white to-[#11414d] italic pr-2">
                                 La Sorgente.
                             </span>
                         </h2>
@@ -23,8 +23,8 @@ export default function BusinessSection() {
                     </div>
                     <div className="flex flex-col gap-6 mt-4">
                         <div className="flex items-center gap-4 group">
-                            <div className="w-12 h-12 rounded-full border border-white/10 flex items-center justify-center group-hover:border-[#7faeb2] transition-colors">
-                                <FiMapPin className="text-white group-hover:text-[#7faeb2]" />
+                            <div className="w-12 h-12 rounded-full border border-white/10 flex items-center justify-center group-hover:border-[#11414d] transition-colors">
+                                <FiMapPin className="text-white group-hover:text-[#11414d]" />
                             </div>
                             <div>
                                 <h4 className="text-sm uppercase tracking-widest font-bold">Apri uno store</h4>

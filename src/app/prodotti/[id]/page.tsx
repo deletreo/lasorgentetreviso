@@ -21,7 +21,7 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
   }
 
   return (
-    <div className="min-h-svh bg-white text-gray-900 font-cal selection:bg-[#7faeb2] selection:text-white">
+    <div className="min-h-svh bg-white text-gray-900 font-cal selection:bg-[#11414d] selection:text-white">
       
       <div className="fixed inset-0 pointer-events-none opacity-[0.4] z-0 mix-blend-overlay" 
            style={{ backgroundImage: 'url("data:image/svg+xml,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noiseFilter%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.65%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noiseFilter)%22/%3E%3C/svg%3E")' }}>
@@ -34,7 +34,7 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
       >
         <Link 
             href="/prodotti" 
-            className="flex items-center gap-3 text-xs uppercase tracking-widest text-gray-500 hover:text-[#7faeb2] border border-gray-200 hover:border-[#7faeb2] px-3 py-2 rounded-full transition-all duration-300"
+            className="flex items-center gap-3 text-xs uppercase tracking-widest text-gray-500 hover:text-[#11414d] border border-gray-200 hover:border-[#11414d] px-3 py-2 rounded-full transition-all duration-300"
         >
           <FiArrowLeft /> Torna al catalogo
         </Link>
@@ -65,7 +65,7 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
                 ))}
             </div>
             
-            <h1 className="w-full text-4xl sm:text-5xl lg:text-5xl xl:text-6xl 2xl:text-7xl uppercase leading-tight tracking-tight mb-6 text-transparent bg-clip-text bg-linear-to-br from-gray-900 to-[#7faeb2] pb-2 px-1 -ml-1 break-words">
+            <h1 className="w-full text-4xl sm:text-5xl lg:text-5xl xl:text-6xl 2xl:text-7xl uppercase leading-tight tracking-tight mb-6 text-transparent bg-clip-text bg-linear-to-br from-gray-900 to-[#11414d] pb-2 px-1 -ml-1 break-words">
               {product.nome}
             </h1>
             
@@ -77,22 +77,22 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
           <div className="grid grid-cols-1 md:grid-cols-2 gap-y-10 gap-x-12 mb-16">
             <div className="flex flex-col gap-2">
                 <span className="text-[10px] uppercase tracking-[0.2em] text-gray-400">Tecnologia</span>
-                <span className="text-lg uppercase border-l-2 border-[#7faeb2] pl-4 text-black font-medium break-words">{product.tecnologia}</span>
+                <span className="text-lg uppercase border-l-2 border-[#11414d] pl-4 text-black font-medium break-words">{product.tecnologia}</span>
             </div>
             <div className="flex flex-col gap-2">
                 <span className="text-[10px] uppercase tracking-[0.2em] text-gray-400">Installazione</span>
-                <span className="text-lg uppercase border-l-2 border-[#7faeb2] pl-4 text-black font-medium break-words">{product.installazione}</span>
+                <span className="text-lg uppercase border-l-2 border-[#11414d] pl-4 text-black font-medium break-words">{product.installazione}</span>
             </div>
             {product.specifiche.plus && (
                 <div className="flex flex-col gap-2">
-                    <span className="text-[10px] uppercase tracking-[0.2em] text-[#7faeb2]">Plus</span>
+                    <span className="text-[10px] uppercase tracking-[0.2em] text-[#11414d]">Plus</span>
                     <span className="text-sm uppercase border-l-2 border-gray-300 pl-4 text-gray-700 break-words">{product.specifiche.plus}</span>
                 </div>
             )}
              {product.specifiche.capacita && (
                 <div className="flex flex-col gap-2">
                     <span className="text-[10px] uppercase tracking-[0.2em] text-gray-400">Capacità</span>
-                    <span className="text-sm uppercase border-l-2 border-[#7faeb2] pl-4 text-black font-medium break-words">{product.specifiche.capacita}</span>
+                    <span className="text-sm uppercase border-l-2 border-[#11414d] pl-4 text-black font-medium break-words">{product.specifiche.capacita}</span>
                 </div>
             )}
           </div>
@@ -100,7 +100,7 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
           <div className="flex flex-col md:flex-row gap-4 mt-auto">
             <Link 
                 href="/#configuratore" 
-                className="flex-1 bg-[#7faeb2] text-black text-center py-4 uppercase tracking-[0.2em] text-xs font-bold hover:bg-black hover:text-white transition-colors flex items-center justify-center"
+                className="flex-1 bg-[#11414d] text-white text-center py-4 uppercase tracking-[0.2em] text-xs font-bold hover:bg-black hover:text-white transition-colors flex items-center justify-center"
             >
                 Richiedi Preventivo
             </Link>
@@ -108,7 +108,7 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
             <a 
                 href="/brochure.pdf" 
                 download="brochure.pdf"
-                className="flex-1 border border-[#7faeb2] text-[#7faeb2] flex items-center justify-center gap-2 py-4 uppercase tracking-[0.2em] text-xs font-bold hover:bg-[#7faeb2] hover:text-white transition-all cursor-pointer"
+                className="flex-1 border border-[#11414d] text-[#11414d] flex items-center justify-center gap-2 py-4 uppercase tracking-[0.2em] text-xs font-bold hover:bg-[#11414d] hover:text-white transition-all cursor-pointer"
             >
                 <FiDownload className="text-lg" /> Scarica Scheda
             </a>

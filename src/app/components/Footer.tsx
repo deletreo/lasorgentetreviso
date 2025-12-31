@@ -18,20 +18,20 @@ export default function Footer() {
           {/* COLONNA 1: Brand & Descrizione */}
           <div className="flex flex-col gap-6">
             {/* Logo o Nome Brand */}
-            <Link href="/" className="text-2xl uppercase tracking-tighter font-bold text-white hover:text-[#7faeb2] transition-colors w-fit">
+            <Link href="/" className="text-2xl uppercase tracking-tighter font-bold text-white hover:text-[#11414d] transition-colors w-fit">
               La Sorgente
             </Link>
             <p className="text-sm text-white/50 leading-relaxed max-w-xs">
               Tecnologia per il trattamento dell'acqua. Soluzioni professionali per aziende, ristorazione e privati.
             </p>
             <div className="flex gap-4 mt-2">
-                <a href="#" className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-[#7faeb2] hover:text-black hover:border-[#7faeb2] transition-all">
+                <a href="#" className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-[#11414d] hover:text-white hover:border-[#11414d] transition-all">
                     <FiInstagram />
                 </a>
-                <a href="#" className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-[#7faeb2] hover:text-black hover:border-[#7faeb2] transition-all">
+                <a href="#" className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-[#11414d] hover:text-white hover:border-[#11414d] transition-all">
                     <FiFacebook />
                 </a>
-                <a href="https://wa.me/393917418137" className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-[#7faeb2] hover:text-black hover:border-[#7faeb2] transition-all">
+                <a href="https://wa.me/393917418137" className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-[#11414d] hover:text-white hover:border-[#11414d] transition-all">
                     <FaWhatsapp />
                 </a>
             </div>
@@ -39,11 +39,11 @@ export default function Footer() {
 
           {/* COLONNA 2: Contatti & Dove Siamo */}
           <div className="flex flex-col gap-6">
-            <h4 className="text-[#7faeb2] text-xs font-bold uppercase tracking-[0.2em]">Dove Siamo</h4>
+            <h4 className="text-white text-xs font-bold uppercase tracking-[0.2em]">Dove Siamo</h4>
             
             <div className="flex flex-col gap-4">
                 <div className="flex items-start gap-3 text-sm text-white/70">
-                    <FiMapPin className="mt-1 text-[#7faeb2]" />
+                    <FiMapPin className="mt-1 text-[#11414d]" />
                     <span>Via Daniele Manin, 25<br/>31100 Treviso (TV), Italia</span>
                 </div>
                 
@@ -58,18 +58,18 @@ export default function Footer() {
             </div>
 
             <div className="flex flex-col gap-2 mt-2">
-                <a href="tel:+393917418137" className="flex items-center gap-3 text-sm text-white/70 hover:text-[#7faeb2] transition-colors">
-                    <FiPhone className="text-[#7faeb2]" /> +39 391 741 8137
+                <a href="tel:+393917418137" className="flex items-center gap-3 text-sm text-white/70 hover:text-[#11414d] transition-colors">
+                    <FiPhone className="text-[#11414d]" /> +39 391 741 8137
                 </a>
-                <a href="mailto:info@lasorgente.it" className="flex items-center gap-3 text-sm text-white/70 hover:text-[#7faeb2] transition-colors">
-                    <FiMail className="text-[#7faeb2]" /> info@lasorgente.it
+                <a href="mailto:info@lasorgente.it" className="flex items-center gap-3 text-sm text-white/70 hover:text-[#11414d] transition-colors">
+                    <FiMail className="text-[#11414d]" /> info@lasorgente.it
                 </a>
             </div>
           </div>
 
           {/* COLONNA 3: Orari di Apertura */}
           <div className="flex flex-col gap-6">
-            <h4 className="text-[#7faeb2] text-xs font-bold uppercase tracking-[0.2em]">Orari Negozio</h4>
+            <h4 className="text-white text-xs font-bold uppercase tracking-[0.2em]">Orari Negozio</h4>
             
             <ul className="space-y-4 text-sm text-white/70">
                 <li className="flex justify-between border-b border-white/5 pb-2">
@@ -91,7 +91,7 @@ export default function Footer() {
 
           {/* COLONNA 4: Link Rapidi */}
           <div className="flex flex-col gap-6">
-            <h4 className="text-[#7faeb2] text-xs font-bold uppercase tracking-[0.2em]">Esplora</h4>
+            <h4 className="text-white text-xs font-bold uppercase tracking-[0.2em]">Esplora</h4>
             <div className="flex flex-col gap-3 text-sm text-white/60">
                 <Link href="/prodotti" className="hover:text-white hover:translate-x-2 transition-all">Gamma Prodotti</Link>
                 <Link href="/prodotti?filter=aziende" className="hover:text-white hover:translate-x-2 transition-all">Soluzioni Aziende</Link>

@@ -40,12 +40,12 @@ export default function ContactForm({ type }: ContactFormProps) {
     };
 
     // Colori e stili in base al tipo
-    const accentColor = isConsumer ? 'border-[#7faeb2]' : 'border-white';
-    const focusColor = isConsumer ? 'focus:border-[#7faeb2]' : 'focus:border-white';
+    const accentColor = isConsumer ? 'border-[#11414d]' : 'border-white';
+    const focusColor = isConsumer ? 'focus:border-[#11414d]' : 'focus:border-white';
     const btnClass = isConsumer 
-        ? 'bg-[#7faeb2] text-black hover:bg-white' 
+        ? 'bg-[#11414d] text-white hover:bg-white hover:text-black' 
         : 'border border-white/20 text-white hover:bg-white hover:text-black';
-    const labelColor = isConsumer ? 'text-[#7faeb2]' : 'text-white/40';
+    const labelColor = isConsumer ? 'text-[#11414d]' : 'text-white/40';
 
     return (
         <form onSubmit={handleSubmit} className="relative z-10 flex flex-col gap-8">
@@ -113,7 +113,7 @@ export default function ContactForm({ type }: ContactFormProps) {
             </button>
 
             {status && (
-                <div className={`text-center text-xs tracking-widest font-bold uppercase mt-4 ${status.type === 'success' ? (isConsumer ? 'text-[#7faeb2]' : 'text-green-400') : 'text-red-500'}`}>
+                <div className={`text-center text-xs tracking-widest font-bold uppercase mt-4 ${status.type === 'success' ? (isConsumer ? 'text-[#11414d]' : 'text-green-400') : 'text-red-500'}`}>
                     {status.msg}
                 </div>
             )}

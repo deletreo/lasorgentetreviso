@@ -8,7 +8,7 @@ export default function BrandSection() {
                     <img src="../../interno.jpg" alt="Interno La Sorgente Treviso" className="absolute inset-0 w-full h-full object-cover z-0" />
                     <div className="absolute inset-0 z-10 bg-[linear-gradient(to_right,#0a0a0a_0%,transparent_30%,transparent_70%,#0a0a0a_100%),linear-gradient(to_bottom,#0a0a0a_0%,transparent_20%,transparent_80%,#0a0a0a_100%)] pointer-events-none"></div>
                     <div className="absolute inset-0 bg-black/20 z-10"></div>
-                    <div className="absolute bottom-8 left-8 border-l-2 border-[#7faeb2] pl-6 z-20">
+                    <div className="absolute bottom-8 left-8 border-l-2 border-[#11414d] pl-6 z-20">
                         <p className="text-2xl uppercase tracking-widest text-white font-bold font-['Cal_Sans']">
                             La Sorgente, Treviso
                         </p>
@@ -33,11 +33,11 @@ export default function BrandSection() {
                     */}
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 border-t border-white/10 pt-8 text-md">
                         <div>
-                            <h4 className="text-[#7faeb2] uppercase tracking-[0.2em] text-lg font-bold mb-2">Sede</h4>
+                            <h4 className="text-[#11414d] uppercase tracking-[0.2em] text-lg font-bold mb-2">Sede</h4>
                             <p className="text-white opacity-60 ">Via Daniele Manin 25<br/>31100 Treviso (TV)</p>
                         </div>
                         <div>
-                            <h4 className="text-[#7faeb2] uppercase tracking-[0.2em] text-lg font-bold mb-2">Contatti</h4>
+                            <h4 className="text-[#11414d] uppercase tracking-[0.2em] text-lg font-bold mb-2">Contatti</h4>
                             <p className="text-white opacity-60 break-all">+39 391 741 8137<br/>lasorgentetv@gmail.com</p>
                         </div>
                     </div>

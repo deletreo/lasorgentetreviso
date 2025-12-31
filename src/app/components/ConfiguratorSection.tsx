@@ -8,13 +8,13 @@ export default function ConfiguratorSection() {
                 
                 <div className="lg:col-span-5 flex flex-col gap-8 sticky top-32">
                     <div className='px-2'>
-                        <span className="text-[#7faeb2] text-xs font-bold uppercase tracking-[0.4em] mb-4 block animate-pulse">
+                        <span className="text-[#11414d] text-xs font-bold uppercase tracking-[0.4em] mb-4 block animate-pulse">
                             Configuratore
                         </span>
                         {/* FIX APPLICATO QUI: leading-normal invece di snug, pr-4 e pb-2 nello span */}
                         <h2 className="text-5xl md:text-6xl xl:text-7xl uppercase leading-normal tracking-tighter mb-6 py-4">
                             Crea il tuo <br/>
-                            <span className="text-transparent bg-clip-text bg-linear-to-r from-[#7faeb2] to-white italic pr-4 pb-2">
+                            <span className="text-transparent bg-clip-text bg-linear-to-r from-[#11414d] to-white italic pr-4 pb-2">
                                 Depuratore.
                             </span>
                         </h2>
@@ -24,14 +24,14 @@ export default function ConfiguratorSection() {
                     </div>
                     <div className="flex flex-col gap-6 mt-4 border-l border-white/10 pl-8">
                         <div className="flex items-start gap-4">
-                            <FiCheckCircle className="text-[#7faeb2] text-xl mt-1 shrink-0" />
+                            <FiCheckCircle className="text-[#11414d] text-xl mt-1 shrink-0" />
                             <div>
                                 <h4 className="text-sm uppercase tracking-widest font-bold mb-1">Analisi Gratuita</h4>
                                 <p className="text-xs text-white/40">Valutiamo la qualità della tua acqua.</p>
                             </div>
                         </div>
                         <div className="flex items-start gap-4">
-                            <FiCheckCircle className="text-[#7faeb2] text-xl mt-1 shrink-0" />
+                            <FiCheckCircle className="text-[#11414d] text-xl mt-1 shrink-0" />
                             <div>
                                 <h4 className="text-sm uppercase tracking-widest font-bold mb-1">Progetto su misura</h4>
                                 <p className="text-xs text-white/40">Dimensioniamo l'impianto perfetto.</p>
@@ -41,7 +41,7 @@ export default function ConfiguratorSection() {
                 </div>
 
                 <div className="lg:col-span-7 w-full bg-[#050505] border border-white/5 p-8 md:p-12 relative overflow-hidden group rounded-sm shadow-2xl">
-                    <div className="absolute top-0 right-0 w-64 h-64 bg-[#7faeb2] opacity-[0.05] blur-[100px] pointer-events-none rounded-full"></div>
+                    <div className="absolute top-0 right-0 w-64 h-64 bg-[#11414d] opacity-[0.05] blur-[100px] pointer-events-none rounded-full"></div>
                     <ContactForm type="consumer" />
                 </div>
             </div>

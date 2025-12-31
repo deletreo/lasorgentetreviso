@@ -48,7 +48,7 @@ export default function HeroSection({ links, onOpenMenu }: { links: HeroLink[], 
                 onClick={scrollToConfigurator}
                 className="absolute top-[90%] left-1/2 -translate-x-1/2 -translate-y-1/2 z-20 flex flex-col items-center gap-2 group cursor-pointer animate-bounce"
             >
-                <span className="text-[#7faeb2] text-xs uppercase tracking-[0.3em] font-bold group-hover:text-white transition-colors">
+                <span className="text-[#11414d] text-xs uppercase tracking-[0.3em] font-bold group-hover:text-white transition-colors">
                     Crea il tuo depuratore
                 </span>
                 <FiArrowDown className="text-white text-xl" />
