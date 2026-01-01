@@ -141,8 +141,7 @@ function ProdottiContent() {
                         onChange={handleSearchChange}
                         placeholder="Cerca per nome o tecnologia..." 
                         // Aggiunto font-sans per usare Lexend e aggiornato il colore del focus
-                        className="w-full xl:w-[350px] bg-transparent border-b border-black/10 py-3 pl-8 pr-8 outline-none text-black font-light focus:border-[#11414d] transition-all placeholder-gray-400 font-sans"
-                    />
+                        className="w-full xl:w-[350px] bg-transparent border-b border-black/10 py-3 pl-8 pr-8 outline-none text-black focus:border-[#11414d] uppercase transition-all placeholder-gray-400 font-light font-['Cal_Sans']"/>
                     {searchQuery && (
                         <button onClick={clearSearch} className="absolute right-0 top-1/2 -translate-y-1/2 text-gray-400 hover:text-[#11414d] transition-colors">
                             <FiX />

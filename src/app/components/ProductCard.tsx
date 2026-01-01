@@ -29,7 +29,7 @@ export default function ProductCard({ product }: ProductCardProps) {
       {/* MODIFICA: hover:border-[#11414d] 
           Il bordo diventa colorato quando passi sopra col mouse 
       */}
-      <div className="flex flex-col h-full bg-gray-700 border border-gray-300 hover:border-[#11414d] transition-all duration-500 overflow-hidden relative">
+      <div className="flex flex-col h-full bg-gray-700 border border-gray-300 hover:border-gray-400 transition-all duration-500 overflow-hidden relative">
         
         {/* Immagine */}
         <div className="relative aspect-4/5 overflow-hidden">
