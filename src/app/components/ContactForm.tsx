@@ -28,7 +28,6 @@ export default function ContactForm({ type }: ContactFormProps) {
         setStatus(null);
     
         try {
-            // Simulazione API
             await new Promise(resolve => setTimeout(resolve, 1500)); 
             setStatus({ type: 'success', msg: 'RICHIESTA INVIATA CON SUCCESSO' });
             setFormData({ nome: '', email: '', telefono: '', messaggio: '', honeypot: '' });
@@ -39,7 +38,6 @@ export default function ContactForm({ type }: ContactFormProps) {
         }
     };
 
-    // Colori e stili in base al tipo
     const accentColor = isConsumer ? 'border-[#11414d]' : 'border-white';
     const focusColor = isConsumer ? 'focus:border-white/80' : 'focus:border-white';
     const btnClass = isConsumer 

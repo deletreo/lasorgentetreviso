@@ -3,16 +3,15 @@ import ContactForm from './ContactForm';
 
 export default function ConfiguratorSection() {
     return (
-        <section id="configuratore" className="relative bg-[#080808] text-[#F2F2F2] py-3 md:py-15 px-6 md:px-[8%] scroll-mt-20 my-32 lg:my-24">
-            <div className="max-w-1600px mx-auto grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-8 items-start">
+        <section id="configuratore" className="relative bg-[#080808] text-[#F2F2F2] py-16 px-6 md:px-[8%] scroll-mt-20 my-32 lg:my-24">
+            <div className="max-w-[1600px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-8 items-start">
                 
                 <div className="lg:col-span-5 flex flex-col gap-8 sticky top-32">
                     <div className='px-2'>
                         <span className="text-white/35 text-xs font-bold uppercase tracking-[0.4em] mb-4 block animate-pulse">
                             Configuratore
                         </span>
-                        {/* FIX APPLICATO QUI: leading-normal invece di snug, pr-4 e pb-2 nello span */}
-                        <h2 className="text-5xl md:text-6xl xl:text-7xl uppercase leading-normal tracking-tighter mb-6 py-4">
+                        <h2 className="text-5xl md:text-6xl xl:text-7xl uppercase leading-normal tracking-tighter mb-6 py-4 px-2 -ml-2">
                             Crea il tuo <br/>
                             <span className="text-transparent bg-clip-text bg-linear-to-r from-[#11414d] to-white italic pr-4 pb-2">
                                 Depuratore.

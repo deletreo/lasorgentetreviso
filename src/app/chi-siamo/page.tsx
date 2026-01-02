@@ -1,24 +1,36 @@
 "use client";
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import MegaMenu from '../components/MegaMenu';
 import Link from 'next/link';
-import { FiArrowLeft, FiArrowDown } from 'react-icons/fi';
+import { FiArrowDown } from 'react-icons/fi';
 import Image from 'next/image';
 import prodottiAssieme from './prodottiAssieme.png';
 
 export default function ChiSiamo() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-    // Links
     const links = [
         { label: "prodotti", href: "/prodotti", action: () => setIsMenuOpen(true), hasSubmenu: true },
-        { label: "chi siamo", href: "../chi-siamo", action: null, hasSubmenu: false },
+        { label: "chi siamo", href: "/chi-siamo", action: null, hasSubmenu: false },
         { label: "perché un negozio fisico?", href: "/perche", action: null, hasSubmenu: false },
-        { label: "contatti", href: "../contatti", action: null, hasSubmenu: false }
+        { label: "contatti", href: "/contatti", action: null, hasSubmenu: false }
     ];
+
+    useEffect(() => {
+        // --- BLOCCO ALTEZZA FISSA ---
+        const setFixedHeights = () => {
+            const vh = window.innerHeight * 0.01;
+            document.documentElement.style.setProperty('--vh', `${vh}px`);
+        };
+        setFixedHeights();
+        window.addEventListener('resize', () => {
+             if (window.innerWidth !== document.documentElement.clientWidth) {
+                 setFixedHeights();
+             }
+        });
+    }, []);
 
     const scrollToContent = () => {
         const section = document.getElementById('content');
@@ -26,23 +38,31 @@ export default function ChiSiamo() {
     };
 
     return (
-        <div className="relative w-full min-h-screen bg-[#050505] text-[#F2F2F2] font-cal overflow-x-hidden selection:bg-[#4fd1c5] selection:text-black">
+        <div className="relative w-full min-h-[100svh] bg-[#050505] text-[#F2F2F2] font-cal overflow-x-hidden selection:bg-[#4fd1c5] selection:text-black">
             
-            {/* HERO VIDEO FULLSCREEN */}
-            <div className="relative w-full h-screen overflow-hidden">
+            {/* HERO VIDEO FULLSCREEN BLOCCATO */}
+            <div 
+                className="relative w-full overflow-hidden"
+                // Altezza fissata al 100% dell'altezza iniziale dello schermo
+                style={{ height: 'calc(var(--vh, 1vh) * 100)' }}
+            >
                 <div className="absolute inset-0 bg-black/60 z-10"></div>
-                <video 
-                    className="absolute inset-0 w-full h-full object-cover scale-105 animate-[pulse_10s_ease-in-out_infinite]" 
-                    autoPlay loop muted playsInline
-                >
-                    <source src="/videoLaSorgente.mp4" type="video/mp4" />
-                </video>
+                
+                {/* will-change-transform per evitare scatti */}
+                <div className="absolute inset-0 z-0 will-change-transform">
+                    <video 
+                        className="w-full h-full object-cover scale-105 animate-[pulse_10s_ease-in-out_infinite]" 
+                        autoPlay loop muted playsInline
+                        style={{ height: '100%', width: '100%', objectFit: 'cover' }}
+                    >
+                        <source src="/videoLaSorgente.mp4" type="video/mp4" />
+                    </video>
+                </div>
                 
                 <div className="relative z-20 h-full flex flex-col justify-center items-center text-center px-4">
                     <span className="text-xs md:text-sm font-mono uppercase tracking-[0.5em] text-white/90 mb-6 animate-fade-in-up">
                         I nostri obiettivi
                     </span>
-                    {/* Fixed font size to prevent cutoff on mobile: 15vw -> 12vw, added w-full/break-words just in case */}
                     <h1 className="text-[11vw] md:text-[10vw] leading-[0.85] font-bold uppercase tracking-tighter text-transparent bg-clip-text bg-gradient-to-b from-white to-white/60 mb-8 animate-fade-in-up delay-100 w-full max-w-full break-words px-2 pb-2">
                         Chi Siamo
                     </h1>
@@ -59,7 +79,7 @@ export default function ChiSiamo() {
 
             <main id="content" className="relative z-10 bg-[#050505]">
                 
-                {/* 1. PHILOSOPHY SECTION (BIG TEXT) */}
+                {/* 1. PHILOSOPHY SECTION */}
                 <section className="py-24 md:py-48 px-6 md:px-[10%] text-center">
                     <div className="max-w-5xl mx-auto">
                         <p className="text-2xl md:text-4xl lg:text-5xl font-light leading-tight text-white/90">
@@ -70,8 +90,8 @@ export default function ChiSiamo() {
                     </div>
                 </section>
 
-                {/* 2. SPLIT SECTION (DARK + IMAGE) */}
-                <section className="grid grid-cols-1 lg:grid-cols-2 min-h-screen">
+                {/* 2. SPLIT SECTION */}
+                <section className="grid grid-cols-1 lg:grid-cols-2 min-h-[100svh]">
                     {/* Left: Content */}
                     <div className="px-6 md:px-20 py-20 flex flex-col justify-center bg-[#0a0a0a] border-y border-white/5">
                         <span className="text-xs font-mono uppercase tracking-[0.3em] text-[#4fd1c5] mb-8">
@@ -124,7 +144,6 @@ export default function ChiSiamo() {
 
                 {/* 3. PURE SOURCE SECTION */}
                 <section className="relative py-24 md:py-48 overflow-hidden">
-                    {/* Abstract Background */}
                     <div className="absolute inset-0 opacity-[0.03]" 
                         style={{ backgroundImage: 'linear-gradient(#4fd1c5 1px, transparent 1px), linear-gradient(90deg, #4fd1c5 1px, transparent 1px)', backgroundSize: '100px 100px' }}>
                     </div>
@@ -166,7 +185,6 @@ export default function ChiSiamo() {
                             <h3 className="text-xl md:text-2xl font-bold uppercase tracking-wide text-white mb-2">
                                 {item.title}
                             </h3>
-                            {/* Improved contrast */}
                             <p className="text-sm text-gray-400 font-sans font-light">
                                 {item.desc}
                             </p>

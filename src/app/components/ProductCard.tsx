@@ -32,7 +32,7 @@ export default function ProductCard({ product }: ProductCardProps) {
       <div className="flex flex-col h-full bg-gray-700 border border-gray-300 hover:border-gray-400 transition-all duration-500 overflow-hidden relative">
         
         {/* Immagine */}
-        <div className="relative aspect-4/5 overflow-hidden">
+        <div className="relative aspect-square md:aspect-4/5 overflow-hidden">
           <div className="absolute inset-0  group-hover:bg-transparent transition-colors duration-500 z-10" />
           <img
             src={product.immagine}

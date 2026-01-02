@@ -21,7 +21,7 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
   }
 
   return (
-    <div className="min-h-svh bg-white text-gray-900 font-cal selection:bg-[#11414d] selection:text-white">
+    <div className="min-h-[100svh] bg-white text-gray-900 font-cal selection:bg-[#7faeb2] selection:text-white">
       
       <div className="fixed inset-0 pointer-events-none opacity-[0.4] z-0 mix-blend-overlay" 
            style={{ backgroundImage: 'url("data:image/svg+xml,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noiseFilter%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.65%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noiseFilter)%22/%3E%3C/svg%3E")' }}>
@@ -38,13 +38,12 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
         >
           <FiArrowLeft /> Torna al catalogo
         </Link>
-
         <Link href="/" className="text-xl md:text-2xl font-bold tracking-tighter text-black uppercase hover:opacity-70 transition-opacity">
               La Sorgente
         </Link>
       </header>
 
-      <div className="relative z-5 flex flex-col lg:flex-row min-h-svh pt-20">
+      <div className="relative z-5 flex flex-col lg:flex-row min-h-[100svh] pt-20">
         
         <div className="w-full aspect-square lg:aspect-auto lg:w-1/2 lg:h-[calc(100svh-80px)] lg:sticky lg:top-20 bg-gray-50 border-b lg:border-b-0 lg:border-r border-gray-200">
             <ImageGallery 

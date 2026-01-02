@@ -1,12 +1,11 @@
 import Link from 'next/link';
-import { FiMapPin, FiPhone, FiMail, FiInstagram, FiFacebook, FiArrowUpRight } from 'react-icons/fi';
+import { FiMapPin, FiPhone, FiMail, FiInstagram, FiFacebook, FiArrowUpRight, FiArrowRight } from 'react-icons/fi';
 import { FaWhatsapp } from 'react-icons/fa';
 
 export default function Footer() {
   return (
     <footer className="relative bg-[#050505] text-[#F2F2F2] border-t border-white/5 font-cal overflow-hidden">
       
-      {/* Texture Sfondo (Opzionale, per coerenza con il resto del sito) */}
       <div className="absolute inset-0 pointer-events-none opacity-[0.02] z-0 mix-blend-overlay" 
            style={{ backgroundImage: 'url("data:image/svg+xml,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noiseFilter%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.65%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noiseFilter)%22/%3E%3C/svg%3E")' }}>
       </div>
@@ -15,9 +14,7 @@ export default function Footer() {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
           
-          {/* COLONNA 1: Brand & Descrizione */}
           <div className="flex flex-col gap-6">
-            {/* Logo o Nome Brand */}
             <Link href="/" className="text-2xl uppercase tracking-tighter font-bold text-white hover:text-[#11414d] transition-colors w-fit">
               La Sorgente
             </Link>
@@ -37,7 +34,6 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* COLONNA 2: Contatti & Dove Siamo */}
           <div className="flex flex-col gap-6">
             <h4 className="text-white text-xs font-bold uppercase tracking-[0.2em]">Dove Siamo</h4>
             
@@ -67,7 +63,6 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* COLONNA 3: Orari di Apertura */}
           <div className="flex flex-col gap-6">
             <h4 className="text-white text-xs font-bold uppercase tracking-[0.2em]">Orari Negozio</h4>
             
@@ -89,7 +84,6 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* COLONNA 4: Link Rapidi */}
           <div className="flex flex-col gap-6">
             <h4 className="text-white text-xs font-bold uppercase tracking-[0.2em]">Esplora</h4>
             <div className="flex flex-col gap-3 text-sm text-white/60">
@@ -100,10 +94,15 @@ export default function Footer() {
                 <Link href="/#configuratore" className="hover:text-white hover:translate-x-2 transition-all">Configuratore</Link>
             </div>
           </div>
-
+          <p className="mt-4 flex items-center justify-center">
+                        <span className="mr-2 opacity-80">Sito creato da</span>
+                        <a href="https://leonardoquaglini.it" target="_blank" className="inline-flex items-center justify-center px-4 py-1.5 rounded-full bg-white/10 hover:bg-white text-white hover:text-black transition-all duration-300 font-medium text-xs sm:text-sm shadow-sm hover:shadow-md border border-white/20 hover:border-white group">
+                            Leonardo Quaglini
+                            <FiArrowRight className="ml-2 text-[10px] group-hover:translate-x-1 transition-transform -rotate-45" />
+                        </a>
+          </p>
         </div>
-
-        {/* BOTTOM BAR */}
+        
         <div className="border-t border-white/5 mt-20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 opacity-40 text-[10px] uppercase tracking-widest">
             <p>© 2025 La Sorgente. Tutti i diritti riservati.</p>
             <div className="flex gap-6">

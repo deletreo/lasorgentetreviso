@@ -3,15 +3,13 @@
 import { useState, useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import MegaMenu from '../components/MegaMenu';
 import Link from 'next/link';
-import { FiArrowLeft, FiMapPin, FiPhone, FiMail, FiClock, FiInstagram, FiFacebook } from 'react-icons/fi';
+import { FiArrowLeft, FiMapPin, FiPhone, FiClock, FiInstagram, FiFacebook } from 'react-icons/fi';
 import { FaWhatsapp } from 'react-icons/fa';
 
 export default function ContactsPage() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     
-    // Links consistent with other pages
     const links = [
         { label: "prodotti", href: "/prodotti", action: () => setIsMenuOpen(true), hasSubmenu: true },
         { label: "perché un negozio fisico?", href: "/perche", action: null, hasSubmenu: false },
@@ -19,21 +17,32 @@ export default function ContactsPage() {
         { label: "chi siamo", href: "/chi-siamo", action: null, hasSubmenu: false }
     ];
 
+    useEffect(() => {
+        // --- BLOCCO ALTEZZA FISSA ---
+        const setFixedHeights = () => {
+            const vh = window.innerHeight * 0.01;
+            document.documentElement.style.setProperty('--vh', `${vh}px`);
+        };
+        setFixedHeights();
+        window.addEventListener('resize', () => {
+             if (window.innerWidth !== document.documentElement.clientWidth) {
+                 setFixedHeights();
+             }
+        });
+    }, []);
+
     return (
-        <div className="relative w-full min-h-screen bg-[#050505] text-[#F2F2F2] font-cal overflow-x-hidden selection:bg-[#4fd1c5] selection:text-white">
+        <div className="relative w-full min-h-[100svh] bg-[#050505] text-[#F2F2F2] font-cal overflow-x-hidden selection:bg-[#4fd1c5] selection:text-white">
             
-            {/* Background Texture */}
             <div className="fixed inset-0 pointer-events-none opacity-[0.04] z-0 mix-blend-overlay" 
                  style={{ backgroundImage: 'url("data:image/svg+xml,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noiseFilter%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.65%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noiseFilter)%22/%3E%3C/svg%3E")' }}>
             </div>
 
             <Navbar showExtraLinks={true} links={links} />
-            <MegaMenu isOpen={isMenuOpen} setIsOpen={setIsMenuOpen} />
 
             <main className="pt-20 pb-16 px-6 md:px-12 max-w-[1800px] mx-auto">
                 
-                {/* HEADER SECTION (MATCHING PRODOTTI STYLE) */}
-                <div className="mb-10 md:mb-16">
+                <div className="mb-10 md:mb-16 pt-10 md:pt-20">
                     <Link href="/" className="inline-flex items-center gap-2 text-xs uppercase tracking-widest text-gray-400 hover:text-white mb-8 border border-white/10 hover:border-white px-3 py-2 rounded-full transition-all duration-300">
                         <FiArrowLeft /> Torna alla Home
                     </Link>
@@ -48,17 +57,14 @@ export default function ContactsPage() {
                     </div>
                 </div>
 
-                {/* CONTENT GRID */}
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24">
                     
-                    {/* Left Column: Info Cards */}
                     <div className="space-y-8">
                         <p className="text-xl md:text-2xl font-light text-white/80 leading-relaxed max-w-lg mb-12">
                             Siamo qui per rispondere a tutte le tue domande. Vieni a trovarci nel nostro showroom o scrivici per una consulenza.
                         </p>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            {/* Card 1: Dove Siamo */}
                             <div className="border border-white/10 p-8 bg-[#0a0a0a] hover:border-[#4fd1c5]/50 transition-colors group">
                                 <FiMapPin className="text-[#4fd1c5] w-6 h-6 mb-6 group-hover:scale-110 transition-transform" />
                                 <h3 className="text-sm font-bold uppercase tracking-widest text-white mb-4">Dove Siamo</h3>
@@ -76,7 +82,6 @@ export default function ContactsPage() {
                                 </a>
                             </div>
 
-                            {/* Card 2: Recapiti */}
                             <div className="border border-white/10 p-8 bg-[#0a0a0a] hover:border-[#4fd1c5]/50 transition-colors group">
                                 <FiPhone className="text-[#4fd1c5] w-6 h-6 mb-6 group-hover:scale-110 transition-transform" />
                                 <h3 className="text-sm font-bold uppercase tracking-widest text-white mb-4">Recapiti</h3>
@@ -86,7 +91,6 @@ export default function ContactsPage() {
                                 </div>
                             </div>
 
-                            {/* Card 3: Social */}
                             <div className="border border-white/10 p-8 bg-[#0a0a0a] hover:border-[#4fd1c5]/50 transition-colors group">
                                 <FiInstagram className="text-[#4fd1c5] w-6 h-6 mb-6 group-hover:scale-110 transition-transform" />
                                 <h3 className="text-sm font-bold uppercase tracking-widest text-white mb-4">Seguici</h3>
@@ -97,7 +101,6 @@ export default function ContactsPage() {
                                 </div>
                             </div>
 
-                            {/* Card 4: Orari */}
                             <div className="border border-white/10 p-8 bg-[#0a0a0a] hover:border-[#4fd1c5]/50 transition-colors group">
                                 <FiClock className="text-[#4fd1c5] w-6 h-6 mb-6 group-hover:scale-110 transition-transform" />
                                 <h3 className="text-sm font-bold uppercase tracking-widest text-white mb-4">Orari</h3>
@@ -115,7 +118,6 @@ export default function ContactsPage() {
                         </div>
                     </div>
 
-                    {/* Right Column: Map */}
                     <div className="relative w-full h-[500px] lg:h-full min-h-[500px] grayscale invert Contrast-125 border border-white/10">
                          <iframe 
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2799.458927877134!2d12.228578976668707!3d45.66536597107775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4779495dd67d9309%3A0x6b8f3657376c6d04!2sVia%20Daniele%20Manin%2C%2025%2C%2031100%20Treviso%20TV!5e0!3m2!1sit!2sit!4v1709391000000!5m2!1sit!2sit" 
