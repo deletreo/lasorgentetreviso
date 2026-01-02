@@ -47,7 +47,7 @@ export default function ImageGallery({ images, productName, category }: ImageGal
     setIsZoomed(false); 
   }, []);
 
-  // --- LOGICA JAVASCRIPT PER NASCONDERE L'HEADER ---
+  // --- LOGICA PER NASCONDERE L'HEADER ---
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (!isLightboxOpen) return;
@@ -59,33 +59,21 @@ export default function ImageGallery({ images, productName, category }: ImageGal
       if (e.key === 'ArrowLeft') paginate(-1);
     };
 
-    // Seleziona l'header tramite l'ID che abbiamo aggiunto
     const headerElement = document.getElementById('site-header');
 
     if (isLightboxOpen) {
-      // 1. Blocca lo scroll
       document.body.style.overflow = 'hidden';
-      // 2. Nasconde l'header fisicamente
-      if (headerElement) {
-        headerElement.style.visibility = 'hidden'; 
-        // Oppure headerElement.style.display = 'none'; (visibility è più fluido per evitare layout shift se non fosse fixed)
-      }
+      if (headerElement) headerElement.style.visibility = 'hidden'; 
       window.addEventListener('keydown', handleKeyDown);
     } else {
-      // Ripristina tutto
       document.body.style.overflow = 'unset';
-      if (headerElement) {
-        headerElement.style.visibility = 'visible';
-      }
+      if (headerElement) headerElement.style.visibility = 'visible';
     }
 
-    // Cleanup quando il componente si smonta
     return () => {
       window.removeEventListener('keydown', handleKeyDown);
       document.body.style.overflow = 'unset';
-      if (headerElement) {
-        headerElement.style.visibility = 'visible';
-      }
+      if (headerElement) headerElement.style.visibility = 'visible';
     };
   }, [isLightboxOpen, paginate]);
 
@@ -101,7 +89,11 @@ export default function ImageGallery({ images, productName, category }: ImageGal
     <>
       <div className="w-full h-full relative group bg-white flex items-center justify-center p-8 overflow-hidden z-10">
         
-        <div className="relative w-full h-full flex items-center justify-center cursor-zoom-in" onClick={() => setIsLightboxOpen(true)}>
+        {/* Container Immagine Principale */}
+        <div 
+            className="relative w-full h-full flex items-center justify-center cursor-zoom-in" 
+            onClick={() => setIsLightboxOpen(true)}
+        >
           <AnimatePresence initial={false} custom={direction} mode="popLayout">
             <motion.img
               key={page}
@@ -116,7 +108,21 @@ export default function ImageGallery({ images, productName, category }: ImageGal
                 x: { type: "spring", stiffness: 300, damping: 30 },
                 opacity: { duration: 0.2 }
               }}
-              className="absolute w-full h-full object-contain"
+              /* ABILITATO SWIPE ANCHE QUI */
+              drag="x"
+              dragConstraints={{ left: 0, right: 0 }}
+              dragElastic={1}
+              onDragEnd={(e, { offset, velocity }) => {
+                const swipe = swipePower(offset.x, velocity.x);
+                if (swipe < -swipeConfidenceThreshold) {
+                  paginate(1);
+                } else if (swipe > swipeConfidenceThreshold) {
+                  paginate(-1);
+                }
+              }}
+              /* Evita che il click per aprire la modale parta se si sta trascinando */
+              onClick={(e) => e.stopPropagation()} 
+              className="absolute w-full h-full object-contain pointer-events-auto"
             />
           </AnimatePresence>
         </div>
@@ -166,7 +172,9 @@ export default function ImageGallery({ images, productName, category }: ImageGal
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-[9999] bg-black flex items-center justify-center"
+            className="fixed inset-0 z-9999 bg-black flex items-center justify-center"
+            // Chiude se si clicca sullo sfondo nero
+            onClick={() => { setIsLightboxOpen(false); setIsZoomed(false); }}
           >
             <div className="absolute top-0 left-0 w-full p-4 md:p-6 flex justify-between items-center z-[10000] pointer-events-none">
                 
@@ -176,7 +184,7 @@ export default function ImageGallery({ images, productName, category }: ImageGal
 
                 <div className="flex items-center gap-4 pointer-events-auto">
                     <button 
-                        onClick={() => setIsZoomed(!isZoomed)} 
+                        onClick={(e) => { e.stopPropagation(); setIsZoomed(!isZoomed); }}
                         className="p-3 bg-white/10 hover:bg-white/20 text-white rounded-full transition-colors backdrop-blur-md"
                         title={isZoomed ? "Riduci" : "Ingrandisci"}
                     >
@@ -184,7 +192,7 @@ export default function ImageGallery({ images, productName, category }: ImageGal
                     </button>
 
                     <button 
-                        onClick={() => { setIsLightboxOpen(false); setIsZoomed(false); }}
+                        onClick={(e) => { e.stopPropagation(); setIsLightboxOpen(false); setIsZoomed(false); }}
                         className="flex items-center gap-2 px-4 py-2 bg-white text-black rounded-full shadow-[0_0_15px_rgba(0,0,0,0.5)] hover:scale-105 transition-transform cursor-pointer"
                     >
                         <span className="text-[10px] font-bold tracking-[0.2em] uppercase">Chiudi</span>
@@ -229,7 +237,9 @@ export default function ImageGallery({ images, productName, category }: ImageGal
                             }
                         }}
 
-                        onDoubleClick={() => setIsZoomed(!isZoomed)}
+                        // Cliccare sull'immagine (se non è drag) non deve chiudere, ma zoomare o nulla
+                        onClick={(e) => e.stopPropagation()}
+                        onDoubleClick={(e) => { e.stopPropagation(); setIsZoomed(!isZoomed); }}
 
                         className={`max-w-[95vw] max-h-[85vh] object-contain ${isZoomed ? 'cursor-grab active:cursor-grabbing' : 'cursor-grab active:cursor-grabbing'}`}
                         style={{ position: 'absolute' }}

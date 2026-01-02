@@ -19,7 +19,7 @@ export default function BrandSection() {
                 <div className="flex flex-col gap-12 lg:pl-16">
                     <div>
                         <p className="text-xl md:text-2xl text-white/80 font-light leading-relaxed mb-6">
-                            Non siamo solo un sito web. Siamo un punto di riferimento fisico, reale e tangibile per il trattamento dell'acqua.
+                            Non siamo solo un sito web.<br />Siamo un punto di riferimento fisico, reale e tangibile per il trattamento dell'acqua.
                         </p>
                         <p className="text-sm md:text-base text-white/50 font-mono uppercase tracking-widest leading-loose max-w-md">
                             Offriamo consulenza tecnica specializzata, installazione certificata e assistenza post-vendita diretta.

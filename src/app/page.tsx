@@ -21,8 +21,9 @@ export default function Home() {
     // Links della Hero
     const links = [
         { label: "prodotti", href: "/prodotti", action: () => setIsMenuOpen(true), hasSubmenu: true },
+        { label: "chi siamo", href: "../chi-siamo", action: null, hasSubmenu: false },
         { label: "perché un negozio fisico?", href: "/perche", action: null, hasSubmenu: false },
-        { label: "contatti", href: "#contatti", action: null, hasSubmenu: false }
+        { label: "contatti", href: "../contatti", action: null, hasSubmenu: false }
     ];
 
     // Gestione Loader e Scroll

@@ -68,13 +68,8 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
             <h1 className="w-full text-4xl sm:text-5xl lg:text-5xl xl:text-6xl 2xl:text-7xl uppercase leading-tight tracking-tight mb-6 text-transparent bg-clip-text bg-linear-to-br from-gray-900 to-[#11414d] pb-2 px-1 -ml-1 break-words">
               {product.nome}
             </h1>
-            
-            <p className="text-lg md:text-xl text-gray-600 font-light leading-relaxed max-w-xl whitespace-pre-line">
-               {(product as any).descrizione_estesa || product.descrizione_breve}
-            </p>
-          </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-y-10 gap-x-12 mb-16">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-y-10 gap-x-12 mb-16">
             <div className="flex flex-col gap-2">
                 <span className="text-[10px] uppercase tracking-[0.2em] text-gray-400">Tecnologia</span>
                 <span className="text-lg uppercase border-l-2 border-[#11414d] pl-4 text-black font-medium break-words">{product.tecnologia}</span>
@@ -96,6 +91,12 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
                 </div>
             )}
           </div>
+            
+            <p className="text-lg md:text-xl text-gray-600 font-thin leading-relaxed max-w-xl whitespace-pre-line">
+               {(product as any).descrizione_estesa || product.descrizione_breve}
+            </p>
+          </div>
+
 
           <div className="flex flex-col md:flex-row gap-4 mt-auto">
             <Link 

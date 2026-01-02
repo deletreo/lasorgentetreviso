@@ -41,7 +41,7 @@ export default function ContactForm({ type }: ContactFormProps) {
 
     // Colori e stili in base al tipo
     const accentColor = isConsumer ? 'border-[#11414d]' : 'border-white';
-    const focusColor = isConsumer ? 'focus:border-[#11414d]' : 'focus:border-white';
+    const focusColor = isConsumer ? 'focus:border-white/80' : 'focus:border-white';
     const btnClass = isConsumer 
         ? 'bg-[#11414d] text-white hover:bg-white hover:text-black' 
         : 'border border-white/20 text-white hover:bg-white hover:text-black';
@@ -55,7 +55,7 @@ export default function ContactForm({ type }: ContactFormProps) {
                 </label>
                 <input 
                     required 
-                    className={`w-full bg-transparent border-b border-white/10 py-4 outline-none ${focusColor} transition-colors text-white font-light text-xl placeholder-white/20`} 
+                    className={`w-full bg-transparent border-b border-white/20 py-4 outline-none ${focusColor} transition-colors text-white font-light text-xl placeholder-white/20`} 
                     type="text" 
                     value={formData.nome} 
                     onChange={(e) => setFormData({...formData, nome: e.target.value})} 
@@ -70,7 +70,7 @@ export default function ContactForm({ type }: ContactFormProps) {
                     </label>
                     <input 
                         required 
-                        className={`w-full bg-transparent border-b border-white/10 py-4 outline-none ${focusColor} transition-colors text-white font-light text-xl placeholder-white/20`} 
+                        className={`w-full bg-transparent border-b border-white/20 py-4 outline-none ${focusColor} transition-colors text-white font-light text-xl placeholder-white/20`} 
                         type="email" 
                         value={formData.email} 
                         onChange={(e) => setFormData({...formData, email: e.target.value})} 
@@ -82,7 +82,7 @@ export default function ContactForm({ type }: ContactFormProps) {
                         Telefono
                     </label>
                     <input 
-                        className={`w-full bg-transparent border-b border-white/10 py-4 outline-none ${focusColor} transition-colors text-white font-light text-xl placeholder-white/20`} 
+                        className={`w-full bg-transparent border-b border-white/20 py-4 outline-none ${focusColor} transition-colors text-white font-light text-xl placeholder-white/20`} 
                         type="tel" 
                         value={formData.telefono} 
                         onChange={(e) => setFormData({...formData, telefono: e.target.value})} 
@@ -98,7 +98,7 @@ export default function ContactForm({ type }: ContactFormProps) {
                 <textarea 
                     required 
                     rows={4} 
-                    className={`w-full bg-transparent border-b border-white/10 py-4 outline-none ${focusColor} transition-colors text-white font-light text-xl placeholder-white/20 resize-none`} 
+                    className={`w-full bg-transparent border-b border-white/20 py-4 outline-none ${focusColor} transition-colors text-white font-light text-xl placeholder-white/20 resize-none`} 
                     value={formData.messaggio} 
                     onChange={(e) => setFormData({...formData, messaggio: e.target.value})} 
                     placeholder={isConsumer ? "Vorrei informazioni per..." : "Vorrei aprire un punto vendita a..."} 

@@ -57,10 +57,10 @@ export default function Navbar({ showExtraLinks, links }: NavbarProps) {
                     <a href="https://www.instagram.com/lasorgentetv/" target="_blank" className="text-white hover:scale-110 transition-transform">
                         <FaInstagram className="h-6 w-6" />
                     </a>
-                    <a href="https://www.facebook.com/lasorgentetv/" target="_blank" className="text-white hover:scale-110 transition-transform">
+                    <a href="https://www.facebook.com/profile.php?id=61585233898936" target="_blank" className="text-white hover:scale-110 transition-transform">
                         <FaFacebookF className="h-6 w-6" />
                     </a>
-                    <a href="https://wa.me/1234567890" target="_blank" className="text-white hover:scale-110 transition-transform">
+                    <a href="https://wa.me/+393917418137" target="_blank" className="text-white hover:scale-110 transition-transform">
                         <FaWhatsapp className="h-6 w-6" />
                     </a>
                 </div>
@@ -91,8 +91,8 @@ export default function Navbar({ showExtraLinks, links }: NavbarProps) {
 
                     <div className="flex gap-8">
                         <a href="https://www.instagram.com/lasorgentetv/" className="text-white flex flex-col items-center gap-2"><FaInstagram className="h-8 w-8" /></a>
-                        <a href="https://www.facebook.com/lasorgentetv/" className="text-white flex flex-col items-center gap-2"><FaFacebookF className="h-8 w-8" /></a>
-                        <a href="https://wa.me/1234567890" className="text-white flex flex-col items-center gap-2"><FaWhatsapp className="h-8 w-8" /></a>
+                        <a href="https://www.facebook.com/profile.php?id=61585233898936" className="text-white flex flex-col items-center gap-2"><FaFacebookF className="h-8 w-8" /></a>
+                        <a href="https://wa.me/+393917418137" className="text-white flex flex-col items-center gap-2"><FaWhatsapp className="h-8 w-8" /></a>
                     </div>
                 </div>
             </div>

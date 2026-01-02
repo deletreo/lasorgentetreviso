@@ -8,7 +8,7 @@ export default function ConfiguratorSection() {
                 
                 <div className="lg:col-span-5 flex flex-col gap-8 sticky top-32">
                     <div className='px-2'>
-                        <span className="text-[#11414d] text-xs font-bold uppercase tracking-[0.4em] mb-4 block animate-pulse">
+                        <span className="text-white/35 text-xs font-bold uppercase tracking-[0.4em] mb-4 block animate-pulse">
                             Configuratore
                         </span>
                         {/* FIX APPLICATO QUI: leading-normal invece di snug, pr-4 e pb-2 nello span */}
@@ -40,7 +40,7 @@ export default function ConfiguratorSection() {
                     </div>
                 </div>
 
-                <div className="lg:col-span-7 w-full bg-[#050505] border border-white/5 p-8 md:p-12 relative overflow-hidden group rounded-sm shadow-2xl">
+                <div className="lg:col-span-7 w-full bg-gray-950 border border-white/10 p-8 md:p-12 relative overflow-hidden group rounded-sm shadow-2xl">
                     <div className="absolute top-0 right-0 w-64 h-64 bg-[#11414d] opacity-[0.05] blur-[100px] pointer-events-none rounded-full"></div>
                     <ContactForm type="consumer" />
                 </div>

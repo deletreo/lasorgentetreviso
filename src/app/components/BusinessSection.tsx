@@ -34,7 +34,7 @@ export default function BusinessSection() {
                     </div>
                 </div>
 
-                <div className="lg:col-span-7 w-full bg-[#080808] border border-white/5 p-8 md:p-12 relative overflow-hidden group rounded-sm">
+                <div className="lg:col-span-7 w-full bg-gray-950 border border-white/10 p-8 md:p-12 relative overflow-hidden group rounded-sm">
                     <ContactForm type="business" />
                 </div>
 
