@@ -8,6 +8,7 @@ import Link from 'next/link';
 import { FiArrowLeft, FiChevronDown, FiSearch, FiX } from 'react-icons/fi';
 import Footer from '../components/Footer';
 
+// Definiamo il tipo Product correttamente con l'array 'immagini'
 type Product = {
   id: string;
   nome: string;
@@ -15,7 +16,7 @@ type Product = {
   target: string[];
   tecnologia: string;
   installazione: string;
-  immagini: string[];
+  immagini: string[]; // Array di stringhe
   descrizione_breve: string;
   specifiche: {
     capacita?: string;
@@ -23,6 +24,8 @@ type Product = {
     plus: string;
     resina?: string;
     capacita_giorno?: string;
+    personalizzazione?: string; 
+    codici_colori?: string[];
   };
 };
 
@@ -31,7 +34,7 @@ function ProdottiContent() {
   const urlFilter = searchParams.get('filter');
 
   const [activeFilter, setActiveFilter] = useState<string | null>(urlFilter);
-  const [searchQuery, setSearchQuery] = useState(""); // Stato per la ricerca
+  const [searchQuery, setSearchQuery] = useState(""); 
   
   const allProducts = prodottiData.prodotti as unknown as Product[];
   const [filteredProducts, setFilteredProducts] = useState<Product[]>(allProducts);
@@ -62,7 +65,7 @@ function ProdottiContent() {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
-  // Logica di filtraggio combinata (Categoria + Ricerca)
+  // Logica di filtraggio combinata
   useEffect(() => {
     setIsLoaded(true);
     let filtered = allProducts;
@@ -141,7 +144,6 @@ function ProdottiContent() {
                         value={searchQuery}
                         onChange={handleSearchChange}
                         placeholder="Cerca per nome o tecnologia..." 
-                        // Aggiunto font-sans per usare Lexend e aggiornato il colore del focus
                         className="w-full xl:w-[350px] bg-transparent border-b border-black/10 py-3 pl-8 pr-8 outline-none text-black focus:border-[#11414d] uppercase transition-all placeholder-gray-400 font-light font-['Cal_Sans']"/>
                     {searchQuery && (
                         <button onClick={clearSearch} className="absolute right-0 top-1/2 -translate-y-1/2 text-gray-400 hover:text-[#11414d] transition-colors">
@@ -224,7 +226,10 @@ function ProdottiContent() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 gap-y-16">
           {filteredProducts.map((product) => (
             <div key={product.id}>
-                <ProductCard product={{...product, immagine: product.immagini[0]}} />
+                {/* CORREZIONE: Passiamo l'intero oggetto 'product' senza manipolare le immagini. 
+                   Il componente ProductCard gestirà l'array 'immagini'.
+                */}
+                <ProductCard product={product} />
             </div>
           ))}
         </div>
