@@ -164,7 +164,7 @@ export default function ProductPage({ params }: { params: Promise<{ id: string }
             <div className="grid grid-cols-2 gap-y-8 gap-x-8 mb-12 border-y border-gray-100 py-8">
                 <div className="flex flex-col gap-2">
                     <span className="text-[9px] uppercase tracking-[0.25em] text-gray-400">Tecnologia</span>
-                    <span className="text-base uppercase text-gray-900 font-bold">{product.tecnologia}</span>
+                    <span className="text-sm uppercase text-gray-900 font-bold wrap-break-word">{product.tecnologia}</span>
                 </div>
                 <div className="flex flex-col gap-2">
                     <span className="text-[9px] uppercase tracking-[0.25em] text-gray-400">Installazione</span>

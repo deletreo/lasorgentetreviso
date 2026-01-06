@@ -163,7 +163,7 @@ export default function WhySection() {
                     <h2 className="text-3xl md:text-5xl uppercase  text-white mb-8 max-w-4xl mx-auto">
                         Il nostro obiettivo è semplice ma rivoluzionario:
                     </h2>
-                    <p className="text-xl md:text-2xl text-[#11414d] font-bold uppercase tracking-widest mb-12 max-w-3xl mx-auto leading-relaxed">
+                    <p className="text-xl md:text-2xl text-gray-500 font-bold uppercase tracking-widest mb-12 max-w-3xl mx-auto leading-relaxed">
                         Trasparenza totale, affidabilità, visione reale del prodotto e prezzi onesti.
                     </p>
                     <p className="text-white/50 font-mono text-sm uppercase tracking-widest mb-12">
