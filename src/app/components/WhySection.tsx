@@ -47,7 +47,7 @@ export default function WhySection() {
                 </div>
             </header>
 
-            <main className="relative z-10 px-6 md:px-12 max-w-[1600px] mx-auto pb-32">
+            <main className="relative z-10 px-6 md:px-12 max-w-[1600px] mx-auto">
                 
                 {/* SEZIONE 1: IL PROBLEMA */}
                 <section className="grid grid-cols-1 lg:grid-cols-12 gap-16 mb-32 border-t border-white/10 pt-20">
