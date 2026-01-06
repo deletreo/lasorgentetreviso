@@ -122,7 +122,7 @@ function ContactFormContent({ type }: ContactFormProps) {
                                     value={formData.prodotto} 
                                 />
                                 <p className="text-[10px] text-white/40 ml-1">
-                                    Riceverà dettagli specifici per questo modello in base alle sue richieste.
+                                    Riceverai dettagli specifici per questo modello in base alle tue richieste.
                                 </p>
                             </>
                         ) : (
