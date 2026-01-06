@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { FiX, FiArrowRight } from 'react-icons/fi';
+import { FiX, FiArrowRight, FiDownload } from 'react-icons/fi';
 import { useState } from 'react';
 
 // Dati Menu Categorie
@@ -8,63 +8,63 @@ const categorie = [
         id: "aziende", 
         label: "Attività e uffici commerciali", 
         desc: "Efficienza Business", 
-        img: "/fotoProdotti/alaska.JPG", 
+        img: "/fotoProdotti/prodotti uffici/atena/atena1.png", 
         href: "/prodotti?filter=aziende" 
     },
     { 
         id: "privati", 
         label: "Privati", 
         desc: "Purezza Domestica", 
-        img: "/fotoProdotti/icon-iron under sink.png", 
+        img: "/fotoProdotti/privati/icon/iconUndersink2Vie/iconUndersink2Vie1.png", 
         href: "/prodotti?filter=privati" 
     },
     { 
         id: "ristorazione", 
         label: "Bar e ristoranti", 
         desc: "Eccellenza Ho.Re.Ca.", 
-        img: "/fotoProdotti/atena.jpg", 
+        img: "/fotoProdotti/RistorantiBar/atena/atena/atena1.png", 
         href: "/prodotti?filter=ristorazione" 
     },
     { 
         id: "addolcitori", 
         label: "Addolcitori", 
         desc: "Tecnici & Impianti", 
-        img: "/fotoProdotti/candy addolcitori.png", 
+        img: "/fotoProdotti/addolcitori/candy/candy12/candy12.png", 
         href: "/prodotti?filter=addolcitori" 
     },
     { 
         id: "decalcificatori", 
         label: "Decalcificatori", 
         desc: "Protezione Calcare", 
-        img: "/fotoProdotti/candy addolcitori.png", 
+        img: "/fotoProdotti/decalcificatore/decalcificatoreLaSorgente.png", 
         href: "/prodotti?filter=decalcificatori" 
     },
     { 
         id: "ozonizzatori", 
         label: "Ozonizzatori", 
         desc: "Sanificazione Avanzata", 
-        img: "/fotoProdotti/icon-iron under sink.png", 
+        img: "/fotoProdotti/ozonizatore/blueoxy1.png", 
         href: "/prodotti?filter=ozonizzatori" 
     },
     { 
         id: "tritarifiuti", 
         label: "Tritarifiuti", 
         desc: "Gestione Rifiuti", 
-        img: "/fotoProdotti/alaska.JPG", 
+        img: "/fotoProdotti/trita rifiuti/tritaFacile/tritaFacile1.png", 
         href: "/prodotti?filter=tritarifiuti" 
     },
     { 
         id: "rubinetti", 
         label: "Rubinetti", 
         desc: "Erogazione Design", 
-        img: "/fotoProdotti/icon-iron under sink.png", 
+        img: "/fotoProdotti/rubinetti/roma/roma1.jpg", 
         href: "/prodotti?filter=rubinetti" 
     },
     { 
         id: "borracce", 
         label: "Borracce e bottiglie", 
         desc: "Sostenibilità on the go", 
-        img: "/fotoProdotti/atena.jpg", 
+        img: "/fotoProdotti/borrace/crystal/crystalNylon.png", 
         href: "/prodotti?filter=borracce" 
     }
 ];
@@ -82,7 +82,7 @@ export default function MegaMenu({ isOpen, setIsOpen }: { isOpen: boolean; setIs
                 <div className="flex justify-between items-start mb-8 shrink-0">
                     <span className="text-[10px] uppercase tracking-[0.4em] text-white/40">Indice</span>
                     <button onClick={() => setIsOpen(false)} className="group flex items-center gap-2 text-xs uppercase tracking-widest hover:text-white/50 transition-colors">
-                        Close <FiX className="text-xl transition-transform group-hover:rotate-90" />
+                        Chiudi<FiX className="text-xl transition-transform group-hover:rotate-90" />
                     </button>
                 </div>
 
@@ -116,10 +116,26 @@ export default function MegaMenu({ isOpen, setIsOpen }: { isOpen: boolean; setIs
                 </div>
 
                 {/* Footer Menu */}
-                <div className="flex justify-between items-end opacity-40 mt-8 shrink-0">
-                    <p className="text-[10px] uppercase tracking-[0.2em] max-w-[200px] leading-relaxed">
+                <div className="flex justify-center items-center mt-8 shrink-0">
+                    <p className="text-[10px] uppercase tracking-[0.2em] max-w-[200px] opacity-40 leading-relaxed ">
                         Tecnologia per l'acqua<br/>Treviso, Italia
                     </p>
+                    <div className='flex flex-col md:flex-row gap-2 md:gap-6 w-full items-end justify-end'>
+                    <a 
+                    href="/brochure.pdf" 
+                    download="brochure.pdf"
+                    className="border border-gray-300 bg-white/80 text-gray-700 w-[80%] md:w-[30%] flex flex-row items-center justify-center text-center gap-3 py-2 px-6 uppercase tracking-[0.2em] text-xs font-bold hover:border-[#11414d] hover:text-[#11414d] transition-all duration-300 cursor-pointer"
+                    >
+                        <FiDownload className="size-5 shrink-0" /> Brochure attività
+                    </a>
+                    <a 
+                    href="/brochure.pdf" 
+                    download="brochure.pdf"
+                    className="border border-gray-300 bg-white/80 text-gray-700 w-[80%] md:w-[30%] flex flex-row items-center justify-center text-center gap-3 py-2 px-6 uppercase tracking-[0.2em] text-xs font-bold hover:border-[#11414d] hover:text-[#11414d] transition-all duration-300 cursor-pointer"
+                    >
+                        <FiDownload className="size-5 shrink-0" /> Brochure privati
+                    </a>
+                    </div>
                 </div>
             </div>
 

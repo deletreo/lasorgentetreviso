@@ -6,6 +6,7 @@ import ProductCard from '../components/ProductCard';
 import prodottiData from '@/data/prodotti.json';
 import Link from 'next/link';
 import { FiArrowLeft, FiChevronDown, FiSearch, FiX } from 'react-icons/fi';
+import Footer from '../components/Footer';
 
 type Product = {
   id: string;
@@ -254,6 +255,7 @@ export default function ProdottiPage() {
       </div>
     }>
       <ProdottiContent />
+      <Footer/>
     </Suspense>
   );
 }

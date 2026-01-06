@@ -12,9 +12,10 @@ export default function ChiSiamo() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const links = [
+        { label: "home", href: "/", action: null, hasSubmenu: false },
         { label: "prodotti", href: "/prodotti", action: () => setIsMenuOpen(true), hasSubmenu: true },
         { label: "chi siamo", href: "/chi-siamo", action: null, hasSubmenu: false },
-        { label: "perché un negozio fisico?", href: "/perche", action: null, hasSubmenu: false },
+        { label: "perché un negozio fisico?", href: "/#perche", action: null, hasSubmenu: false },
         { label: "contatti", href: "/contatti", action: null, hasSubmenu: false }
     ];
 

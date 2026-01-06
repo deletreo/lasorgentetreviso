@@ -29,7 +29,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }

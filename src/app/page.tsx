@@ -8,9 +8,10 @@ import Footer from './components/Footer';
 import Loader from './components/Loader';
 import MegaMenu from './components/MegaMenu';
 import HeroSection from './components/HeroSection';
-import BrandSection from './components/BrandSection';
 import ConfiguratorSection from './components/ConfiguratorSection';
+import AboutSection from './components/WhySection';
 import BusinessSection from './components/BusinessSection';
+import WhySection from './components/WhySection';
 
 export default function Home() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,7 +21,7 @@ export default function Home() {
     const links = [
         { label: "prodotti", href: "/prodotti", action: () => setIsMenuOpen(true), hasSubmenu: true },
         { label: "chi siamo", href: "/chi-siamo", action: null, hasSubmenu: false },
-        { label: "perché un negozio fisico?", href: "/perche", action: null, hasSubmenu: false },
+        { label: "perché un negozio fisico?", href: "/#perche", action: null, hasSubmenu: false },
         { label: "contatti", href: "/contatti", action: null, hasSubmenu: false }
     ];
 
@@ -74,7 +75,7 @@ export default function Home() {
             
             <HeroSection links={links} onOpenMenu={setIsMenuOpen} />
             
-            <BrandSection />
+            <WhySection />
             <ConfiguratorSection />
             <BusinessSection />
             <Footer/>

@@ -11,10 +11,11 @@ export default function ContactsPage() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     
     const links = [
+        { label: "home", href: "/", action: null, hasSubmenu: false },
         { label: "prodotti", href: "/prodotti", action: () => setIsMenuOpen(true), hasSubmenu: true },
-        { label: "perché un negozio fisico?", href: "/perche", action: null, hasSubmenu: false },
-        { label: "contatti", href: "/contatti", action: null, hasSubmenu: false },
-        { label: "chi siamo", href: "/chi-siamo", action: null, hasSubmenu: false }
+        { label: "chi siamo", href: "/chi-siamo", action: null, hasSubmenu: false },
+        { label: "perché un negozio fisico?", href: "/#perche", action: null, hasSubmenu: false },
+        { label: "contatti", href: "/contatti", action: null, hasSubmenu: false }
     ];
 
     useEffect(() => {
@@ -32,7 +33,7 @@ export default function ContactsPage() {
     }, []);
 
     return (
-        <div className="relative w-full min-h-[100svh] bg-[#050505] text-[#F2F2F2] font-cal overflow-x-hidden selection:bg-[#4fd1c5] selection:text-white">
+        <div className="relative w-full min-h-[100svh] bg-[#050505] text-[#F2F2F2] font-cal overflow-x-hidden selection:bg-[#11414d] selection:text-white">
             
             <div className="fixed inset-0 pointer-events-none opacity-[0.04] z-0 mix-blend-overlay" 
                  style={{ backgroundImage: 'url("data:image/svg+xml,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noiseFilter%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.65%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noiseFilter)%22/%3E%3C/svg%3E")' }}>
@@ -51,7 +52,7 @@ export default function ContactsPage() {
                         <h1 className="text-5xl md:text-8xl uppercase tracking-tight leading-none text-white">
                             Contatti
                         </h1>
-                        <span className="text-xs font-mono uppercase tracking-[0.4em] text-[#4fd1c5]">
+                        <span className="text-xs font-mono uppercase tracking-[0.4em] text-[#11414d]">
                             Parla con Noi
                         </span>
                     </div>
@@ -65,8 +66,8 @@ export default function ContactsPage() {
                         </p>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            <div className="border border-white/10 p-8 bg-[#0a0a0a] hover:border-[#4fd1c5]/50 transition-colors group">
-                                <FiMapPin className="text-[#4fd1c5] w-6 h-6 mb-6 group-hover:scale-110 transition-transform" />
+                            <div className="border border-white/10 p-8 bg-[#0a0a0a] hover:border-[#11414d]/50 transition-colors group">
+                                <FiMapPin className="text-[#11414d] w-6 h-6 mb-6 group-hover:scale-110 transition-transform" />
                                 <h3 className="text-sm font-bold uppercase tracking-widest text-white mb-4">Dove Siamo</h3>
                                 <address className="not-italic text-sm text-gray-400 font-sans font-light leading-relaxed">
                                     Via Daniele Manin, 25<br/>
@@ -82,8 +83,8 @@ export default function ContactsPage() {
                                 </a>
                             </div>
 
-                            <div className="border border-white/10 p-8 bg-[#0a0a0a] hover:border-[#4fd1c5]/50 transition-colors group">
-                                <FiPhone className="text-[#4fd1c5] w-6 h-6 mb-6 group-hover:scale-110 transition-transform" />
+                            <div className="border border-white/10 p-8 bg-[#0a0a0a] hover:border-[#11414d]/50 transition-colors group">
+                                <FiPhone className="text-[#11414d] w-6 h-6 mb-6 group-hover:scale-110 transition-transform" />
                                 <h3 className="text-sm font-bold uppercase tracking-widest text-white mb-4">Recapiti</h3>
                                 <div className="flex flex-col gap-2 text-sm text-gray-400 font-sans font-light">
                                     <a href="tel:+393917418137" className="hover:text-white transition-colors block">+39 391 741 8137</a>
@@ -91,8 +92,8 @@ export default function ContactsPage() {
                                 </div>
                             </div>
 
-                            <div className="border border-white/10 p-8 bg-[#0a0a0a] hover:border-[#4fd1c5]/50 transition-colors group">
-                                <FiInstagram className="text-[#4fd1c5] w-6 h-6 mb-6 group-hover:scale-110 transition-transform" />
+                            <div className="border border-white/10 p-8 bg-[#0a0a0a] hover:border-[#11414d]/50 transition-colors group">
+                                <FiInstagram className="text-[#11414d] w-6 h-6 mb-6 group-hover:scale-110 transition-transform" />
                                 <h3 className="text-sm font-bold uppercase tracking-widest text-white mb-4">Seguici</h3>
                                 <div className="flex gap-4">
                                      <a href="https://www.instagram.com/lasorgentetv/" target="_blank" className="hover:text-white text-gray-400 transition-colors"><FiInstagram className="w-5 h-5" /></a>
@@ -101,8 +102,8 @@ export default function ContactsPage() {
                                 </div>
                             </div>
 
-                            <div className="border border-white/10 p-8 bg-[#0a0a0a] hover:border-[#4fd1c5]/50 transition-colors group">
-                                <FiClock className="text-[#4fd1c5] w-6 h-6 mb-6 group-hover:scale-110 transition-transform" />
+                            <div className="border border-white/10 p-8 bg-[#0a0a0a] hover:border-[#11414d]/50 transition-colors group">
+                                <FiClock className="text-[#11414d] w-6 h-6 mb-6 group-hover:scale-110 transition-transform" />
                                 <h3 className="text-sm font-bold uppercase tracking-widest text-white mb-4">Orari</h3>
                                 <div className="text-sm text-gray-400 font-sans font-light space-y-2">
                                     <div className="flex justify-between border-b border-white/5 pb-1">

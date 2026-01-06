@@ -79,7 +79,7 @@ export default function Footer() {
                     <span>Chiuso</span>
                 </li>
             </ul>
-            <p className="text-[10px] text-white/30 italic mt-2">
+            <p className="text-sm text-white/30  mt-2">
                 *Gli orari possono variare durante le festività (Natale, S. Stefano).
             </p>
           </div>
@@ -87,11 +87,33 @@ export default function Footer() {
           <div className="flex flex-col gap-6">
             <h4 className="text-white text-xs font-bold uppercase tracking-[0.2em]">Esplora</h4>
             <div className="flex flex-col gap-3 text-sm text-white/60">
-                <Link href="/prodotti" className="hover:text-white hover:translate-x-2 transition-all">Gamma Prodotti</Link>
-                <Link href="/prodotti?filter=aziende" className="hover:text-white hover:translate-x-2 transition-all">Soluzioni Aziende</Link>
-                <Link href="/prodotti?filter=ristorazione" className="hover:text-white hover:translate-x-2 transition-all">Ho.Re.Ca.</Link>
-                <Link href="/prodotti?filter=privati" className="hover:text-white hover:translate-x-2 transition-all">Casa & Privati</Link>
-                <Link href="/#configuratore" className="hover:text-white hover:translate-x-2 transition-all">Configuratore</Link>
+                <Link href="/" className="hover:text-white hover:translate-x-2 transition-all">
+                    Home
+                </Link>
+                <Link href="/prodotti" className="hover:text-white hover:translate-x-2 transition-all">
+                    Gamma Prodotti
+                </Link>
+                <Link href="/prodotti?filter=aziende" className="hover:text-white hover:translate-x-2 transition-all">
+                    Soluzioni Aziende
+                </Link>
+                <Link href="/prodotti?filter=ristorazione" className="hover:text-white hover:translate-x-2 transition-all">
+                    Ho.Re.Ca.
+                </Link>
+                <Link href="/prodotti?filter=privati" className="hover:text-white hover:translate-x-2 transition-all">
+                    Casa & Privati
+                </Link>
+                <Link href="/chi-siamo" className="hover:text-white hover:translate-x-2 transition-all">
+                    Chi Siamo
+                </Link>
+                <Link href="/#perche" className="hover:text-white hover:translate-x-2 transition-all">
+                    Perché un negozio fisico?
+                </Link>
+                <Link href="/contatti" className="hover:text-white hover:translate-x-2 transition-all">
+                    Contatti
+                </Link>
+                <Link href="/#configuratore" className="hover:text-white hover:translate-x-2 transition-all">
+                    Configuratore
+                </Link>
             </div>
           </div>
           <p className="mt-4 flex items-center justify-center">
@@ -104,11 +126,11 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-white/5 mt-20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 opacity-40 text-[10px] uppercase tracking-widest">
-            <p>© 2025 La Sorgente. Tutti i diritti riservati.</p>
+            <p>© 2026 La Sorgente. Tutti i diritti riservati.</p>
             <div className="flex gap-6">
-                <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
-                <Link href="/cookies" className="hover:text-white transition-colors">Cookie Policy</Link>
-                <span className="hover:text-white transition-colors cursor-pointer">P.IVA 01234567890</span>
+                <Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link>
+                <Link href="/cookie-policy" className="hover:text-white transition-colors">Cookie Policy</Link>
+                <span className="hover:text-white transition-colors cursor-pointer">P.IVA 05580040268</span>
             </div>
         </div>
       </div>
