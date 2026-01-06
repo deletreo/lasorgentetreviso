@@ -74,7 +74,7 @@ function ContactFormContent({ type }: ContactFormProps) {
     const btnClass = isConsumer 
         ? 'bg-[#11414d] text-white hover:bg-white hover:text-black' 
         : 'border border-white/20 text-white hover:bg-white hover:text-black';
-    const labelColor = isConsumer ? 'text-[#11414d]' : 'text-white/40';
+    const labelColor = 'text-white/80';
 
     return (
         <form onSubmit={handleSubmit} className="relative z-10 flex flex-col gap-8">
