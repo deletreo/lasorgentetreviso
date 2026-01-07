@@ -3,11 +3,11 @@ import { FiArrowRight } from 'react-icons/fi';
 
 // Mappa dei colori per i pallini
 const colorMap: Record<string, string> = {
-  'R': 'bg-red-500',
-  'G': 'bg-green-500',
-  'B': 'bg-blue-600',
-  'Y': 'bg-yellow-400',
-  'P': 'bg-purple-500',
+  'W': 'bg-white',
+  'B': 'bg-black',
+  'C': 'bg-[#D8DBDE]',
+  'G': 'bg-gray-500',
+  'S': 'bg-[#F5F5DC]',
 };
 
 // Definiamo il tipo per TypeScript
@@ -60,11 +60,11 @@ export default function ProductCard({ product }: ProductCardProps) {
               </span>
 
               {hasColors && (
-                <div className="flex gap-1.5 backdrop-blur-sm rounded-full bg-white/30 px-2 py-1">
+                <div className="flex gap-1.5 backdrop-blur-sm rounded-full bg-gray-300 px-2 py-1">
                   {product.specifiche.codici_colori!.map((codice, index) => (
                     <div 
                       key={index}
-                      className={`w-3 h-3 rounded-full border border-white/50 shadow-sm ${colorMap[codice] || 'bg-gray-400'}`}
+                      className={`w-3 h-3 border border-white/50 shadow-sm ${colorMap[codice] || 'bg-gray-400'}`}
                       title={`Colore ${codice}`}
                     />
                   ))}

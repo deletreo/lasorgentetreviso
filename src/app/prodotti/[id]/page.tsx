@@ -11,11 +11,11 @@ import prodottiData from '../../../data/prodotti.json';
 
 // Mappatura colori (Hex Tailwind o CSS standard)
 const colorMap: Record<string, string> = {
-  R: 'bg-red-500',      // Rosso
-  G: 'bg-emerald-500',  // Verde
-  B: 'bg-blue-500',     // Blu
-  Y: 'bg-yellow-400',   // Giallo
-  P: 'bg-purple-500',   // Personalizzato/Viola
+ 'W': 'bg-white',
+  'B': 'bg-black',
+  'C': 'bg-[#D8DBDE]',
+  'G': 'bg-gray-500',
+  'S': 'bg-[#F5F5DC]',
 };
 
 export default function ProductPage({ params }: { params: Promise<{ id: string }> }) {

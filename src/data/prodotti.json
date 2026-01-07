@@ -4,7 +4,10 @@
       "id": "iron-3-vie",
       "nome": "IRON 3 Vie",
       "categoria": "privati",
-      "target": ["casa", "ufficio"],
+      "target": [
+        "casa",
+        "ufficio"
+      ],
       "tecnologia": "Osmosi Inversa",
       "installazione": "Sopralavello",
       "immagini": [
@@ -14,40 +17,117 @@
       "descrizione_breve": "Refrigeratore acqua con Osmosi Inversa diretta Sopralavello - 3 vie.",
       "descrizione_estesa": "IRON 3 VIE: L'ECCELLENZA DELL'OSMOSI INVERSA\n\nRefrigeratore d'acqua evoluto per chi non accetta compromessi. Design elegante in nero, perfetto per cucine moderne e uffici.\n\nEROGAZIONE 3 VIE:\n• Acqua Liscia a temperatura ambiente\n• Acqua Fredda refrigerata\n• Acqua Gassata fredda\n\nSICUREZZA E CONTROLLO:\n• Sistema Acqua Stop: previene perdite bloccando automaticamente il sistema.\n• Centralina Elettronica: monitora ogni fase di funzionamento e la qualità dell'acqua in tempo reale.",
       "caratteristiche": [
-        { "nome": "Sistema raffreddamento", "valore": "Aluminium block a secco" },
-        { "nome": "Imp. frigorifero", "valore": "Ermetico" },
-        { "nome": "Potenza frigorifera", "valore": "155 W" },
-        { "nome": "Ingresso H2O", "valore": "8 mm" },
-        { "nome": "Uscita H2O", "valore": "6 mm" },
-        { "nome": "Ingresso CO2", "valore": "6 mm" },
-        { "nome": "Scarico", "valore": "6 mm" },
-        { "nome": "Produzione H2O fredda", "valore": "25 lt/h" },
-        { "nome": "Regolatore TDS", "valore": "Sì" },
-        { "nome": "Pressione H2O ingresso", "valore": "1.8 – 4 bar (stabile)" },
-        { "nome": "Compressore", "valore": "1/12 HP" },
-        { "nome": "Raffreddamento", "valore": "Ad accumulo" },
-        { "nome": "Filtro Baionetta", "valore": "Esterno" },
-        { "nome": "Membrane osmosi", "valore": "2 x 200 GDP" },
-        { "nome": "Potenza assorbita max", "valore": "180 W" },
-        { "nome": "Pompa Booster", "valore": "V220 150 Psi 110 l/h" },
-        { "nome": "Litri Gasatore", "valore": "700 ml" },
-        { "nome": "Litri Banco ghiaccio", "valore": "50 Lt" },
-        { "nome": "Alimentazione", "valore": "230V – 50Hz" },
-        { "nome": "Vaschetta raccogligocce", "valore": "Sì" },
-        { "nome": "Peso", "valore": "20 Kg" },
-        { "nome": "Dimensioni (LxPxH)", "valore": "18,5 x 55 x 44 cm" }
+        {
+          "nome": "Sistema raffreddamento",
+          "valore": "Aluminium block a secco"
+        },
+        {
+          "nome": "Imp. frigorifero",
+          "valore": "Ermetico"
+        },
+        {
+          "nome": "Potenza frigorifera",
+          "valore": "155 W"
+        },
+        {
+          "nome": "Ingresso H2O",
+          "valore": "8 mm"
+        },
+        {
+          "nome": "Uscita H2O",
+          "valore": "6 mm"
+        },
+        {
+          "nome": "Ingresso CO2",
+          "valore": "6 mm"
+        },
+        {
+          "nome": "Scarico",
+          "valore": "6 mm"
+        },
+        {
+          "nome": "Produzione H2O fredda",
+          "valore": "25 lt/h"
+        },
+        {
+          "nome": "Regolatore TDS",
+          "valore": "Sì"
+        },
+        {
+          "nome": "Pressione H2O ingresso",
+          "valore": "1.8 – 4 bar (stabile)"
+        },
+        {
+          "nome": "Compressore",
+          "valore": "1/12 HP"
+        },
+        {
+          "nome": "Raffreddamento",
+          "valore": "Ad accumulo"
+        },
+        {
+          "nome": "Filtro Baionetta",
+          "valore": "Esterno"
+        },
+        {
+          "nome": "Membrane osmosi",
+          "valore": "2 x 200 GDP"
+        },
+        {
+          "nome": "Potenza assorbita max",
+          "valore": "180 W"
+        },
+        {
+          "nome": "Pompa Booster",
+          "valore": "V220 150 Psi 110 l/h"
+        },
+        {
+          "nome": "Litri Gasatore",
+          "valore": "700 ml"
+        },
+        {
+          "nome": "Litri Banco ghiaccio",
+          "valore": "50 Lt"
+        },
+        {
+          "nome": "Alimentazione",
+          "valore": "230V – 50Hz"
+        },
+        {
+          "nome": "Vaschetta raccogligocce",
+          "valore": "Sì"
+        },
+        {
+          "nome": "Peso",
+          "valore": "20 Kg"
+        },
+        {
+          "nome": "Dimensioni (LxPxH)",
+          "valore": "18,5 x 55 x 44 cm"
+        }
       ],
       "specifiche": {
         "plus": "Sistema Acqua Stop",
-        "capacita": ["25 lt/h di acqua fredda", "120 lt/h di acqua liscia","25 lt/h di acqua gassata"],
-        "codici_colori": ["R", "G", "B", "Y", "P"]
+        "capacita": [
+          "25 lt/h di acqua fredda / gasata",
+          "120 lt/h di acqua liscia"
+        ],
+        "codici_colori": [
+          "W",
+          "B",
+          "C",
+          "G",
+          "S"
+        ]
       }
     },
     {
       "id": "icon-undersink-1-via-meccanico",
       "nome": "Icon Undersink 1 Via Meccanico",
       "categoria": "privati",
-      "target": ["casa"],
+      "target": [
+        "casa"
+      ],
       "tecnologia": "Ultrafiltrazione/Microfiltrazione",
       "installazione": "Sottolavello",
       "immagini": [
@@ -57,24 +137,50 @@
       "descrizione_breve": "Depuratore meccanico acqua con Ultrafiltrazione Sottolavello - 1 via.",
       "descrizione_estesa": "ICON UNDERSINK 1 VIA: PURIFICAZIONE ESSENZIALE\n\nDepuratore meccanico sottolavello progettato per la massima efficienza in spazi ridotti.\n\nCARATTERISTICHE PRINCIPALI:\n• Tecnologia Ultrafiltrazione: Rimuove impurità mantenendo i sali minerali.\n• Funzionamento Meccanico: Non richiede alimentazione elettrica.\n• 1 Via: Erogazione dedicata di acqua liscia purificata.\n\nIdeale per chi cerca una soluzione semplice, ecologica e performante.",
       "caratteristiche": [
-        { "nome": "Ingresso acqua", "valore": "6mm" },
-        { "nome": "Uscita acqua", "valore": "6mm" },
-        { "nome": "Flusso in uscita", "valore": "120l/h" },
-        { "nome": "Temperatura", "valore": "3°C – 30°C" },
-        { "nome": "Dimensioni", "valore": "B 9,4 x A 39,5 x P 28,5" },
-        { "nome": "Peso", "valore": "6Kg" }
+        {
+          "nome": "Ingresso acqua",
+          "valore": "6mm"
+        },
+        {
+          "nome": "Uscita acqua",
+          "valore": "6mm"
+        },
+        {
+          "nome": "Flusso in uscita",
+          "valore": "120l/h"
+        },
+        {
+          "nome": "Temperatura",
+          "valore": "3°C – 30°C"
+        },
+        {
+          "nome": "Dimensioni",
+          "valore": "B 9,4 x A 39,5 x P 28,5"
+        },
+        {
+          "nome": "Peso",
+          "valore": "6Kg"
+        }
       ],
       "specifiche": {
         "plus": "Meccanico senza fili",
         "capacita": "120 lt/h",
-        "codici_colori": ["R", "G", "B", "Y", "P"]
+        "codici_colori": [
+          "W",
+          "B",
+          "C",
+          "G",
+          "S"
+        ]
       }
     },
     {
       "id": "icon-undersink-2-vie",
       "nome": "Icon Undersink 2 Vie",
       "categoria": "privati",
-      "target": ["casa"],
+      "target": [
+        "casa"
+      ],
       "tecnologia": "Ultrafiltrazione/Microfiltrazione",
       "installazione": "Sottolavello",
       "immagini": [
@@ -84,32 +190,85 @@
       "descrizione_breve": "Depuratore acqua con Filtrazione Sottolavello – 2 vie, Liscia/Gassata.",
       "descrizione_estesa": "ICON UNDERSINK 2 VIE: VERSATILITÀ COMPATTA\n\nDepuratore sottolavello avanzato con doppia erogazione: Liscia e Gassata.\n\nPERCHÉ SCEGLIERLO:\n• Ultrafiltrazione Totale: Elimina cloro, sedimenti, ruggine e torbidità, rendendo l'acqua cristallina e sicura.\n• Installazione Flessibile: Può essere posizionato sia in verticale che in orizzontale.\n• Salvaspazio: Occupa pochissimo volume sotto il lavello.\n\nLa soluzione perfetta per bere acqua pura e frizzante direttamente dal rubinetto di casa.",
       "caratteristiche": [
-        { "nome": "Ingresso H2O", "valore": "6 mm / 8 mm" },
-        { "nome": "Uscita H2O", "valore": "6 mm" },
-        { "nome": "Ingresso CO2", "valore": "6 mm" },
-        { "nome": "Produzione", "valore": "120 lt/h" },
-        { "nome": "Pressione H20 ingresso", "valore": "1.8 – 4 bar (stabile)" },
-        { "nome": "Temperatura", "valore": "3°C – 30°C" },
-        { "nome": "Manometro", "valore": "Interno" },
-        { "nome": "Potenza assorbita max", "valore": "180 W" },
-        { "nome": "Antiallagamento", "valore": "Elettronico" },
-        { "nome": "Pompa Booster", "valore": "V220 150 Psi 120l/h" },
-        { "nome": "Litri Gasatore", "valore": "600ml" },
-        { "nome": "Alimentazione", "valore": "230V – 50Hz" },
-        { "nome": "Peso", "valore": "9Kg" },
-        { "nome": "Dimensioni (HxPxL)", "valore": "45,5 x 42 x 9,5 cm" }
+        {
+          "nome": "Ingresso H2O",
+          "valore": "6 mm / 8 mm"
+        },
+        {
+          "nome": "Uscita H2O",
+          "valore": "6 mm"
+        },
+        {
+          "nome": "Ingresso CO2",
+          "valore": "6 mm"
+        },
+        {
+          "nome": "Produzione",
+          "valore": "120 lt/h"
+        },
+        {
+          "nome": "Pressione H20 ingresso",
+          "valore": "1.8 – 4 bar (stabile)"
+        },
+        {
+          "nome": "Temperatura",
+          "valore": "3°C – 30°C"
+        },
+        {
+          "nome": "Manometro",
+          "valore": "Interno"
+        },
+        {
+          "nome": "Potenza assorbita max",
+          "valore": "180 W"
+        },
+        {
+          "nome": "Antiallagamento",
+          "valore": "Elettronico"
+        },
+        {
+          "nome": "Pompa Booster",
+          "valore": "V220 150 Psi 120l/h"
+        },
+        {
+          "nome": "Litri Gasatore",
+          "valore": "600ml"
+        },
+        {
+          "nome": "Alimentazione",
+          "valore": "230V – 50Hz"
+        },
+        {
+          "nome": "Peso",
+          "valore": "9Kg"
+        },
+        {
+          "nome": "Dimensioni (HxPxL)",
+          "valore": "45,5 x 42 x 9,5 cm"
+        }
       ],
       "specifiche": {
         "plus": "Posizionamento Verticale/Orizzontale",
-        "capacita": ["25 lt/h di acqua fredda", "120 lt/h di acqua liscia"],
-        "codici_colori": ["R", "G", "B", "Y", "P"]
+        "capacita": [
+          "25 lt/h di acqua fredda",
+          "120 lt/h di acqua liscia"
+        ],
+        "codici_colori": [
+          "W",
+          "B",
+          "C",
+          "G",
+          "S"
+        ]
       }
     },
     {
       "id": "iron-undersink-1-via",
       "nome": "Iron Undersink 1 Via",
       "categoria": "privati",
-      "target": ["casa"],
+      "target": [
+        "casa"
+      ],
       "tecnologia": "Osmosi Inversa",
       "installazione": "Sottolavello",
       "immagini": [
@@ -119,35 +278,94 @@
       "descrizione_breve": "Depuratore acqua Osmosi inversa diretta – 1 Via Acqua Liscia.",
       "descrizione_estesa": "IRON UNDERSINK: OSMOSI INVERSA IN 9,5 CM\n\nIl depuratore a osmosi inversa più sottile della categoria. Solo 9,5cm di larghezza per un'acqua purissima.\n\nDOTAZIONI DI SERIE:\n• Profilo Ultraslim: Si adatta a qualsiasi sottolavello.\n• Sistema Acqua Stop: Previene allagamenti bloccando il sistema alla fonte.\n• Centralina di Controllo: Gestione elettronica precisa di ogni fase di filtrazione.\n\nAcqua liscia, leggera e sicura, sempre disponibile.",
       "caratteristiche": [
-        { "nome": "Ingresso H2O", "valore": "8 mm" },
-        { "nome": "Uscita H2O", "valore": "6 mm" },
-        { "nome": "Ingresso CO2", "valore": "6 mm" },
-        { "nome": "Scarico", "valore": "6 mm" },
-        { "nome": "Produzione", "valore": "120 lt/h" },
-        { "nome": "Regolatore", "valore": "TDS" },
-        { "nome": "Pressione H20 ingresso", "valore": "1.8 – 4 bar (stabile)" },
-        { "nome": "Membrane osmosi", "valore": "2 x 200 GPD" },
-        { "nome": "Manometro", "valore": "Interno" },
-        { "nome": "Filtro", "valore": "Carboni attivi In line 1/4” – 2,5”x11”" },
-        { "nome": "Potenza assorbita max", "valore": "180 W" },
-        { "nome": "Antiallagamento", "valore": "Elettronico" },
-        { "nome": "Pompa Booster", "valore": "V220 150 PSI 120 l/h" },
-        { "nome": "Litri Gasatore", "valore": "600 ml" },
-        { "nome": "Alimentazione", "valore": "230V – 50Hz" },
-        { "nome": "Peso", "valore": "9 Kg" },
-        { "nome": "Dimensioni (HxPxL)", "valore": "45,5 x 42 x 9,5 cm" }
+        {
+          "nome": "Ingresso H2O",
+          "valore": "8 mm"
+        },
+        {
+          "nome": "Uscita H2O",
+          "valore": "6 mm"
+        },
+        {
+          "nome": "Ingresso CO2",
+          "valore": "6 mm"
+        },
+        {
+          "nome": "Scarico",
+          "valore": "6 mm"
+        },
+        {
+          "nome": "Produzione",
+          "valore": "120 lt/h"
+        },
+        {
+          "nome": "Regolatore",
+          "valore": "TDS"
+        },
+        {
+          "nome": "Pressione H20 ingresso",
+          "valore": "1.8 – 4 bar (stabile)"
+        },
+        {
+          "nome": "Membrane osmosi",
+          "valore": "2 x 200 GPD"
+        },
+        {
+          "nome": "Manometro",
+          "valore": "Interno"
+        },
+        {
+          "nome": "Filtro",
+          "valore": "Carboni attivi In line 1/4” – 2,5”x11”"
+        },
+        {
+          "nome": "Potenza assorbita max",
+          "valore": "180 W"
+        },
+        {
+          "nome": "Antiallagamento",
+          "valore": "Elettronico"
+        },
+        {
+          "nome": "Pompa Booster",
+          "valore": "V220 150 PSI 120 l/h"
+        },
+        {
+          "nome": "Litri Gasatore",
+          "valore": "600 ml"
+        },
+        {
+          "nome": "Alimentazione",
+          "valore": "230V – 50Hz"
+        },
+        {
+          "nome": "Peso",
+          "valore": "9 Kg"
+        },
+        {
+          "nome": "Dimensioni (HxPxL)",
+          "valore": "45,5 x 42 x 9,5 cm"
+        }
       ],
       "specifiche": {
         "plus": "Ultraslim 9.5cm",
         "capacita": "120 lt/h",
-        "codici_colori": ["R", "G", "B", "Y", "P"]
+        "codici_colori": [
+          "W",
+          "B",
+          "C",
+          "G",
+          "S"
+        ]
       }
     },
     {
       "id": "iron-undersink-2-vie",
       "nome": "Iron Undersink 2 Vie",
       "categoria": "privati",
-      "target": ["casa"],
+      "target": [
+        "casa"
+      ],
       "tecnologia": "Osmosi Inversa",
       "installazione": "Sottolavello",
       "immagini": [
@@ -157,35 +375,97 @@
       "descrizione_breve": "Depuratore acqua Osmosi inversa diretta – 2 Vie Acqua Liscia/Gassata.",
       "descrizione_estesa": "IRON UNDERSINK 2 VIE: PUREZZA E BOLLICINE\n\nL'evoluzione del sistema Iron: Osmosi Inversa Diretta con erogazione di Acqua Liscia e Gassata.\n\nDESIGN E SICUREZZA:\n• Spessore record di soli 9,5 cm (Ultraslim).\n• Elettronica avanzata per il controllo qualità dell'acqua.\n• Sistema di sicurezza Acqua Stop integrato.\n\nTutto il gusto dell'acqua frizzante, con la leggerezza dell'osmosi inversa.",
       "caratteristiche": [
-        { "nome": "Ingresso H2O", "valore": "8 mm" },
-        { "nome": "Uscita H2O", "valore": "6 mm" },
-        { "nome": "Ingresso CO2", "valore": "6 mm" },
-        { "nome": "Scarico", "valore": "6 mm" },
-        { "nome": "Produzione", "valore": "120 lt/h" },
-        { "nome": "Regolatore", "valore": "TDS" },
-        { "nome": "Pressione H20 ingresso", "valore": "1.8 – 4 bar (stabile)" },
-        { "nome": "Membrane osmosi", "valore": "2 x 200 GPD" },
-        { "nome": "Manometro", "valore": "Interno" },
-        { "nome": "Filtro", "valore": "Carboni attivi In line 1/4” – 2,5”x11”" },
-        { "nome": "Potenza assorbita max", "valore": "180 W" },
-        { "nome": "Antiallagamento", "valore": "Elettronico" },
-        { "nome": "Pompa Booster", "valore": "V220 150 PSI 120 l/h" },
-        { "nome": "Litri Gasatore", "valore": "600 ml" },
-        { "nome": "Alimentazione", "valore": "230V – 50Hz" },
-        { "nome": "Peso", "valore": "9 Kg" },
-        { "nome": "Dimensioni (HxPxL)", "valore": "45,5 x 42 x 9,5 cm" }
+        {
+          "nome": "Ingresso H2O",
+          "valore": "8 mm"
+        },
+        {
+          "nome": "Uscita H2O",
+          "valore": "6 mm"
+        },
+        {
+          "nome": "Ingresso CO2",
+          "valore": "6 mm"
+        },
+        {
+          "nome": "Scarico",
+          "valore": "6 mm"
+        },
+        {
+          "nome": "Produzione",
+          "valore": "120 lt/h"
+        },
+        {
+          "nome": "Regolatore",
+          "valore": "TDS"
+        },
+        {
+          "nome": "Pressione H20 ingresso",
+          "valore": "1.8 – 4 bar (stabile)"
+        },
+        {
+          "nome": "Membrane osmosi",
+          "valore": "2 x 200 GPD"
+        },
+        {
+          "nome": "Manometro",
+          "valore": "Interno"
+        },
+        {
+          "nome": "Filtro",
+          "valore": "Carboni attivi In line 1/4” – 2,5”x11”"
+        },
+        {
+          "nome": "Potenza assorbita max",
+          "valore": "180 W"
+        },
+        {
+          "nome": "Antiallagamento",
+          "valore": "Elettronico"
+        },
+        {
+          "nome": "Pompa Booster",
+          "valore": "V220 150 PSI 120 l/h"
+        },
+        {
+          "nome": "Litri Gasatore",
+          "valore": "600 ml"
+        },
+        {
+          "nome": "Alimentazione",
+          "valore": "230V – 50Hz"
+        },
+        {
+          "nome": "Peso",
+          "valore": "9 Kg"
+        },
+        {
+          "nome": "Dimensioni (HxPxL)",
+          "valore": "45,5 x 42 x 9,5 cm"
+        }
       ],
       "specifiche": {
         "plus": "Ultraslim 9.5cm",
-        "capacita": ["25 lt/h di acqua fredda", "120 lt/h di acqua liscia"],
-        "codici_colori": ["R", "G", "B", "Y", "P"]
+        "capacita": [
+          "25 lt/h di acqua fredda",
+          "120 lt/h di acqua liscia"
+        ],
+        "codici_colori": [
+          "W",
+          "B",
+          "C",
+          "G",
+          "S"
+        ]
       }
     },
     {
       "id": "icon-3-vie",
       "nome": "Icon 3 Vie",
       "categoria": "privati",
-      "target": ["casa"],
+      "target": [
+        "casa"
+      ],
       "tecnologia": "Ultrafiltrazione/Microfiltrazione",
       "installazione": "Sopralavello",
       "immagini": [
@@ -195,35 +475,97 @@
       "descrizione_breve": "Refrigeratore acqua con Filtrazione Sopralavello 15Lt/h – 3 Vie.",
       "descrizione_estesa": "ICON SOPRALAVELLO: DESIGN E PRESTAZIONI\n\nRefrigeratore d'acqua sopralavello Made in Italy, potente e silenzioso.\n\n3 VIE DI EROGAZIONE:\n• Acqua Liscia ambiente\n• Acqua Fredda\n• Acqua Gassata\n\nTECNOLOGIA:\nDotato di sistema di raffreddamento 'Aluminium Block' a secco e gasatore da 0,8L per prestazioni costanti. Facile da installare e manutenere, è la scelta di stile per la tua cucina.",
       "caratteristiche": [
-        { "nome": "Sistema raffreddamento", "valore": "Aluminium block a secco" },
-        { "nome": "Imp. frigorifero", "valore": "Ermetico" },
-        { "nome": "Potenza frigorifera", "valore": "244 W" },
-        { "nome": "Ingresso H2O", "valore": "8 mm" },
-        { "nome": "Ingresso CO2", "valore": "6 mm" },
-        { "nome": "Produzione H2O fredda", "valore": "15 Lt" },
-        { "nome": "Pressione H2O ingresso", "valore": "1.8 – 4 bar" },
-        { "nome": "Compressore", "valore": "1/12 HP" },
-        { "nome": "Gas Refrigerante", "valore": "R290a" },
-        { "nome": "Raffreddamento", "valore": "Ad accumulo" },
-        { "nome": "Filtro Baionetta", "valore": "Esterno" },
-        { "nome": "Potenza assorbita max", "valore": "220 W" },
-        { "nome": "Pompa Booster", "valore": "120 l/h" },
-        { "nome": "Litri Gasatore", "valore": "0,8 Lt" },
-        { "nome": "Alimentazione", "valore": "230V – 50Hz" },
-        { "nome": "Peso", "valore": "20 Kg" },
-        { "nome": "Dimensioni (LxPxH)", "valore": "18,4 × 46,5 × 48 cm" }
+        {
+          "nome": "Sistema raffreddamento",
+          "valore": "Aluminium block a secco"
+        },
+        {
+          "nome": "Imp. frigorifero",
+          "valore": "Ermetico"
+        },
+        {
+          "nome": "Potenza frigorifera",
+          "valore": "244 W"
+        },
+        {
+          "nome": "Ingresso H2O",
+          "valore": "8 mm"
+        },
+        {
+          "nome": "Ingresso CO2",
+          "valore": "6 mm"
+        },
+        {
+          "nome": "Produzione H2O fredda",
+          "valore": "15 Lt"
+        },
+        {
+          "nome": "Pressione H2O ingresso",
+          "valore": "1.8 – 4 bar"
+        },
+        {
+          "nome": "Compressore",
+          "valore": "1/12 HP"
+        },
+        {
+          "nome": "Gas Refrigerante",
+          "valore": "R290a"
+        },
+        {
+          "nome": "Raffreddamento",
+          "valore": "Ad accumulo"
+        },
+        {
+          "nome": "Filtro Baionetta",
+          "valore": "Esterno"
+        },
+        {
+          "nome": "Potenza assorbita max",
+          "valore": "220 W"
+        },
+        {
+          "nome": "Pompa Booster",
+          "valore": "120 l/h"
+        },
+        {
+          "nome": "Litri Gasatore",
+          "valore": "0,8 Lt"
+        },
+        {
+          "nome": "Alimentazione",
+          "valore": "230V – 50Hz"
+        },
+        {
+          "nome": "Peso",
+          "valore": "20 Kg"
+        },
+        {
+          "nome": "Dimensioni (LxPxH)",
+          "valore": "18,4 × 46,5 × 48 cm"
+        }
       ],
       "specifiche": {
         "plus": "Facile Installazione",
-        "capacita": ["15 lt/h di acqua fredda", "120 lt/h di acqua liscia","15 lt/h di acqua gassata"],
-        "codici_colori": ["R", "G", "B", "Y", "P"]
+        "capacita": [
+          "25 lt/h di acqua fredda / gasata",
+          "120 lt/h di acqua liscia"
+        ],
+        "codici_colori": [
+          "W",
+          "B",
+          "C",
+          "G",
+          "S"
+        ]
       }
     },
     {
       "id": "iron-sotto-zoccolo-3-vie",
       "nome": "Iron Sotto Zoccolo 3 Vie",
       "categoria": "privati",
-      "target": ["casa"],
+      "target": [
+        "casa"
+      ],
       "tecnologia": "Osmosi Inversa",
       "installazione": "Sottozoccolo",
       "immagini": [
@@ -233,41 +575,121 @@
       "descrizione_breve": "Frigogasatore acqua con Osmosi Inversa diretta Sottozoccolo – 3 vie.",
       "descrizione_estesa": "IRON SOTTOZOCCOLO: LA SOLUZIONE INVISIBILE\n\nFrigogasatore a Osmosi Inversa progettato per scomparire nello zoccolo della cucina. Spazio recuperato, qualità mantenuta.\n\nFUNZIONALITÀ:\n• 3 Vie: Liscia, Gassata, Fredda.\n• Sistema Acqua Stop e Centralina Elettronica inclusi.\n• Controllo totale della qualità dell'acqua erogata.\n\nLa scelta ideale per chi vuole un piano di lavoro libero senza rinunciare alla tecnologia.",
       "caratteristiche": [
-        { "nome": "Sistema raffreddamento", "valore": "Aluminium block a secco" },
-        { "nome": "Imp. frigorifero", "valore": "Ermetico" },
-        { "nome": "Potenza frigorifera", "valore": "155 W" },
-        { "nome": "Ingresso H2O", "valore": "8 mm" },
-        { "nome": "Uscita H2O", "valore": "6 mm" },
-        { "nome": "Ingresso CO2", "valore": "6 mm" },
-        { "nome": "Scarico", "valore": "6 mm" },
-        { "nome": "Produzione H2O fredda", "valore": "15 Lt" },
-        { "nome": "Regolatore TDS", "valore": "Sì" },
-        { "nome": "Pressione H2O ingresso", "valore": "1.8 – 4 bar (stabile)" },
-        { "nome": "Pressione d’esercizio", "valore": "8 – 10 bar" },
-        { "nome": "Compressore", "valore": "156 W" },
-        { "nome": "Gas Refrigerante", "valore": "R290" },
-        { "nome": "Raffreddamento", "valore": "Ad accumulo" },
-        { "nome": "Filtro Baionetta", "valore": "Esterno" },
-        { "nome": "Membrane osmosi", "valore": "2 x 200 GPD" },
-        { "nome": "Potenza assorbita max", "valore": "220 W" },
-        { "nome": "Antiallagamento", "valore": "Elettronico" },
-        { "nome": "Pompa Booster", "valore": "V220 150 Psi 110 l/h" },
-        { "nome": "Litri Gasatore", "valore": "600 ml" },
-        { "nome": "Alimentazione", "valore": "230V – 50Hz" },
-        { "nome": "Peso", "valore": "22 Kg" },
-        { "nome": "Dimensioni (HxLxP)", "valore": "10,8 × 46,5 x 54 cm" }
+        {
+          "nome": "Sistema raffreddamento",
+          "valore": "Aluminium block a secco"
+        },
+        {
+          "nome": "Imp. frigorifero",
+          "valore": "Ermetico"
+        },
+        {
+          "nome": "Potenza frigorifera",
+          "valore": "155 W"
+        },
+        {
+          "nome": "Ingresso H2O",
+          "valore": "8 mm"
+        },
+        {
+          "nome": "Uscita H2O",
+          "valore": "6 mm"
+        },
+        {
+          "nome": "Ingresso CO2",
+          "valore": "6 mm"
+        },
+        {
+          "nome": "Scarico",
+          "valore": "6 mm"
+        },
+        {
+          "nome": "Produzione H2O fredda",
+          "valore": "15 Lt"
+        },
+        {
+          "nome": "Regolatore TDS",
+          "valore": "Sì"
+        },
+        {
+          "nome": "Pressione H2O ingresso",
+          "valore": "1.8 – 4 bar (stabile)"
+        },
+        {
+          "nome": "Pressione d’esercizio",
+          "valore": "8 – 10 bar"
+        },
+        {
+          "nome": "Compressore",
+          "valore": "156 W"
+        },
+        {
+          "nome": "Gas Refrigerante",
+          "valore": "R290"
+        },
+        {
+          "nome": "Raffreddamento",
+          "valore": "Ad accumulo"
+        },
+        {
+          "nome": "Filtro Baionetta",
+          "valore": "Esterno"
+        },
+        {
+          "nome": "Membrane osmosi",
+          "valore": "2 x 200 GPD"
+        },
+        {
+          "nome": "Potenza assorbita max",
+          "valore": "220 W"
+        },
+        {
+          "nome": "Antiallagamento",
+          "valore": "Elettronico"
+        },
+        {
+          "nome": "Pompa Booster",
+          "valore": "V220 150 Psi 110 l/h"
+        },
+        {
+          "nome": "Litri Gasatore",
+          "valore": "600 ml"
+        },
+        {
+          "nome": "Alimentazione",
+          "valore": "230V – 50Hz"
+        },
+        {
+          "nome": "Peso",
+          "valore": "22 Kg"
+        },
+        {
+          "nome": "Dimensioni (HxLxP)",
+          "valore": "10,8 × 46,5 x 54 cm"
+        }
       ],
       "specifiche": {
         "plus": "Sottozoccolo Salvaspazio",
-        "capacita": ["15 lt/h di acqua fredda", "110 lt/h di acqua liscia","15 lt/h di acqua gassata"],
-        "codici_colori": ["R", "G", "B", "Y", "P"]
+        "capacita": [
+          "25 lt/h di acqua fredda / gasata",
+          "120 lt/h di acqua liscia"
+        ],
+        "codici_colori": [
+          "W",
+          "B",
+          "C",
+          "G",
+          "S"
+        ]
       }
     },
     {
       "id": "iron-undersink-3-vie",
       "nome": "Iron Undersink 3 Vie",
       "categoria": "privati",
-      "target": ["casa"],
+      "target": [
+        "casa"
+      ],
       "tecnologia": "Osmosi Inversa",
       "installazione": "Sottolavello",
       "immagini": [
@@ -277,41 +699,121 @@
       "descrizione_breve": "Refrigeratore acqua con Osmosi Inversa diretta Sottolavello – 3 vie.",
       "descrizione_estesa": "IRON UNDERSINK 3 VIE: COMPATTEZZA E TECNOLOGIA\n\nRefrigeratore a Osmosi Inversa da incasso sottolavello. Unisce la filtrazione avanzata alla comodità dell'acqua fredda e frizzante.\n\nDOTAZIONI:\n• Erogazione: Liscia, Gassata, Fredda.\n• Sicurezza: Sistema Acqua Stop anti-perdita.\n• Controllo: Centralina elettronica per monitoraggio costante.\n\nIl massimo della tecnologia Iron, nascosto sotto il tuo lavello.",
       "caratteristiche": [
-        { "nome": "Sistema raffreddamento", "valore": "Aluminium block a secco" },
-        { "nome": "Imp. frigorifero", "valore": "Ermetico" },
-        { "nome": "Potenza frigorifera", "valore": "155 W" },
-        { "nome": "Ingresso H2O", "valore": "8 mm" },
-        { "nome": "Uscita H2O", "valore": "6 mm" },
-        { "nome": "Ingresso CO2", "valore": "6 mm" },
-        { "nome": "Scarico", "valore": "6 mm" },
-        { "nome": "Produzione H2O fredda", "valore": "15 Lt" },
-        { "nome": "Regolatore TDS", "valore": "Sì" },
-        { "nome": "Pressione H2O ingresso", "valore": "1.8 – 4 bar" },
-        { "nome": "Pressione d’esercizio", "valore": "8 – 10 bar" },
-        { "nome": "Compressore", "valore": "156 W" },
-        { "nome": "Gas Refrigerante", "valore": "R290" },
-        { "nome": "Raffreddamento", "valore": "Ad accumulo" },
-        { "nome": "Filtro Baionetta", "valore": "Esterno" },
-        { "nome": "Membrane osmosi", "valore": "2 x 200 GPD" },
-        { "nome": "Potenza assorbita max", "valore": "180 W" },
-        { "nome": "Antiallagamento", "valore": "Elettronico" },
-        { "nome": "Pompa Booster", "valore": "V220 150 Psi 110 l/h" },
-        { "nome": "Litri Gasatore", "valore": "700 ml" },
-        { "nome": "Alimentazione", "valore": "230V – 50Hz" },
-        { "nome": "Peso", "valore": "12 Kg" },
-        { "nome": "Dimensioni (LxPxH)", "valore": "19,8 x 43,20 x 44,17 cm" }
+        {
+          "nome": "Sistema raffreddamento",
+          "valore": "Aluminium block a secco"
+        },
+        {
+          "nome": "Imp. frigorifero",
+          "valore": "Ermetico"
+        },
+        {
+          "nome": "Potenza frigorifera",
+          "valore": "155 W"
+        },
+        {
+          "nome": "Ingresso H2O",
+          "valore": "8 mm"
+        },
+        {
+          "nome": "Uscita H2O",
+          "valore": "6 mm"
+        },
+        {
+          "nome": "Ingresso CO2",
+          "valore": "6 mm"
+        },
+        {
+          "nome": "Scarico",
+          "valore": "6 mm"
+        },
+        {
+          "nome": "Produzione H2O fredda",
+          "valore": "15 Lt"
+        },
+        {
+          "nome": "Regolatore TDS",
+          "valore": "Sì"
+        },
+        {
+          "nome": "Pressione H2O ingresso",
+          "valore": "1.8 – 4 bar"
+        },
+        {
+          "nome": "Pressione d’esercizio",
+          "valore": "8 – 10 bar"
+        },
+        {
+          "nome": "Compressore",
+          "valore": "156 W"
+        },
+        {
+          "nome": "Gas Refrigerante",
+          "valore": "R290"
+        },
+        {
+          "nome": "Raffreddamento",
+          "valore": "Ad accumulo"
+        },
+        {
+          "nome": "Filtro Baionetta",
+          "valore": "Esterno"
+        },
+        {
+          "nome": "Membrane osmosi",
+          "valore": "2 x 200 GPD"
+        },
+        {
+          "nome": "Potenza assorbita max",
+          "valore": "180 W"
+        },
+        {
+          "nome": "Antiallagamento",
+          "valore": "Elettronico"
+        },
+        {
+          "nome": "Pompa Booster",
+          "valore": "V220 150 Psi 110 l/h"
+        },
+        {
+          "nome": "Litri Gasatore",
+          "valore": "700 ml"
+        },
+        {
+          "nome": "Alimentazione",
+          "valore": "230V – 50Hz"
+        },
+        {
+          "nome": "Peso",
+          "valore": "12 Kg"
+        },
+        {
+          "nome": "Dimensioni (LxPxH)",
+          "valore": "19,8 x 43,20 x 44,17 cm"
+        }
       ],
       "specifiche": {
         "plus": "Sottobanco",
-        "capacita": ["15 lt/h di acqua fredda", "110 lt/h di acqua liscia","15 lt/h di acqua gassata"],
-        "codici_colori": ["R", "G", "B", "Y", "P"]
+        "capacita": [
+          "25 lt/h di acqua fredda / gasata",
+          "120 lt/h di acqua liscia"
+        ],
+        "codici_colori": [
+          "W",
+          "B",
+          "C",
+          "G",
+          "S"
+        ]
       }
     },
     {
       "id": "icon-sotto-zoccolo-3-vie",
       "nome": "Icon Sotto Zoccolo 3 Vie",
       "categoria": "privati",
-      "target": ["casa"],
+      "target": [
+        "casa"
+      ],
       "tecnologia": "Ultrafiltrazione/Microfiltrazione",
       "installazione": "Sottozoccolo",
       "immagini": [
@@ -321,36 +823,101 @@
       "descrizione_breve": "Frigogasatore acqua con Filtrazione Sottozoccolo – 3 vie.",
       "descrizione_estesa": "ICON SOTTOZOCCOLO: SALVASPAZIO INTELLIGENTE\n\nFrigogasatore con tecnologia di filtrazione, progettato per essere installato nello zoccolo della cucina, sfruttando spazi solitamente inutilizzati.\n\nSPECIFICHE:\n• Erogazione 3 Vie: Liscia, Gassata, Fredda.\n• Costruzione: Carenatura in acciaio INOX robusta.\n• Tecnologia: Raffreddamento Aluminium Block a secco.\n\nEfficienza e design invisibile per la tua cucina.",
       "caratteristiche": [
-        { "nome": "Sistema raffreddamento", "valore": "Aluminium block a secco" },
-        { "nome": "Imp. frigorifero", "valore": "Ermetico" },
-        { "nome": "Potenza frigorifera", "valore": "155 W" },
-        { "nome": "Ingresso H2O", "valore": "8 mm" },
-        { "nome": "Uscita H2O", "valore": "6 mm" },
-        { "nome": "Ingresso CO2", "valore": "6 mm" },
-        { "nome": "Produzione H2O fredda", "valore": "15 Lt" },
-        { "nome": "Pressione H2O ingresso", "valore": "1.8 – 4 bar" },
-        { "nome": "Compressore", "valore": "1/12 HP" },
-        { "nome": "Gas Refrigerante", "valore": "R124A" },
-        { "nome": "Raffreddamento", "valore": "Ad accumulo" },
-        { "nome": "Filtro Baionetta", "valore": "Esterno" },
-        { "nome": "Potenza assorbita max", "valore": "77 W" },
-        { "nome": "Pompa Booster", "valore": "V220 150 Psi 120 l/h" },
-        { "nome": "Litri Gasatore", "valore": "600 ml" },
-        { "nome": "Alimentazione", "valore": "230V – 50Hz" },
-        { "nome": "Peso", "valore": "22 Kg" },
-        { "nome": "Dimensioni (HxPxL)", "valore": "11 × 47,5 × 45 cm" }
+        {
+          "nome": "Sistema raffreddamento",
+          "valore": "Aluminium block a secco"
+        },
+        {
+          "nome": "Imp. frigorifero",
+          "valore": "Ermetico"
+        },
+        {
+          "nome": "Potenza frigorifera",
+          "valore": "155 W"
+        },
+        {
+          "nome": "Ingresso H2O",
+          "valore": "8 mm"
+        },
+        {
+          "nome": "Uscita H2O",
+          "valore": "6 mm"
+        },
+        {
+          "nome": "Ingresso CO2",
+          "valore": "6 mm"
+        },
+        {
+          "nome": "Produzione H2O fredda",
+          "valore": "15 Lt"
+        },
+        {
+          "nome": "Pressione H2O ingresso",
+          "valore": "1.8 – 4 bar"
+        },
+        {
+          "nome": "Compressore",
+          "valore": "1/12 HP"
+        },
+        {
+          "nome": "Gas Refrigerante",
+          "valore": "R124A"
+        },
+        {
+          "nome": "Raffreddamento",
+          "valore": "Ad accumulo"
+        },
+        {
+          "nome": "Filtro Baionetta",
+          "valore": "Esterno"
+        },
+        {
+          "nome": "Potenza assorbita max",
+          "valore": "77 W"
+        },
+        {
+          "nome": "Pompa Booster",
+          "valore": "V220 150 Psi 120 l/h"
+        },
+        {
+          "nome": "Litri Gasatore",
+          "valore": "600 ml"
+        },
+        {
+          "nome": "Alimentazione",
+          "valore": "230V – 50Hz"
+        },
+        {
+          "nome": "Peso",
+          "valore": "22 Kg"
+        },
+        {
+          "nome": "Dimensioni (HxPxL)",
+          "valore": "11 × 47,5 × 45 cm"
+        }
       ],
       "specifiche": {
         "plus": "Sottozoccolo",
-        "capacita": ["15 lt/h di acqua fredda", "110 lt/h di acqua liscia","15 lt/h di acqua gassata"],
-        "codici_colori": ["R", "G", "B", "Y", "P"]
+        "capacita": [
+          "25 lt/h di acqua fredda / gasata",
+          "120 lt/h di acqua liscia"
+        ],
+        "codici_colori": [
+          "W",
+          "B",
+          "C",
+          "G",
+          "S"
+        ]
       }
     },
     {
       "id": "icon-undersink-3-vie",
       "nome": "Icon Undersink 3 Vie",
       "categoria": "privati",
-      "target": ["casa"],
+      "target": [
+        "casa"
+      ],
       "tecnologia": "Ultrafiltrazione/Microfiltrazione",
       "installazione": "Sottolavello",
       "immagini": [
@@ -360,36 +927,101 @@
       "descrizione_breve": "Refrigeratore acqua con Filtrazione 15Lt/h. Sottolavello – 3 vie.",
       "descrizione_estesa": "ICON UNDERSINK: IL FRIGOGASATORE COMPATTO\n\nModello sottolavello a 3 vie (Liscia, Gassata, Fredda) che unisce performance e dimensioni contenute.\n\nQUALITÀ COSTRUTTIVA:\n• Scocca in Acciaio INOX.\n• Raffreddamento a secco Aluminium Block.\n• Gasatore professionale in acciaio.\n\nUna centrale di trattamento acqua professionale direttamente sotto il tuo lavello.",
       "caratteristiche": [
-        { "nome": "Sistema raffreddamento", "valore": "Aluminium block a secco" },
-        { "nome": "Imp. frigorifero", "valore": "Ermetico" },
-        { "nome": "Potenza frigorifera", "valore": "155 W" },
-        { "nome": "Ingresso H2O", "valore": "8 mm" },
-        { "nome": "Uscita H2O", "valore": "6 mm" },
-        { "nome": "Ingresso CO2", "valore": "6 mm" },
-        { "nome": "Produzione H2O fredda", "valore": "15 Lt" },
-        { "nome": "Pressione H2O ingresso", "valore": "1.8 – 4 bar" },
-        { "nome": "Compressore", "valore": "1/12 HP" },
-        { "nome": "Gas Refrigerante", "valore": "R124A" },
-        { "nome": "Raffreddamento", "valore": "Ad accumulo" },
-        { "nome": "Filtro Baionetta", "valore": "Esterno" },
-        { "nome": "Potenza assorbita max", "valore": "77 W" },
-        { "nome": "Pompa Booster", "valore": "V220 150 Psi 120 l/h" },
-        { "nome": "Litri Gasatore", "valore": "700 ml" },
-        { "nome": "Alimentazione", "valore": "230V – 50Hz" },
-        { "nome": "Peso", "valore": "19 Kg" },
-        { "nome": "Dimensioni (LxPxH)", "valore": "18 x 34x 43,6 cm" }
+        {
+          "nome": "Sistema raffreddamento",
+          "valore": "Aluminium block a secco"
+        },
+        {
+          "nome": "Imp. frigorifero",
+          "valore": "Ermetico"
+        },
+        {
+          "nome": "Potenza frigorifera",
+          "valore": "155 W"
+        },
+        {
+          "nome": "Ingresso H2O",
+          "valore": "8 mm"
+        },
+        {
+          "nome": "Uscita H2O",
+          "valore": "6 mm"
+        },
+        {
+          "nome": "Ingresso CO2",
+          "valore": "6 mm"
+        },
+        {
+          "nome": "Produzione H2O fredda",
+          "valore": "15 Lt"
+        },
+        {
+          "nome": "Pressione H2O ingresso",
+          "valore": "1.8 – 4 bar"
+        },
+        {
+          "nome": "Compressore",
+          "valore": "1/12 HP"
+        },
+        {
+          "nome": "Gas Refrigerante",
+          "valore": "R124A"
+        },
+        {
+          "nome": "Raffreddamento",
+          "valore": "Ad accumulo"
+        },
+        {
+          "nome": "Filtro Baionetta",
+          "valore": "Esterno"
+        },
+        {
+          "nome": "Potenza assorbita max",
+          "valore": "77 W"
+        },
+        {
+          "nome": "Pompa Booster",
+          "valore": "V220 150 Psi 120 l/h"
+        },
+        {
+          "nome": "Litri Gasatore",
+          "valore": "700 ml"
+        },
+        {
+          "nome": "Alimentazione",
+          "valore": "230V – 50Hz"
+        },
+        {
+          "nome": "Peso",
+          "valore": "19 Kg"
+        },
+        {
+          "nome": "Dimensioni (LxPxH)",
+          "valore": "18 x 34x 43,6 cm"
+        }
       ],
       "specifiche": {
         "plus": "Compatto Sottolavello",
-        "capacita": ["15 lt/h di acqua fredda", "110 lt/h di acqua liscia","15 lt/h di acqua gassata"],
-        "codici_colori": ["R", "G", "B", "Y", "P"]
+        "capacita": [
+          "25 lt/h di acqua fredda / gasata",
+          "120 lt/h di acqua liscia"
+        ],
+        "codici_colori": [
+          "W",
+          "B",
+          "C",
+          "G",
+          "S"
+        ]
       }
     },
     {
       "id": "icon-cassettone-3-vie",
       "nome": "Icon Cassettone 3 Vie",
       "categoria": "privati",
-      "target": ["casa"],
+      "target": [
+        "casa"
+      ],
       "tecnologia": "Ultrafiltrazione/Microfiltrazione",
       "installazione": "Cassettone",
       "immagini": [
@@ -399,36 +1031,102 @@
       "descrizione_breve": "Frigogasatore acqua con Filtrazione per Cassettone Cucina – 3 vie.",
       "descrizione_estesa": "ICON CASSETTONE: INTEGRAZIONE PERFETTA\n\nFrigogasatore progettato specificamente per l'installazione all'interno dei cassettoni della cucina.\n\n3 VIE DI EROGAZIONE:\n• Acqua Liscia\n• Acqua Fredda\n• Acqua Gassata\n\nSoluzione ergonomica che lascia libero lo spazio sottolavello per la raccolta differenziata o i detersivi.",
       "caratteristiche": [
-        { "nome": "Sistema raffreddamento", "valore": "Aluminium block a secco" },
-        { "nome": "Imp. frigorifero", "valore": "Ermetico" },
-        { "nome": "Potenza frigorifera", "valore": "155 W" },
-        { "nome": "Ingresso H2O", "valore": "8 mm" },
-        { "nome": "Uscita H2O", "valore": "6 mm" },
-        { "nome": "Ingresso CO2", "valore": "6 mm" },
-        { "nome": "Produzione H2O fredda", "valore": "15 Lt" },
-        { "nome": "Pressione H2O ingresso", "valore": "1.8 – 4 bar (stabile)" },
-        { "nome": "Compressore", "valore": "1/12 HP" },
-        { "nome": "Gas Refrigerante", "valore": "R124A" },
-        { "nome": "Raffreddamento", "valore": "Ad accumulo" },
-        { "nome": "Filtro Baionetta", "valore": "Esterno" },
-        { "nome": "Potenza assorbita max", "valore": "77 W" },
-        { "nome": "Pompa Booster", "valore": "Pump 24V" },
-        { "nome": "Litri Gasatore", "valore": "800 ml" },
-        { "nome": "Alimentazione", "valore": "230V – 50Hz" },
-        { "nome": "Peso", "valore": "19 Kg" },
-        { "nome": "Dimensioni (LxPxH)", "valore": "29,90×37,20×28,5 cm" }
+        {
+          "nome": "Sistema raffreddamento",
+          "valore": "Aluminium block a secco"
+        },
+        {
+          "nome": "Imp. frigorifero",
+          "valore": "Ermetico"
+        },
+        {
+          "nome": "Potenza frigorifera",
+          "valore": "155 W"
+        },
+        {
+          "nome": "Ingresso H2O",
+          "valore": "8 mm"
+        },
+        {
+          "nome": "Uscita H2O",
+          "valore": "6 mm"
+        },
+        {
+          "nome": "Ingresso CO2",
+          "valore": "6 mm"
+        },
+        {
+          "nome": "Produzione H2O fredda",
+          "valore": "15 Lt"
+        },
+        {
+          "nome": "Pressione H2O ingresso",
+          "valore": "1.8 – 4 bar (stabile)"
+        },
+        {
+          "nome": "Compressore",
+          "valore": "1/12 HP"
+        },
+        {
+          "nome": "Gas Refrigerante",
+          "valore": "R124A"
+        },
+        {
+          "nome": "Raffreddamento",
+          "valore": "Ad accumulo"
+        },
+        {
+          "nome": "Filtro Baionetta",
+          "valore": "Esterno"
+        },
+        {
+          "nome": "Potenza assorbita max",
+          "valore": "77 W"
+        },
+        {
+          "nome": "Pompa Booster",
+          "valore": "Pump 24V"
+        },
+        {
+          "nome": "Litri Gasatore",
+          "valore": "800 ml"
+        },
+        {
+          "nome": "Alimentazione",
+          "valore": "230V – 50Hz"
+        },
+        {
+          "nome": "Peso",
+          "valore": "19 Kg"
+        },
+        {
+          "nome": "Dimensioni (LxPxH)",
+          "valore": "29,90×37,20×28,5 cm"
+        }
       ],
       "specifiche": {
         "plus": "Perfetto per Cassettoni",
-        "capacita": ["15 lt/h di acqua fredda", "110 lt/h di acqua liscia","15 lt/h di acqua gassata"],
-        "codici_colori": ["R", "G", "B", "Y", "P"]
-      } 
+        "capacita": [
+          "25 lt/h di acqua fredda / gasata",
+          "120 lt/h di acqua liscia"
+        ],
+        "codici_colori": [
+          "W",
+          "B",
+          "C",
+          "G",
+          "S"
+        ]
+      }
     },
     {
       "id": "atena",
       "nome": "Atena",
       "categoria": "aziende",
-      "target": ["ufficio", "vending"],
+      "target": [
+        "ufficio",
+        "vending"
+      ],
       "tecnologia": "Ultrafiltrazione/Microfiltrazione",
       "installazione": "Colonna",
       "immagini": [
@@ -439,31 +1137,76 @@
       "descrizione_breve": "Erogatore 3 vie acqua liscia ambiente, fredda e gassata.",
       "descrizione_estesa": "ATENA: IL GIGANTE GENTILE PER L'UFFICIO\n\nColonna erogatrice Made in Italy, potente, silenziosa e dal design innovativo. Ideale per uffici e vending.\n\nCARATTERISTICHE PRO:\n• 3 Vie: Liscia ambiente, Fredda, Gassata.\n• Igiene Totale: Lampada UVC led sul punto di erogazione per prevenire retrocontaminazioni batteriche.\n• Ampio Vano: Spazio ottimizzato per riempire comodamente borracce, caraffe e bottiglie.\n\nComponentistica di alta qualità conforme al DM 174/2004.",
       "caratteristiche": [
-        { "nome": "Materiale carrozzeria", "valore": "lamiera verniciata" },
-        { "nome": "Pressione H2O ingresso", "valore": "1.8 – 4 bar, non-shock (stabile)" },
-        { "nome": "Temperatura ambiente d’esercizio", "valore": "10 – 35° C" },
-        { "nome": "Temperatura acqua alimentazione", "valore": "10-25° C" },
-        { "nome": "Alimentazione elettrica", "valore": "230 V AC" },
-        { "nome": "Potenza carbonatore", "valore": "100 l/h" },
-        { "nome": "Pompa carbonatore", "valore": "Booster" },
-        { "nome": "Litri Gasatore", "valore": "2,2 lt." },
-        { "nome": "Potenza assorbita", "valore": "156 W" },
-        { "nome": "Produttività", "valore": "25l/h" },
-        { "nome": "Raffreddamento", "valore": "Ad accumulo" },
-        { "nome": "Peso", "valore": "32Kg." },
-        { "nome": "Dimensioni (LxPxH)", "valore": "38x38x133cm" },
-        { "nome": "Connessioni", "valore": "H2O: 8mm / Co2: 6mm" }
+        {
+          "nome": "Materiale carrozzeria",
+          "valore": "lamiera verniciata"
+        },
+        {
+          "nome": "Pressione H2O ingresso",
+          "valore": "1.8 – 4 bar, non-shock (stabile)"
+        },
+        {
+          "nome": "Temperatura ambiente d’esercizio",
+          "valore": "10 – 35° C"
+        },
+        {
+          "nome": "Temperatura acqua alimentazione",
+          "valore": "10-25° C"
+        },
+        {
+          "nome": "Alimentazione elettrica",
+          "valore": "230 V AC"
+        },
+        {
+          "nome": "Potenza carbonatore",
+          "valore": "100 l/h"
+        },
+        {
+          "nome": "Pompa carbonatore",
+          "valore": "Booster"
+        },
+        {
+          "nome": "Litri Gasatore",
+          "valore": "2,2 lt"
+        },
+        {
+          "nome": "Potenza assorbita",
+          "valore": "156 W"
+        },
+        {
+          "nome": "Produttività",
+          "valore": "25l/h"
+        },
+        {
+          "nome": "Raffreddamento",
+          "valore": "Ad accumulo"
+        },
+        {
+          "nome": "Peso",
+          "valore": "32Kg"
+        },
+        {
+          "nome": "Dimensioni (LxPxH)",
+          "valore": "38x38x133cm"
+        },
+        {
+          "nome": "Connessioni",
+          "valore": "H2O: 8mm / Co2: 6mm"
+        }
       ],
       "specifiche": {
         "plus": "Lampada UVC in linea",
-        "capacita": "25-120 lt/h"
+        "capacita": "30-180 lt/h"
       }
     },
     {
       "id": "elysium-cold-2-vie",
       "nome": "Elysium Cold 2 Vie",
       "categoria": "aziende",
-      "target": ["ufficio", "palestra"],
+      "target": [
+        "ufficio",
+        "palestra"
+      ],
       "tecnologia": "Ultrafiltrazione/Microfiltrazione",
       "installazione": "Colonna",
       "immagini": [
@@ -472,17 +1215,50 @@
       "descrizione_breve": "Acqua Refrigerata a Colonna con Filtrazione, Nero – 2 vie.",
       "descrizione_estesa": "ELYSIUM COLD 2 VIE: ELEGANZA FUNZIONALE\n\nColonna refrigerante nera, kit completo pronto all'uso. Perfetta per sale riunioni, palestre e centri estetici.\n\nDESIGN & COMFORT:\n• Estetica Pulita: Nessuna vite a vista.\n• Vano Erogazione XL: Accoglie borracce e caraffe fino a 30 cm di altezza.\n• All-in-One: Vano posteriore per filtro e bombola CO2 integrato.\n\nErogazione: Acqua Liscia Ambiente e Acqua Fredda.",
       "caratteristiche": [
-        { "nome": "Materiale carrozzeria", "valore": "Lamiera galvanizzata verniciata a polveri" },
-        { "nome": "Vano di erogazione", "valore": "Acciaio inox" },
-        { "nome": "Pressione H2O ingresso", "valore": "1.8 – 4 bar, non-shock (stabile)" },
-        { "nome": "Temperatura ambiente d’esercizio", "valore": "10 – 35° C" },
-        { "nome": "Temperatura acqua alimentazione", "valore": "10-25° C" },
-        { "nome": "Produzione acqua refrigerata", "valore": "20 l/h" },
-        { "nome": "Alimentazione elettrica", "valore": "230 V- 50 Hz" },
-        { "nome": "Potenza elettrica assorbita", "valore": "280 W" },
-        { "nome": "Unità refrigerante compressore", "valore": "1/ 8” Hp" },
-        { "nome": "Pompa carbonatore", "valore": "Volumetrica 150 l/h" },
-        { "nome": "Dimensioni", "valore": "28 x 28 x 108 cm" }
+        {
+          "nome": "Materiale carrozzeria",
+          "valore": "Lamiera galvanizzata verniciata a polveri"
+        },
+        {
+          "nome": "Vano di erogazione",
+          "valore": "Acciaio inox"
+        },
+        {
+          "nome": "Pressione H2O ingresso",
+          "valore": "1.8 – 4 bar, non-shock (stabile)"
+        },
+        {
+          "nome": "Temperatura ambiente d’esercizio",
+          "valore": "10 – 35° C"
+        },
+        {
+          "nome": "Temperatura acqua alimentazione",
+          "valore": "10-25° C"
+        },
+        {
+          "nome": "Produzione acqua refrigerata",
+          "valore": "20 l/h"
+        },
+        {
+          "nome": "Alimentazione elettrica",
+          "valore": "230 V- 50 Hz"
+        },
+        {
+          "nome": "Potenza elettrica assorbita",
+          "valore": "280 W"
+        },
+        {
+          "nome": "Unità refrigerante compressore",
+          "valore": "1/ 8” Hp"
+        },
+        {
+          "nome": "Pompa carbonatore",
+          "valore": "Volumetrica 150 l/h"
+        },
+        {
+          "nome": "Dimensioni",
+          "valore": "28 x 28 x 108 cm"
+        }
       ],
       "specifiche": {
         "plus": "Acqua fredda e temperatura ambiente",
@@ -493,7 +1269,9 @@
       "id": "elysium-2-vie",
       "nome": "Elysium 2 Vie",
       "categoria": "aziende",
-      "target": ["ufficio"],
+      "target": [
+        "ufficio"
+      ],
       "tecnologia": "Ultrafiltrazione/Microfiltrazione",
       "installazione": "Colonna",
       "immagini": [
@@ -502,16 +1280,46 @@
       "descrizione_breve": "Acqua Refrigerata a Colonna con Filtrazione – 2 vie Liscia ambiente e fredda.",
       "descrizione_estesa": "ELYSIUM 2 VIE: IL CLASSICO PER L'UFFICIO\n\nFrigogasatore a colonna Made in Italy, dal design minimale e resistente.\n\nPUNTI DI FORZA:\n• Ergonomia: Ampio vano di erogazione per riempimento rapido.\n• Ordine: Portabicchieri integrato nel design.\n• Igiene: Punto di erogazione protetto da contaminazioni esterne.\n• Versatilità: Scambiatore diretto predisposto anche per acqua calda.\n\nKit completo pronto all'uso per erogare Acqua Ambiente e Fredda.",
       "caratteristiche": [
-        { "nome": "Sistema di raffreddamento", "valore": "a secco con Aluminium Block" },
-        { "nome": "Condensazione", "valore": "a ventilazione forzata" },
-        { "nome": "Alimentazione", "valore": "230V – 50Hz" },
-        { "nome": "Gas", "valore": "R134a a norma HFC" },
-        { "nome": "Pressione H2O ingresso", "valore": "1.8 – 4 bar, non-shock" },
-        { "nome": "Produzione acqua fredda", "valore": "20 l/h" },
-        { "nome": "Produzione acqua calda", "valore": "5 l/h" },
-        { "nome": "Rumorosità", "valore": "<67 db" },
-        { "nome": "Dimensioni (mm)", "valore": "280(L) x 290(P) x 1180(H)" },
-        { "nome": "Peso", "valore": "27,00 kg" }
+        {
+          "nome": "Sistema di raffreddamento",
+          "valore": "a secco con Aluminium Block"
+        },
+        {
+          "nome": "Condensazione",
+          "valore": "a ventilazione forzata"
+        },
+        {
+          "nome": "Alimentazione",
+          "valore": "230V – 50Hz"
+        },
+        {
+          "nome": "Gas",
+          "valore": "R134a a norma HFC"
+        },
+        {
+          "nome": "Pressione H2O ingresso",
+          "valore": "1.8 – 4 bar, non-shock"
+        },
+        {
+          "nome": "Produzione acqua fredda",
+          "valore": "20 l/h"
+        },
+        {
+          "nome": "Produzione acqua calda",
+          "valore": "5 l/h"
+        },
+        {
+          "nome": "Rumorosità",
+          "valore": "<67 db"
+        },
+        {
+          "nome": "Dimensioni (mm)",
+          "valore": "280(L) x 290(P) x 1180(H)"
+        },
+        {
+          "nome": "Peso",
+          "valore": "27,00 kg"
+        }
       ],
       "specifiche": {
         "plus": "Acqua fredda e temperatura ambiente",
@@ -522,7 +1330,9 @@
       "id": "elysium-3-vie",
       "nome": "Elysium 3 Vie",
       "categoria": "aziende",
-      "target": ["ufficio"],
+      "target": [
+        "ufficio"
+      ],
       "tecnologia": "Ultrafiltrazione/Microfiltrazione",
       "installazione": "Colonna",
       "immagini": [
@@ -531,16 +1341,46 @@
       "descrizione_breve": "Acqua Refrigerata a Colonna con Filtrazione – 3 vie.",
       "descrizione_estesa": "ELYSIUM 3 VIE: COMPLETO E PERFORMANTE\n\nFrigogasatore a colonna completo per ogni esigenza: Acqua Liscia Ambiente, Fredda e Gassata Fredda.\n\nDETTAGLI TECNICI:\n• Controllo: Conta-litri integrato e blocco sicurezza a filtro esaurito.\n• Praticità: Portabicchieri e grande vano erogazione.\n• Igiene: Punto erogazione protetto.\n\nLa soluzione definitiva Made in Italy per l'idratazione in azienda.",
       "caratteristiche": [
-        { "nome": "Sistema di raffreddamento", "valore": "a secco con Aluminium Block" },
-        { "nome": "Condensazione", "valore": "a ventilazione forzata" },
-        { "nome": "Alimentazione", "valore": "230V – 50Hz" },
-        { "nome": "Gas", "valore": "R134a a norma HFC" },
-        { "nome": "Pressione H2O ingresso", "valore": "1.8 – 4 bar, non-shock" },
-        { "nome": "Produzione acqua fredda", "valore": "20 l/h" },
-        { "nome": "Produzione acqua calda", "valore": "5 l/h" },
-        { "nome": "Rumorosità", "valore": "<67 db" },
-        { "nome": "Dimensioni (mm)", "valore": "280(L) x 290(P) x 1180(H)" },
-        { "nome": "Peso", "valore": "27,00 kg" }
+        {
+          "nome": "Sistema di raffreddamento",
+          "valore": "a secco con Aluminium Block"
+        },
+        {
+          "nome": "Condensazione",
+          "valore": "a ventilazione forzata"
+        },
+        {
+          "nome": "Alimentazione",
+          "valore": "230V – 50Hz"
+        },
+        {
+          "nome": "Gas",
+          "valore": "R134a a norma HFC"
+        },
+        {
+          "nome": "Pressione H2O ingresso",
+          "valore": "1.8 – 4 bar, non-shock"
+        },
+        {
+          "nome": "Produzione acqua fredda",
+          "valore": "20 l/h"
+        },
+        {
+          "nome": "Produzione acqua calda",
+          "valore": "5 l/h"
+        },
+        {
+          "nome": "Rumorosità",
+          "valore": "<67 db"
+        },
+        {
+          "nome": "Dimensioni (mm)",
+          "valore": "280(L) x 290(P) x 1180(H)"
+        },
+        {
+          "nome": "Peso",
+          "valore": "27,00 kg"
+        }
       ],
       "specifiche": {
         "plus": "Acqua fredda, temperatura ambiente e gasata",
@@ -551,7 +1391,9 @@
       "id": "elysium-cold-3-vie",
       "nome": "Elysium Cold 3 Vie",
       "categoria": "aziende",
-      "target": ["ufficio"],
+      "target": [
+        "ufficio"
+      ],
       "tecnologia": "Ultrafiltrazione/Microfiltrazione",
       "installazione": "Colonna",
       "immagini": [
@@ -560,18 +1402,54 @@
       "descrizione_breve": "Acqua Refrigerata a Colonna con Filtrazione, Nero – 3 vie.",
       "descrizione_estesa": "ELYSIUM COLD 3 VIE: DESIGN MODERNO\n\nVersione Total Black a 3 vie: Liscia Ambiente, Fredda e Gassata. Ideale per uffici direzionali e ambienti moderni.\n\nCARATTERISTICHE:\n• Look Pulito: Carrozzeria senza viti a vista.\n• Integrazione: Vano interno per nascondere bombola e filtri.\n• Robustezza: Vano erogazione in Acciaio INOX.\n\nStile e sostanza in un unico prodotto.",
       "caratteristiche": [
-        { "nome": "Materiale carrozzeria", "valore": "Lamiera galvanizzata verniciata a polveri" },
-        { "nome": "Vano di erogazione", "valore": "Acciaio inox" },
-        { "nome": "Pressione H2O ingresso", "valore": "1.8 – 4 bar, non-shock" },
-        { "nome": "Temperatura ambiente d’esercizio", "valore": "10 – 35° C" },
-        { "nome": "Temperatura acqua alimentazione", "valore": "10-25° C" },
-        { "nome": "Produzione acqua refrigerata", "valore": "20 l/h" },
-        { "nome": "Alimentazione elettrica", "valore": "230 V- 50 Hz" },
-        { "nome": "Potenza elettrica assorbita", "valore": "280 W" },
-        { "nome": "Unità refrigerante compressore", "valore": "1/ 8” Hp" },
-        { "nome": "Pompa carbonatore", "valore": "Volumetrica 150 l/h" },
-        { "nome": "Capacità carbonatore", "valore": "1l" },
-        { "nome": "Dimensioni", "valore": "28 x 28 x 108 cm" }
+        {
+          "nome": "Materiale carrozzeria",
+          "valore": "Lamiera galvanizzata verniciata a polveri"
+        },
+        {
+          "nome": "Vano di erogazione",
+          "valore": "Acciaio inox"
+        },
+        {
+          "nome": "Pressione H2O ingresso",
+          "valore": "1.8 – 4 bar, non-shock"
+        },
+        {
+          "nome": "Temperatura ambiente d’esercizio",
+          "valore": "10 – 35° C"
+        },
+        {
+          "nome": "Temperatura acqua alimentazione",
+          "valore": "10-25° C"
+        },
+        {
+          "nome": "Produzione acqua refrigerata",
+          "valore": "20 l/h"
+        },
+        {
+          "nome": "Alimentazione elettrica",
+          "valore": "230 V- 50 Hz"
+        },
+        {
+          "nome": "Potenza elettrica assorbita",
+          "valore": "280 W"
+        },
+        {
+          "nome": "Unità refrigerante compressore",
+          "valore": "1/ 8” Hp"
+        },
+        {
+          "nome": "Pompa carbonatore",
+          "valore": "Volumetrica 150 l/h"
+        },
+        {
+          "nome": "Capacità carbonatore",
+          "valore": "1l"
+        },
+        {
+          "nome": "Dimensioni",
+          "valore": "28 x 28 x 108 cm"
+        }
       ],
       "specifiche": {
         "plus": "Acqua fredda, temperatura ambiente e gasata",
@@ -582,7 +1460,9 @@
       "id": "elysium-hot",
       "nome": "Elysium Hot",
       "categoria": "aziende",
-      "target": ["ufficio"],
+      "target": [
+        "ufficio"
+      ],
       "tecnologia": "Ultrafiltrazione/Microfiltrazione",
       "installazione": "Colonna",
       "immagini": [
@@ -591,13 +1471,34 @@
       "descrizione_breve": "Acqua Refrigerata a Colonna con Ultrafiltrazione – 3 vie acqua fredda, calda e ambiente.",
       "descrizione_estesa": "ELYSIUM HOT: ANCHE PER TÈ E TISANE\n\nLa colonna completa che offre anche Acqua Calda, oltre a Fredda e Ambiente.\n\nINTERFACCIA INTUITIVA:\n• Sinistra: Acqua Calda (con blocco sicurezza).\n• Centro: Acqua Ambiente.\n• Destra: Acqua Fredda.\n\nTECNICA:\n• Serbatoio Freddo Inox AISI-304 ad alta capacità.\n• Uscita in plastica antibatterica sostituibile.\n\nPerfetto per la pausa caffè e l'idratazione quotidiana.",
       "caratteristiche": [
-        { "nome": "Temperatura acqua fredda", "valore": "2-15 ºC" },
-        { "nome": "Pressione H2O ingresso", "valore": "1.8 – 4 bar, non-shock" },
-        { "nome": "Refrigerante compressore", "valore": "R-600 a" },
-        { "nome": "Alimentazione", "valore": "220-240 VAC/50-60 Hz" },
-        { "nome": "Capacità raffreddamento", "valore": "5lt" },
-        { "nome": "Potenza compressore", "valore": "85 W" },
-        { "nome": "Dimensioni", "valore": "H 111,5 L 30 P 39 cm" }
+        {
+          "nome": "Temperatura acqua fredda",
+          "valore": "2-15 ºC"
+        },
+        {
+          "nome": "Pressione H2O ingresso",
+          "valore": "1.8 – 4 bar, non-shock"
+        },
+        {
+          "nome": "Refrigerante compressore",
+          "valore": "R-600 a"
+        },
+        {
+          "nome": "Alimentazione",
+          "valore": "220-240 VAC/50-60 Hz"
+        },
+        {
+          "nome": "Capacità raffreddamento",
+          "valore": "5lt"
+        },
+        {
+          "nome": "Potenza compressore",
+          "valore": "85 W"
+        },
+        {
+          "nome": "Dimensioni",
+          "valore": "H 111,5 L 30 P 39 cm"
+        }
       ],
       "specifiche": {
         "plus": "Acqua calda",
@@ -608,7 +1509,10 @@
       "id": "juicy-pulsanti",
       "nome": "Juicy Pulsanti",
       "categoria": "ristorazione",
-      "target": ["bar", "ristorante"],
+      "target": [
+        "bar",
+        "ristorante"
+      ],
       "tecnologia": "Ultrafiltrazione/Microfiltrazione",
       "installazione": "Soprabanco",
       "immagini": [
@@ -618,22 +1522,70 @@
       "descrizione_breve": "Refrigeratore acqua con Erogazione Bevande con Pulsanti 30Lt/h.",
       "descrizione_estesa": "JUICY PULSANTI: IL TUO BEVERAGE CENTER\n\nRefrigeratore soprabanco a 6 vie: Acqua e Bevande miscelate.\n\nCOSA EROGA:\n• Acqua: Ambiente, Fredda, Gassata.\n• Bevande: 3 concentrati miscelabili con acqua fredda.\n\nFUNZIONI:\n• Regolazione della ratio (diluizione) per ogni concentrato.\n• Pulsanti antivandalo Start/Stop a pressione.\n\nIdeale per colazioni in hotel, bar e mense.",
       "caratteristiche": [
-        { "nome": "Alimentazione", "valore": "230V 50hz" },
-        { "nome": "Performance lt/h", "valore": "30lt/h" },
-        { "nome": "Compressore", "valore": "GAS r290 – Compressore 180w" },
-        { "nome": "Condensatore", "valore": "Ventilato" },
-        { "nome": "Pompa carbonazione", "valore": "Pompa booster 230v" },
-        { "nome": "Refrigerazione", "valore": "Fusione alluminio; Serpentina Acciaio INOX" },
-        { "nome": "Carbonatore", "valore": "1,0 lt" },
-        { "nome": "Connessioni ingresso", "valore": "Acqua Ø8mm / Co2 Ø6mm" },
-        { "nome": "HMI", "valore": "NR.6 Pulsanti anti vandalo" },
-        { "nome": "Regolazione temperatura", "valore": "Termostato positivo" },
-        { "nome": "Carrozzeria", "valore": "Verniciata a polvere in nero opaco testurizzato" },
-        { "nome": "Pannelli frontale", "valore": "Metacrilato in colore NERO" },
-        { "nome": "Vaschetta raccogli gocce", "valore": "Inox AISI 304" },
-        { "nome": "Altezza bottiglia / bicchiere", "valore": "Max 300mm ; bicchiere su ribaltina 160mm" },
-        { "nome": "Dimensioni LxPxH", "valore": "39x58x68 cm (con raccogli gocce)" },
-        { "nome": "Peso", "valore": "30 Kg circa" }
+        {
+          "nome": "Alimentazione",
+          "valore": "230V 50hz"
+        },
+        {
+          "nome": "Performance lt/h",
+          "valore": "30lt/h"
+        },
+        {
+          "nome": "Compressore",
+          "valore": "GAS r290 – Compressore 180w"
+        },
+        {
+          "nome": "Condensatore",
+          "valore": "Ventilato"
+        },
+        {
+          "nome": "Pompa carbonazione",
+          "valore": "Pompa booster 230v"
+        },
+        {
+          "nome": "Refrigerazione",
+          "valore": "Fusione alluminio; Serpentina Acciaio INOX"
+        },
+        {
+          "nome": "Carbonatore",
+          "valore": "1,0 lt"
+        },
+        {
+          "nome": "Connessioni ingresso",
+          "valore": "Acqua Ø8mm / Co2 Ø6mm"
+        },
+        {
+          "nome": "HMI",
+          "valore": "NR.6 Pulsanti anti vandalo"
+        },
+        {
+          "nome": "Regolazione temperatura",
+          "valore": "Termostato positivo"
+        },
+        {
+          "nome": "Carrozzeria",
+          "valore": "Verniciata a polvere in nero opaco testurizzato"
+        },
+        {
+          "nome": "Pannelli frontale",
+          "valore": "Metacrilato in colore NERO"
+        },
+        {
+          "nome": "Vaschetta raccogli gocce",
+          "valore": "Inox AISI 304"
+        },
+        {
+          "nome": "Altezza bottiglia / bicchiere",
+          "valore": "Max 300mm ; bicchiere su ribaltina 160mm"
+        },
+        {
+          "nome": "Dimensioni LxPxH",
+          "valore": "39x58x68 cm (con raccogli gocce)"
+        },
+        {
+          "nome": "Peso",
+          "valore": "30 Kg circa"
+        }
       ],
       "specifiche": {
         "plus": "6 Vie (Acqua + Bevande)",
@@ -644,7 +1596,10 @@
       "id": "juicy-touch",
       "nome": "Juicy Touch",
       "categoria": "ristorazione",
-      "target": ["bar", "ristorante"],
+      "target": [
+        "bar",
+        "ristorante"
+      ],
       "tecnologia": "Ultrafiltrazione/Microfiltrazione",
       "installazione": "Soprabanco",
       "immagini": [
@@ -654,22 +1609,70 @@
       "descrizione_breve": "Refrigeratore acqua con Erogazione Bevande Touch 30Lt/h.",
       "descrizione_estesa": "JUICY TOUCH: INNOVAZIONE AL TOCCO\n\nLa versione evoluta del sistema Juicy con interfaccia Touch Screen.\n\n6 VIE DI GUSTO:\n• Acqua: Ambiente, Fredda, Gassata.\n• Bevande: 3 succhi/concentrati miscelabili.\n\nPLUS:\n• Design moderno in metacrilato nero.\n• Regolazione precisa della miscelazione.\n• Vaschetta raccogligocce Inox AISI 304.\n\nServizio bevande rapido, elegante e intuitivo.",
       "caratteristiche": [
-        { "nome": "Alimentazione", "valore": "230V 50hz" },
-        { "nome": "Performance lt/h", "valore": "30lt/h" },
-        { "nome": "Compressore", "valore": "GAS r290 – Compressore 180w" },
-        { "nome": "Condensatore", "valore": "Ventilato" },
-        { "nome": "Pompa carbonazione", "valore": "Pompa booster 230v" },
-        { "nome": "Refrigerazione", "valore": "Fusione alluminio; Serpentina Acciaio INOX" },
-        { "nome": "Carbonatore", "valore": "1,0 lt" },
-        { "nome": "Connessioni ingresso", "valore": "Acqua Ø8mm / Co2 Ø6mm" },
-        { "nome": "HMI", "valore": "NR.6 Pulsanti anti vandalo" },
-        { "nome": "Regolazione temperatura", "valore": "Termostato positivo" },
-        { "nome": "Carrozzeria", "valore": "Verniciata a polvere in nero opaco testurizzato" },
-        { "nome": "Pannelli frontale", "valore": "Metacrilato in colore NERO" },
-        { "nome": "Vaschetta raccogli gocce", "valore": "Inox AISI 304" },
-        { "nome": "Altezza bottiglia / bicchiere", "valore": "Max 300mm ; bicchiere su ribaltina 160mm" },
-        { "nome": "Dimensioni LxPxH", "valore": "39x58x68 cm (con raccogli gocce)" },
-        { "nome": "Peso", "valore": "30 Kg circa" }
+        {
+          "nome": "Alimentazione",
+          "valore": "230V 50hz"
+        },
+        {
+          "nome": "Performance lt/h",
+          "valore": "30lt/h"
+        },
+        {
+          "nome": "Compressore",
+          "valore": "GAS r290 – Compressore 180w"
+        },
+        {
+          "nome": "Condensatore",
+          "valore": "Ventilato"
+        },
+        {
+          "nome": "Pompa carbonazione",
+          "valore": "Pompa booster 230v"
+        },
+        {
+          "nome": "Refrigerazione",
+          "valore": "Fusione alluminio; Serpentina Acciaio INOX"
+        },
+        {
+          "nome": "Carbonatore",
+          "valore": "1,0 lt"
+        },
+        {
+          "nome": "Connessioni ingresso",
+          "valore": "Acqua Ø8mm / Co2 Ø6mm"
+        },
+        {
+          "nome": "HMI",
+          "valore": "NR.6 Pulsanti anti vandalo"
+        },
+        {
+          "nome": "Regolazione temperatura",
+          "valore": "Termostato positivo"
+        },
+        {
+          "nome": "Carrozzeria",
+          "valore": "Verniciata a polvere in nero opaco testurizzato"
+        },
+        {
+          "nome": "Pannelli frontale",
+          "valore": "Metacrilato in colore NERO"
+        },
+        {
+          "nome": "Vaschetta raccogli gocce",
+          "valore": "Inox AISI 304"
+        },
+        {
+          "nome": "Altezza bottiglia / bicchiere",
+          "valore": "Max 300mm ; bicchiere su ribaltina 160mm"
+        },
+        {
+          "nome": "Dimensioni LxPxH",
+          "valore": "39x58x68 cm (con raccogli gocce)"
+        },
+        {
+          "nome": "Peso",
+          "valore": "30 Kg circa"
+        }
       ],
       "specifiche": {
         "plus": "6 Vie (Acqua + Bevande)",
@@ -680,7 +1683,11 @@
       "id": "alaska-spillatrice",
       "nome": "Alaska con Spillatrice",
       "categoria": "ristorazione",
-      "target": ["bar", "ristorante", "mensa"],
+      "target": [
+        "bar",
+        "ristorante",
+        "mensa"
+      ],
       "tecnologia": "Ultrafiltrazione/Microfiltrazione",
       "installazione": "Soprabanco",
       "immagini": [
@@ -689,25 +1696,82 @@
       "descrizione_breve": "Erogatore sopra banco a 3 vie con spillatrice, acqua liscia ambiente, fredda e gassata.",
       "descrizione_estesa": "ALASKA SPILLATRICE: POTENZA PURA\n\nIl frigogasatore professionale per eccellenza. Robusto, affidabile, infaticabile.\n\nPRESTAZIONI:\n• Erogazione fino a 200 lt/h di acqua fredda.\n• 3 Rubinetti Meccanici: Ambiente, Fredda, Gassata.\n• Banco di Ghiaccio da 40 lt per riserva di freddo continua.\n\nCostruito in Acciaio INOX, è ideale per mense, grandi ristoranti e situazioni ad alto consumo.",
       "caratteristiche": [
-        { "nome": "Materiale carrozzeria", "valore": "Acciaio INOX" },
-        { "nome": "Pressione H2O ingresso", "valore": "1.8 – 4 bar, non-shock (stabile)" },
-        { "nome": "Temperatura ambiente d’esercizio", "valore": "10 – 35° C" },
-        { "nome": "Temperatura acqua alimentazione", "valore": "10-25° C" },
-        { "nome": "Alimentazione elettrica", "valore": "230 V / 50 HZ" },
-        { "nome": "Produzione acqua fredda", "valore": "200lt./h" },
-        { "nome": "Pompa acqua frizzante", "valore": "200lt./h" },
-        { "nome": "Pompa booster", "valore": "300lt./h" },
-        { "nome": "Litri banco ghiaccio", "valore": "40 lt." },
-        { "nome": "Litri Gasatore", "valore": "1,7 lt." },
-        { "nome": "Potenza assorbita", "valore": "150 W" },
-        { "nome": "Potenza frigorifera", "valore": "213 W" },
-        { "nome": "Produttività", "valore": "200lt./h" },
-        { "nome": "Compressore", "valore": "1/2 Hp" },
-        { "nome": "Gas refrigerate", "valore": "R290" },
-        { "nome": "Raffreddamento", "valore": "Ad accumulo" },
-        { "nome": "Peso", "valore": "39Kg." },
-        { "nome": "Dimensioni (LxPxH)", "valore": "40x90x46cm" },
-        { "nome": "Connessioni", "valore": "H2O: 8mm / Co2: 6mm" }
+        {
+          "nome": "Materiale carrozzeria",
+          "valore": "Acciaio INOX"
+        },
+        {
+          "nome": "Pressione H2O ingresso",
+          "valore": "1.8 – 4 bar, non-shock (stabile)"
+        },
+        {
+          "nome": "Temperatura ambiente d’esercizio",
+          "valore": "10 – 35° C"
+        },
+        {
+          "nome": "Temperatura acqua alimentazione",
+          "valore": "10-25° C"
+        },
+        {
+          "nome": "Alimentazione elettrica",
+          "valore": "230 V / 50 HZ"
+        },
+        {
+          "nome": "Produzione acqua fredda",
+          "valore": "200lt/h"
+        },
+        {
+          "nome": "Pompa acqua frizzante",
+          "valore": "200lt/h"
+        },
+        {
+          "nome": "Pompa booster",
+          "valore": "300lt/h"
+        },
+        {
+          "nome": "Litri banco ghiaccio",
+          "valore": "40 lt"
+        },
+        {
+          "nome": "Litri Gasatore",
+          "valore": "1,7 lt"
+        },
+        {
+          "nome": "Potenza assorbita",
+          "valore": "150 W"
+        },
+        {
+          "nome": "Potenza frigorifera",
+          "valore": "213 W"
+        },
+        {
+          "nome": "Produttività",
+          "valore": "200lt/h"
+        },
+        {
+          "nome": "Compressore",
+          "valore": "1/2 Hp"
+        },
+        {
+          "nome": "Gas refrigerate",
+          "valore": "R290"
+        },
+        {
+          "nome": "Raffreddamento",
+          "valore": "Ad accumulo"
+        },
+        {
+          "nome": "Peso",
+          "valore": "39Kg"
+        },
+        {
+          "nome": "Dimensioni (LxPxH)",
+          "valore": "40x90x46cm"
+        },
+        {
+          "nome": "Connessioni",
+          "valore": "H2O: 8mm / Co2: 6mm"
+        }
       ],
       "specifiche": {
         "plus": "Alta capacità di erogazione",
@@ -718,7 +1782,10 @@
       "id": "alaska-undersink",
       "nome": "Alaska Undersink",
       "categoria": "ristorazione",
-      "target": ["bar", "ristorante"],
+      "target": [
+        "bar",
+        "ristorante"
+      ],
       "tecnologia": "Ultrafiltrazione/Microfiltrazione",
       "installazione": "Sottobanco",
       "immagini": [
@@ -727,25 +1794,82 @@
       "descrizione_breve": "Refrigeratore acqua con Filtrazione Sottobanco – 3 vie.",
       "descrizione_estesa": "ALASKA UNDERSINK: IL MOTORE NASCOSTO\n\nLa potenza della serie Alaska in versione sottobanco. Ideale da abbinare a colonne di spillatura eleganti sul bancone.\n\nCARATTERISTICHE:\n• Versioni da 30 a 200 lt/h.\n• 3 Vie: Liscia Ambiente, Fredda, Gassata.\n• Tecnologia Banco di Ghiaccio per performance costanti.\n\nMade in Italy, carenatura INOX, affidabilità totale per il professionista Horeca.",
       "caratteristiche": [
-        { "nome": "Materiale carrozzeria", "valore": "Acciaio INOX" },
-        { "nome": "Pressione H2O ingresso", "valore": "1.8 – 4 bar, non-shock (stabile)" },
-        { "nome": "Temperatura ambiente d’esercizio", "valore": "10 – 35° C" },
-        { "nome": "Temperatura acqua alimentazione", "valore": "10-25° C" },
-        { "nome": "Alimentazione elettrica", "valore": "230 V / 50 HZ" },
-        { "nome": "Produzione acqua fredda", "valore": "30lt./h" },
-        { "nome": "Pompa acqua frizzante", "valore": "30lt./h" },
-        { "nome": "Pompa booster", "valore": "130lt./h" },
-        { "nome": "Litri banco ghiaccio", "valore": "7 lt." },
-        { "nome": "Litri Gasatore", "valore": "1 lt." },
-        { "nome": "Potenza assorbita", "valore": "150 W" },
-        { "nome": "Potenza frigorifera", "valore": "213 W" },
-        { "nome": "Produttività", "valore": "30lt./h" },
-        { "nome": "Compressore", "valore": "1/12 HP" },
-        { "nome": "Gas refrigerate", "valore": "R124A" },
-        { "nome": "Raffreddamento", "valore": "Ad accumulo" },
-        { "nome": "Peso", "valore": "19.5Kg." },
-        { "nome": "Dimensioni (LxPxH)", "valore": "18x39x44cm" },
-        { "nome": "Connessioni", "valore": "H2O: 8mm / Co2: 6mm" }
+        {
+          "nome": "Materiale carrozzeria",
+          "valore": "Acciaio INOX"
+        },
+        {
+          "nome": "Pressione H2O ingresso",
+          "valore": "1.8 – 4 bar, non-shock (stabile)"
+        },
+        {
+          "nome": "Temperatura ambiente d’esercizio",
+          "valore": "10 – 35° C"
+        },
+        {
+          "nome": "Temperatura acqua alimentazione",
+          "valore": "10-25° C"
+        },
+        {
+          "nome": "Alimentazione elettrica",
+          "valore": "230 V / 50 HZ"
+        },
+        {
+          "nome": "Produzione acqua fredda",
+          "valore": "30lt/h"
+        },
+        {
+          "nome": "Pompa acqua frizzante",
+          "valore": "30lt/h"
+        },
+        {
+          "nome": "Pompa booster",
+          "valore": "130lt/h"
+        },
+        {
+          "nome": "Litri banco ghiaccio",
+          "valore": "7 lt"
+        },
+        {
+          "nome": "Litri Gasatore",
+          "valore": "1 lt"
+        },
+        {
+          "nome": "Potenza assorbita",
+          "valore": "150 W"
+        },
+        {
+          "nome": "Potenza frigorifera",
+          "valore": "213 W"
+        },
+        {
+          "nome": "Produttività",
+          "valore": "30lt/h"
+        },
+        {
+          "nome": "Compressore",
+          "valore": "1/12 HP"
+        },
+        {
+          "nome": "Gas refrigerate",
+          "valore": "R124A"
+        },
+        {
+          "nome": "Raffreddamento",
+          "valore": "Ad accumulo"
+        },
+        {
+          "nome": "Peso",
+          "valore": "19.5Kg"
+        },
+        {
+          "nome": "Dimensioni (LxPxH)",
+          "valore": "18x39x44cm"
+        },
+        {
+          "nome": "Connessioni",
+          "valore": "H2O: 8mm / Co2: 6mm"
+        }
       ],
       "specifiche": {
         "plus": "Alta capacità di erogazione",
@@ -756,7 +1880,10 @@
       "id": "alaska-touch",
       "nome": "Alaska Touch",
       "categoria": "ristorazione",
-      "target": ["bar", "ristorante"],
+      "target": [
+        "bar",
+        "ristorante"
+      ],
       "tecnologia": "Ultrafiltrazione/Microfiltrazione",
       "installazione": "Soprabanco",
       "immagini": [
@@ -767,10 +1894,22 @@
       "descrizione_breve": "Erogatore sopra banco Alaska con interfaccia Touch avanzata.",
       "descrizione_estesa": "ALASKA TOUCH: TECNOLOGIA AL VERTICE\n\nL'evoluzione digitale della gamma Alaska. La robustezza professionale incontra la modernità del Touch Screen.\n\nPER CHI È:\n• Bar e Ristoranti moderni.\n• Aree Self-Service di alto livello.\n\nCombina la potenza del banco di ghiaccio (200 lt/h) con un'interfaccia utente intuitiva e pulita.",
       "caratteristiche": [
-        { "nome": "Interfaccia", "valore": "Touch Screen" },
-        { "nome": "Erogazione", "valore": "Acqua liscia ambiente, fredda e gassata" },
-        { "nome": "Struttura", "valore": "Acciaio INOX" },
-        { "nome": "Tecnologia", "valore": "Banco di Ghiaccio" }
+        {
+          "nome": "Interfaccia",
+          "valore": "Touch Screen"
+        },
+        {
+          "nome": "Erogazione",
+          "valore": "Acqua liscia ambiente, fredda e gassata"
+        },
+        {
+          "nome": "Struttura",
+          "valore": "Acciaio INOX"
+        },
+        {
+          "nome": "Tecnologia",
+          "valore": "Banco di Ghiaccio"
+        }
       ],
       "specifiche": {
         "plus": "Alta capacità di erogazione",
@@ -781,7 +1920,11 @@
       "id": "tower-pulsanti",
       "nome": "Tower Pulsanti",
       "categoria": "rubinetti",
-      "target": ["casa", "ufficio", "bar"],
+      "target": [
+        "casa",
+        "ufficio",
+        "bar"
+      ],
       "tecnologia": "Elettronica",
       "installazione": "Colonnina",
       "immagini": [
@@ -791,16 +1934,46 @@
       "descrizione_breve": "Colonnina Elettronica con Pulsanti, 3 Vie.",
       "descrizione_estesa": "TOWER PULSANTI\n\nColonnina elettronica professionale a 3 vie, perfetta per abbinamenti con sistemi sottobanco.\n\nCARATTERISTICHE:\n• Design moderno in Acciaio INOX.\n• 3 Pulsanti distinti: Liscia Ambiente, Fredda, Gassata.\n• Grado di protezione IP44.\n\nRobusta, semplice e super funzionale.",
       "caratteristiche": [
-        { "nome": "Alimentazione elettrica", "valore": "24 V (alimentatore incluso)" },
-        { "nome": "Tipologie di erogazione", "valore": "3 Vie" },
-        { "nome": "Materiale struttura", "valore": "acciaio inox" },
-        { "nome": "Escursione anteriori erogatore", "valore": "10 cm" },
-        { "nome": "Foro", "valore": "47 mm" },
-        { "nome": "Attacchi idrici", "valore": "8 mm" },
-        { "nome": "Pressione acqua in ingresso", "valore": "2–6 bar" },
-        { "nome": "Portata nominale", "valore": "1l/min per via" },
-        { "nome": "Grado di protezione elettronica", "valore": "IP44" },
-        { "nome": "Dimensioni", "valore": "H 49,4 cm, L 22,2 cm, P 10,5 cm" }
+        {
+          "nome": "Alimentazione elettrica",
+          "valore": "24 V (alimentatore incluso)"
+        },
+        {
+          "nome": "Tipologie di erogazione",
+          "valore": "3 Vie"
+        },
+        {
+          "nome": "Materiale struttura",
+          "valore": "acciaio inox"
+        },
+        {
+          "nome": "Escursione anteriori erogatore",
+          "valore": "10 cm"
+        },
+        {
+          "nome": "Foro",
+          "valore": "47 mm"
+        },
+        {
+          "nome": "Attacchi idrici",
+          "valore": "8 mm"
+        },
+        {
+          "nome": "Pressione acqua in ingresso",
+          "valore": "2–6 bar"
+        },
+        {
+          "nome": "Portata nominale",
+          "valore": "1l/min per via"
+        },
+        {
+          "nome": "Grado di protezione elettronica",
+          "valore": "IP44"
+        },
+        {
+          "nome": "Dimensioni",
+          "valore": "H 49,4 cm, L 22,2 cm, P 10,5 cm"
+        }
       ],
       "specifiche": {
         "plus": "Design Moderno"
@@ -810,7 +1983,11 @@
       "id": "tower-touch",
       "nome": "Tower Touch",
       "categoria": "rubinetti",
-      "target": ["casa", "ufficio", "bar"],
+      "target": [
+        "casa",
+        "ufficio",
+        "bar"
+      ],
       "tecnologia": "Touch",
       "installazione": "Colonnina",
       "immagini": [
@@ -820,16 +1997,46 @@
       "descrizione_breve": "Colonnina Elettronica Touch, 3 Vie.",
       "descrizione_estesa": "TOWER TOUCH\n\nColonnina di erogazione con comandi a sfioramento. Un tocco di modernità per il tuo impianto.\n\nFUNZIONI:\n• Comandi Touch sensibili e precisi.\n• 3 Erogazioni: Liscia Ambiente, Fredda, Frizzante.\n• Linee pulite in acciaio INOX.\n\nL'interfaccia ideale per una cucina o un bar contemporaneo.",
       "caratteristiche": [
-        { "nome": "Alimentazione elettrica", "valore": "24 V (alimentatore incluso)" },
-        { "nome": "Tipologie di erogazione", "valore": "3 Vie" },
-        { "nome": "Materiale struttura", "valore": "acciaio inox" },
-        { "nome": "Escursione anteriori erogatore", "valore": "10 cm" },
-        { "nome": "Foro", "valore": "47 mm" },
-        { "nome": "Attacchi idrici", "valore": "8 mm" },
-        { "nome": "Pressione acqua in ingresso", "valore": "2–6 bar" },
-        { "nome": "Portata nominale", "valore": "1l/min per via" },
-        { "nome": "Grado di protezione elettronica", "valore": "IP44" },
-        { "nome": "Dimensioni", "valore": "H 49,4 cm, L 22,2 cm, P 10,5 cm" }
+        {
+          "nome": "Alimentazione elettrica",
+          "valore": "24 V (alimentatore incluso)"
+        },
+        {
+          "nome": "Tipologie di erogazione",
+          "valore": "3 Vie"
+        },
+        {
+          "nome": "Materiale struttura",
+          "valore": "acciaio inox"
+        },
+        {
+          "nome": "Escursione anteriori erogatore",
+          "valore": "10 cm"
+        },
+        {
+          "nome": "Foro",
+          "valore": "47 mm"
+        },
+        {
+          "nome": "Attacchi idrici",
+          "valore": "8 mm"
+        },
+        {
+          "nome": "Pressione acqua in ingresso",
+          "valore": "2–6 bar"
+        },
+        {
+          "nome": "Portata nominale",
+          "valore": "1l/min per via"
+        },
+        {
+          "nome": "Grado di protezione elettronica",
+          "valore": "IP44"
+        },
+        {
+          "nome": "Dimensioni",
+          "valore": "H 49,4 cm, L 22,2 cm, P 10,5 cm"
+        }
       ],
       "specifiche": {
         "plus": "Comandi Touch"
@@ -839,7 +2046,11 @@
       "id": "tower-display",
       "nome": "Tower Display",
       "categoria": "rubinetti",
-      "target": ["casa", "ufficio", "bar"],
+      "target": [
+        "casa",
+        "ufficio",
+        "bar"
+      ],
       "tecnologia": "Display Elettronico",
       "installazione": "Colonnina",
       "immagini": [
@@ -849,16 +2060,46 @@
       "descrizione_breve": "Colonnina Elettronica con Display, 3 Vie.",
       "descrizione_estesa": "TOWER DISPLAY\n\nIl top di gamma della serie Tower. Integra un display informativo per un controllo totale dell'erogazione.\n\nCARATTERISTICHE:\n• Display integrato per feedback visivo.\n• 3 Vie: Liscia, Fredda, Frizzante.\n• Costruzione professionale in Acciaio.\n\nPer chi vuole non solo bere, ma interagire con la tecnologia.",
       "caratteristiche": [
-        { "nome": "Alimentazione elettrica", "valore": "24 V (alimentatore incluso)" },
-        { "nome": "Tipologie di erogazione", "valore": "3 Vie" },
-        { "nome": "Materiale struttura", "valore": "acciaio inox" },
-        { "nome": "Escursione anteriori erogatore", "valore": "10 cm" },
-        { "nome": "Foro", "valore": "47 mm" },
-        { "nome": "Attacchi idrici", "valore": "8 mm" },
-        { "nome": "Pressione acqua in ingresso", "valore": "2–6 bar" },
-        { "nome": "Portata nominale", "valore": "1l/min per via" },
-        { "nome": "Grado di protezione elettronica", "valore": "IP44" },
-        { "nome": "Dimensioni", "valore": "H 49,4 cm, L 22,2 cm, P 10,5 cm" }
+        {
+          "nome": "Alimentazione elettrica",
+          "valore": "24 V (alimentatore incluso)"
+        },
+        {
+          "nome": "Tipologie di erogazione",
+          "valore": "3 Vie"
+        },
+        {
+          "nome": "Materiale struttura",
+          "valore": "acciaio inox"
+        },
+        {
+          "nome": "Escursione anteriori erogatore",
+          "valore": "10 cm"
+        },
+        {
+          "nome": "Foro",
+          "valore": "47 mm"
+        },
+        {
+          "nome": "Attacchi idrici",
+          "valore": "8 mm"
+        },
+        {
+          "nome": "Pressione acqua in ingresso",
+          "valore": "2–6 bar"
+        },
+        {
+          "nome": "Portata nominale",
+          "valore": "1l/min per via"
+        },
+        {
+          "nome": "Grado di protezione elettronica",
+          "valore": "IP44"
+        },
+        {
+          "nome": "Dimensioni",
+          "valore": "H 49,4 cm, L 22,2 cm, P 10,5 cm"
+        }
       ],
       "specifiche": {
         "plus": "Display Informativo"
@@ -868,7 +2109,11 @@
       "id": "atena-erogatore",
       "nome": "Atena Erogatore",
       "categoria": "rubinetti",
-      "target": ["bar", "ristorante", "casa"],
+      "target": [
+        "bar",
+        "ristorante",
+        "casa"
+      ],
       "tecnologia": "Meccanica",
       "installazione": "Soprabanco",
       "immagini": [
@@ -878,15 +2123,42 @@
       "descrizione_breve": "Colonnina meccanica 3 vie con pulsanti Inox/Grigia-BIANCA-NERA.",
       "descrizione_estesa": "ATENA EROGATORE\n\nColonnina meccanica versatile per bar, ristoranti e uso domestico.\n\nDETTAGLI:\n• 3 Vie con pulsanti dedicati.\n• Disponibile in finiture Inox/Grigia, Bianca o Nera.\n• Elettrovalvole interne per un'installazione pulita.\n\nDesign semplice e funzionale che si adatta ad ogni ambiente.",
       "caratteristiche": [
-        { "nome": "Vie", "valore": "3" },
-        { "nome": "Dimensioni (LxPxH)", "valore": "12,5x11x43 cm" },
-        { "nome": "Foro installazione", "valore": "35mm" },
-        { "nome": "Innesti rapidi", "valore": "3 da 6mm" },
-        { "nome": "Alimentazione pulsanti", "valore": "24Vdc" },
-        { "nome": "Cavo Alimentazione", "valore": "3×0,75mm" },
-        { "nome": "Elettrovalvole", "valore": "Interne" },
-        { "nome": "Beccuccio", "valore": "Grigio-NERO-BIANCO" },
-        { "nome": "Materiale", "valore": "Acciaio inox" }
+        {
+          "nome": "Vie",
+          "valore": "3"
+        },
+        {
+          "nome": "Dimensioni (LxPxH)",
+          "valore": "12,5x11x43 cm"
+        },
+        {
+          "nome": "Foro installazione",
+          "valore": "35mm"
+        },
+        {
+          "nome": "Innesti rapidi",
+          "valore": "3 da 6mm"
+        },
+        {
+          "nome": "Alimentazione pulsanti",
+          "valore": "24Vdc"
+        },
+        {
+          "nome": "Cavo Alimentazione",
+          "valore": "3×0,75mm"
+        },
+        {
+          "nome": "Elettrovalvole",
+          "valore": "Interne"
+        },
+        {
+          "nome": "Beccuccio",
+          "valore": "Grigio-NERO-BIANCO"
+        },
+        {
+          "nome": "Materiale",
+          "valore": "Acciaio inox"
+        }
       ],
       "specifiche": {
         "plus": "Design Moderno"
@@ -896,7 +2168,9 @@
       "id": "rubinetto-cairo",
       "nome": "Rubinetto Cairo",
       "categoria": "rubinetti",
-      "target": ["casa"],
+      "target": [
+        "casa"
+      ],
       "tecnologia": "Meccanica",
       "installazione": "Sopralavello",
       "immagini": [
@@ -909,14 +2183,22 @@
       "specifiche": {
         "plus": "Design Curvo",
         "personalizzazione": "Colorato",
-        "codici_colori": ["R", "G", "B", "Y", "P"]
+        "codici_colori": [
+          "W",
+          "B",
+          "C",
+          "G",
+          "S"
+        ]
       }
     },
     {
       "id": "rubinetto-porto",
       "nome": "Rubinetto Porto",
       "categoria": "rubinetti",
-      "target": ["casa"],
+      "target": [
+        "casa"
+      ],
       "tecnologia": "Meccanica",
       "installazione": "Sopralavello",
       "immagini": [
@@ -929,14 +2211,22 @@
       "specifiche": {
         "plus": "Finitura Premium",
         "personalizzazione": "Colorato",
-        "codici_colori": ["R", "G", "B", "Y", "P"]
+        "codici_colori": [
+          "W",
+          "B",
+          "C",
+          "G",
+          "S"
+        ]
       }
     },
     {
       "id": "rubinetto-roma",
       "nome": "Rubinetto Roma",
       "categoria": "rubinetti",
-      "target": ["casa"],
+      "target": [
+        "casa"
+      ],
       "tecnologia": "Meccanica",
       "installazione": "Sopralavello",
       "immagini": [
@@ -949,14 +2239,22 @@
       "specifiche": {
         "plus": "Stile Classico",
         "personalizzazione": "Colorato",
-        "codici_colori": ["R", "G", "B", "Y", "P"]
+        "codici_colori": [
+          "W",
+          "B",
+          "C",
+          "G",
+          "S"
+        ]
       }
     },
     {
       "id": "rubinetto-seul",
       "nome": "Rubinetto Seul",
       "categoria": "rubinetti",
-      "target": ["casa"],
+      "target": [
+        "casa"
+      ],
       "tecnologia": "Meccanica",
       "installazione": "Sopralavello",
       "immagini": [
@@ -972,14 +2270,22 @@
       "specifiche": {
         "plus": "Varie Finiture",
         "personalizzazione": "Colorato",
-        "codici_colori": ["R", "G", "B", "Y", "P"]
+        "codici_colori": [
+          "W",
+          "B",
+          "C",
+          "G",
+          "S"
+        ]
       }
     },
     {
       "id": "rubinetto-siena",
       "nome": "Rubinetto Siena",
       "categoria": "rubinetti",
-      "target": ["casa"],
+      "target": [
+        "casa"
+      ],
       "tecnologia": "Meccanica",
       "installazione": "Sopralavello",
       "immagini": [
@@ -992,14 +2298,23 @@
       "specifiche": {
         "plus": "Eleganza",
         "personalizzazione": "Colorato",
-        "codici_colori": ["R", "G", "B", "Y", "P"]
+        "codici_colori": [
+          "W",
+          "B",
+          "C",
+          "G",
+          "S"
+        ]
       }
     },
     {
       "id": "rubinetto-spill-line",
       "nome": "Rubinetto Spill Line",
       "categoria": "rubinetti",
-      "target": ["bar", "ristorante"],
+      "target": [
+        "bar",
+        "ristorante"
+      ],
       "tecnologia": "Meccanica",
       "installazione": "Soprabanco",
       "immagini": [
@@ -1018,7 +2333,10 @@
       "id": "rubinetto-spill-pro",
       "nome": "Rubinetto Spill Pro",
       "categoria": "rubinetti",
-      "target": ["bar", "ristorante"],
+      "target": [
+        "bar",
+        "ristorante"
+      ],
       "tecnologia": "Meccanica",
       "installazione": "Soprabanco",
       "immagini": [
@@ -1036,7 +2354,9 @@
       "id": "rubinetto-tokyo",
       "nome": "Rubinetto Tokyo",
       "categoria": "rubinetti",
-      "target": ["casa"],
+      "target": [
+        "casa"
+      ],
       "tecnologia": "Meccanica",
       "installazione": "Sopralavello",
       "immagini": [
@@ -1049,14 +2369,22 @@
       "specifiche": {
         "plus": "Minimalista",
         "personalizzazione": "Colorato",
-        "codici_colori": ["R", "G", "B", "Y", "P"]
+        "codici_colori": [
+          "W",
+          "B",
+          "C",
+          "G",
+          "S"
+        ]
       }
     },
     {
       "id": "candy-30lt",
       "nome": "Candy 30lt",
       "categoria": "addolcitori",
-      "target": ["casa"],
+      "target": [
+        "casa"
+      ],
       "tecnologia": "Addolcitore",
       "installazione": "Cabinato",
       "immagini": [
@@ -1065,18 +2393,54 @@
       "descrizione_breve": "Addolcitore acqua Cabinato 30 lt. Resina – 6/10 Persone.",
       "descrizione_estesa": "CANDY 30LT: ADDIO CALCARE\n\nAddolcitore cabinato ad alta capacità, la soluzione definitiva per famiglie numerose (6-10 persone).\n\nBENEFICI:\n• Protezione Totale: Elimina il calcare salvaguardando tubature ed elettrodomestici.\n• Risparmio: Riduce il consumo di detersivi e l'energia per il riscaldamento dell'acqua.\n• Acqua Dolce: Pelle più morbida e capelli più lucenti.\n\nInclude ByPass per una facile manutenzione.",
       "caratteristiche": [
-        { "nome": "Pressione", "valore": "1,4 – 6 bar" },
-        { "nome": "Temperatura acqua", "valore": "1 – 40°C" },
-        { "nome": "Temperatura ambiente max", "valore": "40°C" },
-        { "nome": "Perdita carico a portata max", "valore": "1,10 bar" },
-        { "nome": "Raccordi entrata / uscita acqua", "valore": "1” BSPT" },
-        { "nome": "Raccordo di scarico", "valore": "Portagomma 12 mm" },
-        { "nome": "Collegamento elettrico", "valore": "230V-50Hz" },
-        { "nome": "Dimensioni", "valore": "48 x 29 x 113,3 cm" },
-        { "nome": "Valvola - Ingresso/Uscita", "valore": "1”" },
-        { "nome": "Valvola - Rigenerazione", "valore": "Downflow" },
-        { "nome": "Valvola - Portata di servizio", "valore": "0,15 m3/h" },
-        { "nome": "Valvola - Corpo", "valore": "in plastica" }
+        {
+          "nome": "Pressione",
+          "valore": "1,4 – 6 bar"
+        },
+        {
+          "nome": "Temperatura acqua",
+          "valore": "1 – 40°C"
+        },
+        {
+          "nome": "Temperatura ambiente max",
+          "valore": "40°C"
+        },
+        {
+          "nome": "Perdita carico a portata max",
+          "valore": "1,10 bar"
+        },
+        {
+          "nome": "Raccordi entrata / uscita acqua",
+          "valore": "1” BSPT"
+        },
+        {
+          "nome": "Raccordo di scarico",
+          "valore": "Portagomma 12 mm"
+        },
+        {
+          "nome": "Collegamento elettrico",
+          "valore": "230V-50Hz"
+        },
+        {
+          "nome": "Dimensioni",
+          "valore": "48 x 29 x 113,3 cm"
+        },
+        {
+          "nome": "Valvola - Ingresso/Uscita",
+          "valore": "1”"
+        },
+        {
+          "nome": "Valvola - Rigenerazione",
+          "valore": "Downflow"
+        },
+        {
+          "nome": "Valvola - Portata di servizio",
+          "valore": "0,15 m3/h"
+        },
+        {
+          "nome": "Valvola - Corpo",
+          "valore": "in plastica"
+        }
       ],
       "specifiche": {
         "plus": "Per 6-10 Persone",
@@ -1087,7 +2451,9 @@
       "id": "candy-20lt",
       "nome": "Candy 20lt",
       "categoria": "addolcitori",
-      "target": ["casa"],
+      "target": [
+        "casa"
+      ],
       "tecnologia": "Addolcitore",
       "installazione": "Cabinato",
       "immagini": [
@@ -1096,18 +2462,54 @@
       "descrizione_breve": "Addolcitore Cabinato 20 lt. Resina – 4/6 Persone.",
       "descrizione_estesa": "CANDY 20LT: IL BEST SELLER\n\nAddolcitore cabinato versatile, ideale per nuclei familiari medi (4-6 persone).\n\nPERCHÉ INSTALLARLO:\n• Efficienza: Rigenerazione volumetrica per risparmio di sale e acqua.\n• Comfort: Acqua priva di calcare per tutta la casa.\n• Durata: Prolunga la vita della tua caldaia e lavatrice.\n\nCompatto ed efficace, elimina per sempre il calcare.",
       "caratteristiche": [
-        { "nome": "Pressione", "valore": "1,4 – 6 bar" },
-        { "nome": "Temperatura acqua", "valore": "1 – 40°C" },
-        { "nome": "Temperatura ambiente max", "valore": "40°C" },
-        { "nome": "Perdita carico a portata max", "valore": "1,10 bar" },
-        { "nome": "Raccordi entrata / uscita acqua", "valore": "1” BSPT" },
-        { "nome": "Raccordo di scarico", "valore": "Portagomma 12 mm" },
-        { "nome": "Collegamento elettrico", "valore": "230V-50Hz" },
-        { "nome": "Dimensioni", "valore": "48 x 29 x 113,3 cm" },
-        { "nome": "Valvola - Ingresso/Uscita", "valore": "1”" },
-        { "nome": "Valvola - Rigenerazione", "valore": "Downflow" },
-        { "nome": "Valvola - Portata di servizio", "valore": "0,15 m3/h" },
-        { "nome": "Valvola - Corpo", "valore": "in plastica" }
+        {
+          "nome": "Pressione",
+          "valore": "1,4 – 6 bar"
+        },
+        {
+          "nome": "Temperatura acqua",
+          "valore": "1 – 40°C"
+        },
+        {
+          "nome": "Temperatura ambiente max",
+          "valore": "40°C"
+        },
+        {
+          "nome": "Perdita carico a portata max",
+          "valore": "1,10 bar"
+        },
+        {
+          "nome": "Raccordi entrata / uscita acqua",
+          "valore": "1” BSPT"
+        },
+        {
+          "nome": "Raccordo di scarico",
+          "valore": "Portagomma 12 mm"
+        },
+        {
+          "nome": "Collegamento elettrico",
+          "valore": "230V-50Hz"
+        },
+        {
+          "nome": "Dimensioni",
+          "valore": "48 x 29 x 113,3 cm"
+        },
+        {
+          "nome": "Valvola - Ingresso/Uscita",
+          "valore": "1”"
+        },
+        {
+          "nome": "Valvola - Rigenerazione",
+          "valore": "Downflow"
+        },
+        {
+          "nome": "Valvola - Portata di servizio",
+          "valore": "0,15 m3/h"
+        },
+        {
+          "nome": "Valvola - Corpo",
+          "valore": "in plastica"
+        }
       ],
       "specifiche": {
         "plus": "Per 4-6 Persone",
@@ -1118,7 +2520,9 @@
       "id": "candy-12lt",
       "nome": "Candy 12lt",
       "categoria": "addolcitori",
-      "target": ["casa"],
+      "target": [
+        "casa"
+      ],
       "tecnologia": "Addolcitore",
       "installazione": "Cabinato",
       "immagini": [
@@ -1127,18 +2531,54 @@
       "descrizione_breve": "Addolcitore Cabinato 12 lt. Resina – 1/2 Persone.",
       "descrizione_estesa": "CANDY 12LT: PICCOLO E POTENTE\n\nLa soluzione compatta per appartamenti, single o coppie (1-2 persone).\n\nVANTAGGI:\n• Dimensioni ridotte: Si installa facilmente anche in spazi stretti.\n• Risultato Garantito: Stessa efficacia dei modelli più grandi nell'eliminare il calcare.\n• Manutenzione minima.\n\nProteggi i tuoi impianti anche in spazi ridotti.",
       "caratteristiche": [
-        { "nome": "Pressione", "valore": "1,4 – 6 bar" },
-        { "nome": "Temperatura acqua", "valore": "1 – 40°C" },
-        { "nome": "Temperatura ambiente max", "valore": "40°C" },
-        { "nome": "Perdita carico a portata max", "valore": "1,10 bar" },
-        { "nome": "Raccordi entrata/uscita acqua", "valore": "1”" },
-        { "nome": "Raccordo di scarico", "valore": "Portagomma 12 mm" },
-        { "nome": "Collegamento elettrico", "valore": "230V-50Hz" },
-        { "nome": "Dimensioni", "valore": "48 x 29 x 67,4 cm" },
-        { "nome": "Valvola - Ingresso/Uscita", "valore": "1”" },
-        { "nome": "Valvola - Rigenerazione", "valore": "Downflow" },
-        { "nome": "Valvola - Portata di servizio", "valore": "0,15 m3/h" },
-        { "nome": "Valvola - Corpo", "valore": "in plastica" }
+        {
+          "nome": "Pressione",
+          "valore": "1,4 – 6 bar"
+        },
+        {
+          "nome": "Temperatura acqua",
+          "valore": "1 – 40°C"
+        },
+        {
+          "nome": "Temperatura ambiente max",
+          "valore": "40°C"
+        },
+        {
+          "nome": "Perdita carico a portata max",
+          "valore": "1,10 bar"
+        },
+        {
+          "nome": "Raccordi entrata/uscita acqua",
+          "valore": "1”"
+        },
+        {
+          "nome": "Raccordo di scarico",
+          "valore": "Portagomma 12 mm"
+        },
+        {
+          "nome": "Collegamento elettrico",
+          "valore": "230V-50Hz"
+        },
+        {
+          "nome": "Dimensioni",
+          "valore": "48 x 29 x 67,4 cm"
+        },
+        {
+          "nome": "Valvola - Ingresso/Uscita",
+          "valore": "1”"
+        },
+        {
+          "nome": "Valvola - Rigenerazione",
+          "valore": "Downflow"
+        },
+        {
+          "nome": "Valvola - Portata di servizio",
+          "valore": "0,15 m3/h"
+        },
+        {
+          "nome": "Valvola - Corpo",
+          "valore": "in plastica"
+        }
       ],
       "specifiche": {
         "plus": "Per 1-2 Persone",
@@ -1149,7 +2589,9 @@
       "id": "crystal-nylon",
       "nome": "Crystal Nylon",
       "categoria": "borracce",
-      "target": ["personale"],
+      "target": [
+        "personale"
+      ],
       "tecnologia": "Vetro",
       "installazione": "Portatile",
       "immagini": [
@@ -1158,10 +2600,22 @@
       "descrizione_breve": "Borraccia crystal in vetro 500ml con tappo argento.",
       "descrizione_estesa": "CRYSTAL NYLON\n\nBorraccia da 500ml in vetro resistente.\n\n• Design: Moderno e trasparente.\n• Portabilità: Pratico laccetto in nylon integrato.\n• Chiusura: Tappo a vite argento ermetico.\n\nPerfetta per l'uso quotidiano o come idea regalo ecologica.",
       "caratteristiche": [
-        { "nome": "Capacità", "valore": "50 cl" },
-        { "nome": "Peso", "valore": "400 gr" },
-        { "nome": "Altezza", "valore": "21,7 cm" },
-        { "nome": "Diametro", "valore": "6,3 cm" }
+        {
+          "nome": "Capacità",
+          "valore": "50 cl"
+        },
+        {
+          "nome": "Peso",
+          "valore": "400 gr"
+        },
+        {
+          "nome": "Altezza",
+          "valore": "21,7 cm"
+        },
+        {
+          "nome": "Diametro",
+          "valore": "6,3 cm"
+        }
       ],
       "specifiche": {
         "plus": "Laccetto in Nylon",
@@ -1172,7 +2626,9 @@
       "id": "crystal-legno",
       "nome": "Crystal Legno",
       "categoria": "borracce",
-      "target": ["personale"],
+      "target": [
+        "personale"
+      ],
       "tecnologia": "Vetro",
       "installazione": "Portatile",
       "immagini": [
@@ -1181,10 +2637,22 @@
       "descrizione_breve": "Borraccia Crystal in vetro 500ml con tappo in legno.",
       "descrizione_estesa": "CRYSTAL LEGNO\n\nBorraccia in vetro da 500ml con un tocco naturale.\n\n• Dettagli: Tappo in vero legno per uno stile organico.\n• Materiale: Vetro di alta qualità che non altera i sapori.\n• Utilizzo: Ideale per ufficio e tempo libero.\n\nEleganza sostenibile a portata di mano.",
       "caratteristiche": [
-        { "nome": "Capacità", "valore": "50 cl" },
-        { "nome": "Peso", "valore": "400 gr" },
-        { "nome": "Altezza", "valore": "21,7 cm" },
-        { "nome": "Diametro", "valore": "6,3 cm" }
+        {
+          "nome": "Capacità",
+          "valore": "50 cl"
+        },
+        {
+          "nome": "Peso",
+          "valore": "400 gr"
+        },
+        {
+          "nome": "Altezza",
+          "valore": "21,7 cm"
+        },
+        {
+          "nome": "Diametro",
+          "valore": "6,3 cm"
+        }
       ],
       "specifiche": {
         "plus": "Tappo in Legno",
@@ -1195,7 +2663,9 @@
       "id": "hydrox-ceramica",
       "nome": "Hydrox Ceramica",
       "categoria": "borracce",
-      "target": ["personale"],
+      "target": [
+        "personale"
+      ],
       "tecnologia": "Ceramica",
       "installazione": "Portatile",
       "immagini": [
@@ -1204,10 +2674,22 @@
       "descrizione_breve": "Borraccia Acciaio inox con rivestimento in ceramica 600ml.",
       "descrizione_estesa": "HYDROX CERAMICA 600ML\n\nUn nuovo modo di idratarsi: Tecnologia ibrida Acciaio-Ceramica.\n\nPERCHÉ È SPECIALE:\n• Gusto Puro: Il rivestimento interno in ceramica evita il contatto coi metalli. Nessun trasferimento di sapore.\n• Temperatura: Mantiene la temperatura a lungo grazie alla struttura isolata.\n• Igiene: Facilissima da pulire con semplice acqua.\n• Design: Manico ergonomico per il trasporto.\n\nIl gusto autentico della tua bevanda, ovunque tu sia.",
       "caratteristiche": [
-        { "nome": "Materiale", "valore": "Ceramica" },
-        { "nome": "Colore", "valore": "Bianco" },
-        { "nome": "Capacità", "valore": "600ml" },
-        { "nome": "Dimensioni", "valore": "25 x 8 x 8 cm" }
+        {
+          "nome": "Materiale",
+          "valore": "Ceramica"
+        },
+        {
+          "nome": "Colore",
+          "valore": "Bianco"
+        },
+        {
+          "nome": "Capacità",
+          "valore": "600ml"
+        },
+        {
+          "nome": "Dimensioni",
+          "valore": "25 x 8 x 8 cm"
+        }
       ],
       "specifiche": {
         "plus": "Interno in Ceramica",
@@ -1218,7 +2700,9 @@
       "id": "tritarifiuti-la-sorgente",
       "nome": "Tritarifiuti La Sorgente",
       "categoria": "tritarifiuti",
-      "target": ["casa"],
+      "target": [
+        "casa"
+      ],
       "tecnologia": "Triturazione",
       "installazione": "Sottolavello",
       "immagini": [
@@ -1229,20 +2713,62 @@
       "descrizione_breve": "Dissipatore di rifiuti alimentari compatto.",
       "descrizione_estesa": "TRITAFACILE: CUCINA SEMPRE PULITA\n\nIl dissipatore domestico che rivoluziona la gestione dei rifiuti organici.\n\nCOME FUNZIONA:\n• Tritura tutto: Bucce, ossa di pollo, lische, croste di pane.\n• Igiene: Elimina subito gli scarti, prevenendo cattivi odori e batteri.\n• Comodità: Riduci drasticamente i viaggi verso i bidoni dell'immondizia.\n\nInstallazione facile e veloce, design compatto per adattarsi anche ai sottolavelli più piccoli.",
       "caratteristiche": [
-        { "nome": "Potenza", "valore": "750W" },
-        { "nome": "Frequenta", "valore": "50HZ/60HZ" },
-        { "nome": "Tensione", "valore": "110V/220V" },
-        { "nome": "Corrente elettrica", "valore": "4A" },
-        { "nome": "Velocità rotazione", "valore": "4000-4500RPm" },
-        { "nome": "Motore", "valore": "A corrente continua permanente" },
-        { "nome": "Cavità", "valore": "Antisettica" },
-        { "nome": "Capacità", "valore": "1100ml" },
-        { "nome": "Sistema macinazione", "valore": "Forza centrifuga" },
-        { "nome": "Sistema anello", "valore": "Quattro pezzi" },
-        { "nome": "Sistema di accensione", "valore": "Testa di taglio in lega" },
-        { "nome": "Guscio esterno", "valore": "ABS" },
-        { "nome": "Gruppo di macinazione", "valore": "Acciaio inossidabile" },
-        { "nome": "Suono isolato", "valore": "Dirigibile + Cotone insonorizzato" }
+        {
+          "nome": "Potenza",
+          "valore": "750W"
+        },
+        {
+          "nome": "Frequenta",
+          "valore": "50HZ/60HZ"
+        },
+        {
+          "nome": "Tensione",
+          "valore": "110V/220V"
+        },
+        {
+          "nome": "Corrente elettrica",
+          "valore": "4A"
+        },
+        {
+          "nome": "Velocità rotazione",
+          "valore": "4000-4500RPm"
+        },
+        {
+          "nome": "Motore",
+          "valore": "A corrente continua permanente"
+        },
+        {
+          "nome": "Cavità",
+          "valore": "Antisettica"
+        },
+        {
+          "nome": "Capacità",
+          "valore": "1100ml"
+        },
+        {
+          "nome": "Sistema macinazione",
+          "valore": "Forza centrifuga"
+        },
+        {
+          "nome": "Sistema anello",
+          "valore": "Quattro pezzi"
+        },
+        {
+          "nome": "Sistema di accensione",
+          "valore": "Testa di taglio in lega"
+        },
+        {
+          "nome": "Guscio esterno",
+          "valore": "ABS"
+        },
+        {
+          "nome": "Gruppo di macinazione",
+          "valore": "Acciaio inossidabile"
+        },
+        {
+          "nome": "Suono isolato",
+          "valore": "Dirigibile + Cotone insonorizzato"
+        }
       ],
       "specifiche": {
         "plus": "Compatto e Silenzioso",
@@ -1253,7 +2779,10 @@
       "id": "ozonizzatore-blueoxy",
       "nome": "Ozonizzatore BlueOxy",
       "categoria": "ozonizzatori",
-      "target": ["casa", "ufficio"],
+      "target": [
+        "casa",
+        "ufficio"
+      ],
       "tecnologia": "Ozono",
       "installazione": "Portatile / Muro",
       "immagini": [
@@ -1272,7 +2801,9 @@
       "id": "decalcificatore-la-sorgente",
       "nome": "Decalcificatore La Sorgente",
       "categoria": "decalcificatori",
-      "target": ["casa"],
+      "target": [
+        "casa"
+      ],
       "tecnologia": "Magnetica/Elettronica",
       "installazione": "Tubazione",
       "immagini": [
