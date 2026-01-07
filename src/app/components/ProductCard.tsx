@@ -53,18 +53,18 @@ export default function ProductCard({ product }: ProductCardProps) {
           {/* --- LOGICA COLORI CORRETTA --- */}
           {/* Mostra la barra se c'è "Colorato" OPPURE se ci sono codici colori */}
           {(product.specifiche.personalizzazione === 'Colorato' || hasColors) && (
-            <div className="absolute bottom-0 w-full z-20 bg-gray-100/50 px-3 py-1 border border-white/20 shadow-lg flex items-center justify-between h-8">
+            <div className="absolute bottom-0 w-full z-20 bg-gray-100/50 px-3 py-5 border border-white/20 shadow-lg flex items-center justify-between h-8">
               
               <span className="text-[10px] text-black uppercase tracking-widest font-cal font-bold">
                 Colorato
               </span>
 
               {hasColors && (
-                <div className="flex gap-1.5 backdrop-blur-sm rounded-full bg-gray-300 px-2 py-1">
+                <div className="flex gap-1.5 backdrop-blur-sm rounded-full bg-gray-400/80 px-3 py-1.5">
                   {product.specifiche.codici_colori!.map((codice, index) => (
                     <div 
                       key={index}
-                      className={`w-3 h-3 border border-white/50 shadow-sm ${colorMap[codice] || 'bg-gray-400'}`}
+                      className={`w-4 h-4 border rounded border-white/50 shadow-sm ${colorMap[codice] || 'bg-gray-400'}`}
                       title={`Colore ${codice}`}
                     />
                   ))}

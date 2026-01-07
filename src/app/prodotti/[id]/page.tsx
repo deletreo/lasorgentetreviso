@@ -207,17 +207,20 @@ export default function ProductPage({ params }: { params: Promise<{ id: string }
                 
                 {/* Visualizzazione Codici Colori */}
                 {p.specifiche?.codici_colori && (
+                    
                      <div className="flex flex-col gap-3 col-span-2 mt-2 pt-4 border-t border-dashed border-gray-100">
                         <span className="text-[9px] uppercase tracking-[0.25em] text-gray-400">Finiture Disponibili</span>
                         <div className="flex gap-2">
+                        <div className="flex gap-1.5 backdrop-blur-sm rounded-full bg-gray-400 px-5 py-3">
                             {p.specifiche.codici_colori.map((code: string) => (
                                 <div 
                                     key={code} 
-                                    className={`w-6 h-6 rounded-full border border-gray-200 shadow-sm ${colorMap[code] || 'bg-gray-200'}`}
+                                    className={`w-6 h-6 rounded border border-gray-200 shadow-sm ${colorMap[code] || 'bg-gray-200'}`}
                                     title={code} 
                                 />
                             ))}
                         </div>
+                    </div>
                     </div>
                 )}
             </div>
