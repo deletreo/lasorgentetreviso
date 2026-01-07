@@ -39,7 +39,7 @@
       ],
       "specifiche": {
         "plus": "Sistema Acqua Stop",
-        "capacita": "25 lt/h",
+        "capacita": ["25 lt/h di acqua fredda", "120 lt/h di acqua liscia","25 lt/h di acqua gassata"],
         "codici_colori": ["R", "G", "B", "Y", "P"]
       }
     },
@@ -101,7 +101,7 @@
       ],
       "specifiche": {
         "plus": "Posizionamento Verticale/Orizzontale",
-        "capacita": "120 lt/h",
+        "capacita": ["25 lt/h di acqua fredda", "120 lt/h di acqua liscia"],
         "codici_colori": ["R", "G", "B", "Y", "P"]
       }
     },
@@ -177,7 +177,7 @@
       ],
       "specifiche": {
         "plus": "Ultraslim 9.5cm",
-        "capacita": "120 lt/h",
+        "capacita": ["25 lt/h di acqua fredda", "120 lt/h di acqua liscia"],
         "codici_colori": ["R", "G", "B", "Y", "P"]
       }
     },
@@ -215,7 +215,7 @@
       ],
       "specifiche": {
         "plus": "Facile Installazione",
-        "capacita": "15 lt/h",
+        "capacita": ["15 lt/h di acqua fredda", "120 lt/h di acqua liscia","15 lt/h di acqua gassata"],
         "codici_colori": ["R", "G", "B", "Y", "P"]
       }
     },
@@ -259,7 +259,7 @@
       ],
       "specifiche": {
         "plus": "Sottozoccolo Salvaspazio",
-        "capacita": "15 lt/h",
+        "capacita": ["15 lt/h di acqua fredda", "110 lt/h di acqua liscia","15 lt/h di acqua gassata"],
         "codici_colori": ["R", "G", "B", "Y", "P"]
       }
     },
@@ -303,7 +303,7 @@
       ],
       "specifiche": {
         "plus": "Sottobanco",
-        "capacita": "15 lt/h",
+        "capacita": ["15 lt/h di acqua fredda", "110 lt/h di acqua liscia","15 lt/h di acqua gassata"],
         "codici_colori": ["R", "G", "B", "Y", "P"]
       }
     },
@@ -342,7 +342,7 @@
       ],
       "specifiche": {
         "plus": "Sottozoccolo",
-        "capacita": "15 lt/h",
+        "capacita": ["15 lt/h di acqua fredda", "110 lt/h di acqua liscia","15 lt/h di acqua gassata"],
         "codici_colori": ["R", "G", "B", "Y", "P"]
       }
     },
@@ -381,7 +381,7 @@
       ],
       "specifiche": {
         "plus": "Compatto Sottolavello",
-        "capacita": "15 lt/h",
+        "capacita": ["15 lt/h di acqua fredda", "110 lt/h di acqua liscia","15 lt/h di acqua gassata"],
         "codici_colori": ["R", "G", "B", "Y", "P"]
       }
     },
@@ -420,9 +420,9 @@
       ],
       "specifiche": {
         "plus": "Perfetto per Cassettoni",
-        "capacita": "15 lt/h",
+        "capacita": ["15 lt/h di acqua fredda", "110 lt/h di acqua liscia","15 lt/h di acqua gassata"],
         "codici_colori": ["R", "G", "B", "Y", "P"]
-      }
+      } 
     },
     {
       "id": "atena",

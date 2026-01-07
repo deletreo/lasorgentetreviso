@@ -182,7 +182,26 @@ export default function ProductPage({ params }: { params: Promise<{ id: string }
                  {p.specifiche?.capacita && (
                     <div className="flex flex-col gap-2 col-span-2 md:col-span-1">
                         <span className="text-[9px] uppercase tracking-[0.25em] text-gray-400">Capacità</span>
-                        <span className="text-base text-gray-900 font-medium">{p.specifiche.capacita}</span>
+                        
+                        {/* Controllo se è un array o una stringa */}
+                        {Array.isArray(p.specifiche.capacita) ? (
+                            <ul className="flex flex-col gap-2 mt-1">
+                                {p.specifiche.capacita.map((cap: string, i: number) => (
+                                    <li key={i} className="flex items-start gap-2.5">
+                                        {/* Pallino personalizzato */}
+                                        <span className="w-1.5 h-1.5 rounded-full bg-[#11414d] mt-2 shrink-0 opacity-60" />
+                                        <span className="text-base text-gray-900 font-medium leading-tight">
+                                            {cap}
+                                        </span>
+                                    </li>
+                                ))}
+                            </ul>
+                        ) : (
+                            /* Fallback per stringa classica */
+                            <span className="text-base text-gray-900 font-medium whitespace-pre-wrap">
+                                {p.specifiche.capacita}
+                            </span>
+                        )}
                     </div>
                 )}
                 
