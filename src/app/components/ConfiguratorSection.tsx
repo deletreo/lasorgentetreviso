@@ -12,9 +12,9 @@ export default function ConfiguratorSection() {
                             Configuratore
                         </span>
                         <h2 className="text-5xl md:text-6xl xl:text-7xl uppercase leading-normal tracking-tighter mb-6 py-4 px-2 -ml-2">
-                            Crea il tuo <br/>
+                            Richiedi un <br/>
                             <span className="text-transparent bg-clip-text bg-linear-to-r from-[#11414d] to-white italic pr-4 pb-2">
-                                Depuratore.
+                            preventivo.
                             </span>
                         </h2>
                         <p className="text-lg text-white/60 font-light leading-relaxed">
