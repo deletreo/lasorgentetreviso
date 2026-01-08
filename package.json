@@ -10,6 +10,9 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
+    "@react-email/components": "^1.0.4",
+    "@react-email/render": "^2.0.2",
+    "@react-email/tailwind": "^2.0.3",
     "@vercel/analytics": "^1.6.1",
     "framer-motion": "^12.23.26",
     "next": "16.0.10",
@@ -17,6 +20,7 @@
     "react-dom": "19.2.1",
     "react-icons": "^5.5.0",
     "react-snowfall": "^2.4.0",
+    "resend": "^6.7.0",
     "snowfall": "^2.1.0"
   },
   "devDependencies": {

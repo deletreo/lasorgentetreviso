@@ -15,7 +15,7 @@ interface ContactFormProps {
 function ContactFormContent({ type }: ContactFormProps) {
     const isConsumer = type === 'consumer';
     const searchParams = useSearchParams();
-    const router = useRouter();
+    const router = useRouter(); // Definito ma non utilizzato nel codice originale, lo lascio per future espansioni
     
     const productParam = searchParams.get('product');
     
@@ -30,7 +30,7 @@ function ContactFormContent({ type }: ContactFormProps) {
     
     const [status, setStatus] = useState<{ type: string; msg: string } | null>(null);
     const [loading, setLoading] = useState(false);
-    const [showConfirmModal, setShowConfirmModal] = useState(false); // Stato per la modale
+    const [showConfirmModal, setShowConfirmModal] = useState(false);
 
     useEffect(() => {
         if (productParam && isConsumer) {
@@ -43,6 +43,7 @@ function ContactFormContent({ type }: ContactFormProps) {
 
     const handleRemoveProduct = () => {
         setFormData(prev => ({ ...prev, prodotto: '' }));
+        // Rimuove il parametro dall'URL senza ricaricare la pagina
         const newUrl = window.location.pathname + window.location.hash;
         window.history.replaceState({}, '', newUrl);
     };
@@ -53,18 +54,34 @@ function ContactFormContent({ type }: ContactFormProps) {
         setShowConfirmModal(true);
     };
 
-    // Secondo step: Invio effettivo
+    // Secondo step: Invio effettivo verso API
     const handleFinalSubmit = async () => {
         setLoading(true);
         setStatus(null);
         setShowConfirmModal(false); // Chiude la modale
     
         try {
-            console.log("Invio dati:", formData); 
+            const response = await fetch('/api/send', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    ...formData,
+                    formType: type, // Passiamo al backend se è consumer o business
+                }),
+            });
 
-            await new Promise(resolve => setTimeout(resolve, 1500)); 
+            const data = await response.json();
+
+            if (!response.ok) {
+                throw new Error(data.message || 'Errore durante l\'invio');
+            }
+
+            // Successo
             setStatus({ type: 'success', msg: 'RICHIESTA INVIATA CON SUCCESSO' });
             
+            // Reset del form
             setFormData(prev => ({ 
                 nome: '', 
                 email: '', 
@@ -73,8 +90,10 @@ function ContactFormContent({ type }: ContactFormProps) {
                 honeypot: '',
                 prodotto: isConsumer ? prev.prodotto : '' 
             }));
+
         } catch (error) {
-            setStatus({ type: 'error', msg: 'ERRORE DI CONNESSIONE' });
+            console.error('Errore invio form:', error);
+            setStatus({ type: 'error', msg: 'ERRORE DI CONNESSIONE. RITENTA.' });
         } finally {
             setLoading(false);
         }
@@ -90,6 +109,17 @@ function ContactFormContent({ type }: ContactFormProps) {
         <>
             <form onSubmit={handlePreSubmit} className="relative z-10 flex flex-col gap-8">
                 
+                {/* Honeypot field (invisibile) per antispam semplice */}
+                <input 
+                    type="text" 
+                    name="honeypot" 
+                    className="hidden" 
+                    value={formData.honeypot}
+                    onChange={(e) => setFormData({...formData, honeypot: e.target.value})}
+                    tabIndex={-1}
+                    autoComplete="off"
+                />
+
                 {/* BLOCCO GESTIONE PRODOTTO (Solo Consumer) */}
                 {isConsumer && (
                     <div className={`flex flex-col gap-3 p-5 border rounded-sm mb-2 transition-all duration-300 ${formData.prodotto ? 'bg-[#11414d]/10 border-[#11414d]/30' : 'bg-white/5 border-white/10'}`}>
