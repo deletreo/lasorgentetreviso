@@ -52,7 +52,8 @@ function ProdottiContent() {
     { id: 'ozonizzatori', label: 'Ozonizzatori' },
     { id: 'tritarifiuti', label: 'Tritarifiuti' },
     { id: 'rubinetti', label: 'Rubinetti' },
-    { id: 'borracce', label: 'Borracce e bottiglie' }
+    { id: 'borracce', label: 'Borracce' },
+    { id: 'bottiglie', label: 'Bottiglie'}
   ];
 
   useEffect(() => {

@@ -2776,6 +2776,412 @@
       }
     },
     {
+      "id": "bottiglia-basic-75",
+      "nome": "Bottiglia Basic 75cl",
+      "categoria": "bottiglie",
+      "target": [
+        "ristorante",
+        "bar",
+        "casa"
+      ],
+      "tecnologia": "Vetro",
+      "installazione": "Soprabanco",
+      "immagini": [
+        "/fotoProdotti/bottiglie/BottigliaInVetroBasic75Trasparente.jpg"
+      ],
+      "descrizione_breve": "Bottiglia in vetro resistente Basic 75cl Trasparente.",
+      "descrizione_estesa": "BOTTIGLIA BASIC 75CL\n\nBottiglia elegante in vetro resistente, di alta qualità e trasparenza.\nBottiglia consigliata per ristoranti, bar o per uso domestico.",
+      "caratteristiche": [
+        {
+          "nome": "Capacità",
+          "valore": "75 cl"
+        },
+        {
+          "nome": "Peso",
+          "valore": "600 gr"
+        },
+        {
+          "nome": "Altezza totale",
+          "valore": "240 mm"
+        },
+        {
+          "nome": "Diametro",
+          "valore": "85 mm"
+        },
+        {
+          "nome": "Spazio etichettabile",
+          "valore": "148,5 mm"
+        }
+      ],
+      "specifiche": {
+        "plus": "Design Basic",
+        "capacita": "75 cl"
+      }
+    },
+    {
+      "id": "bottiglia-classic-75",
+      "nome": "Bottiglia Classic 75cl",
+      "categoria": "bottiglie",
+      "target": [
+        "ristorante",
+        "bar",
+        "casa"
+      ],
+      "tecnologia": "Vetro",
+      "installazione": "Soprabanco",
+      "immagini": [
+        "/fotoProdotti/bottiglie/BottigliaInVetroClassic75Trasparente.jpg"
+      ],
+      "descrizione_breve": "Bottiglia in vetro resistente Classic 75cl Trasparente.",
+      "descrizione_estesa": "BOTTIGLIA CLASSIC 75CL\n\nBottiglia elegante in vetro resistente, di alta qualità e trasparenza.\nBottiglia consigliata per ristoranti, bar o per uso domestico.",
+      "caratteristiche": [
+        {
+          "nome": "Capacità",
+          "valore": "75 cl"
+        },
+        {
+          "nome": "Peso",
+          "valore": "500 gr"
+        },
+        {
+          "nome": "Altezza totale",
+          "valore": "312 mm"
+        },
+        {
+          "nome": "Diametro",
+          "valore": "65 mm"
+        },
+        {
+          "nome": "Spazio etichettabile",
+          "valore": "74,25 mm"
+        }
+      ],
+      "specifiche": {
+        "plus": "Design Classico",
+        "capacita": "75 cl"
+      }
+    },
+    {
+      "id": "bottiglia-cilinder-50",
+      "nome": "Bottiglia Cilinder 50cl",
+      "categoria": "bottiglie",
+      "target": [
+        "ristorante",
+        "bar",
+        "casa"
+      ],
+      "tecnologia": "Vetro",
+      "installazione": "Soprabanco",
+      "immagini": [
+        "/fotoProdotti/bottiglie/BottigliaCilinderTappoNero50.jpg"
+      ],
+      "descrizione_breve": "Bottiglia Cilinder 50cl con Tappo Nero.",
+      "descrizione_estesa": "BOTTIGLIA CILINDER 50CL\n\nBottiglia Cilinder lineare ed elegante grazie alla sua superficie cilindrica.\nConsigliata per ristoranti, bar o per uso domestico.",
+      "caratteristiche": [
+        {
+          "nome": "Capacità",
+          "valore": "50 cl"
+        },
+        {
+          "nome": "Peso",
+          "valore": "300 gr"
+        },
+        {
+          "nome": "Altezza con Tappo",
+          "valore": "23,2 cm"
+        },
+        {
+          "nome": "Altezza senza Tappo",
+          "valore": "23 cm"
+        },
+        {
+          "nome": "Diametro",
+          "valore": "6,2 cm"
+        }
+      ],
+      "specifiche": {
+        "plus": "Tappo Nero Incluso",
+        "capacita": "50 cl"
+      }
+    },
+    {
+      "id": "bottiglia-cilinder-75",
+      "nome": "Bottiglia Cilinder 75cl",
+      "categoria": "bottiglie",
+      "target": [
+        "ristorante",
+        "bar",
+        "casa"
+      ],
+      "tecnologia": "Vetro",
+      "installazione": "Soprabanco",
+      "immagini": [
+        "/fotoProdotti/bottiglie/BottigliaCilinderTappoNero75.jpg"
+      ],
+      "descrizione_breve": "Bottiglia Cilinder 75cl con Tappo Nero.",
+      "descrizione_estesa": "BOTTIGLIA CILINDER 75CL\n\nBottiglia Cilinder lineare ed elegante grazie alla sua superficie cilindrica.\nConsigliata per ristoranti, bar o per uso domestico.",
+      "caratteristiche": [
+        {
+          "nome": "Capacità",
+          "valore": "75 cl"
+        },
+        {
+          "nome": "Peso",
+          "valore": "400 gr"
+        },
+        {
+          "nome": "Altezza con Tappo",
+          "valore": "27,3 cm"
+        },
+        {
+          "nome": "Altezza senza Tappo",
+          "valore": "26,8 cm"
+        },
+        {
+          "nome": "Diametro",
+          "valore": "6,8 cm"
+        }
+      ],
+      "specifiche": {
+        "plus": "Tappo Nero Incluso",
+        "capacita": "75 cl"
+      }
+    },
+    {
+      "id": "bottiglia-tube-75",
+      "nome": "Bottiglia Tube 75cl",
+      "categoria": "bottiglie",
+      "target": [
+        "ristorante",
+        "bar",
+        "casa"
+      ],
+      "tecnologia": "Vetro",
+      "installazione": "Soprabanco",
+      "immagini": [
+        "/fotoProdotti/bottiglie/BottigliaInVetroTube75.jpg"
+      ],
+      "descrizione_breve": "Bottiglia in vetro Tube 75cl.",
+      "descrizione_estesa": "BOTTIGLIA TUBE 75CL\n\nBottiglia Tube elegante in vetro resistente, di alta qualità e trasparenza.\nConsigliata per ristoranti, bar o per uso domestico.",
+      "caratteristiche": [
+        {
+          "nome": "Capacità",
+          "valore": "75 cl"
+        },
+        {
+          "nome": "Peso",
+          "valore": "500 gr"
+        },
+        {
+          "nome": "Altezza totale",
+          "valore": "305 mm"
+        },
+        {
+          "nome": "Diametro",
+          "valore": "67 mm"
+        }
+      ],
+      "specifiche": {
+        "plus": "Design Tubolare",
+        "capacita": "75 cl"
+      }
+    },
+    {
+      "id": "bottiglia-puffy-75",
+      "nome": "Bottiglia Puffy 75cl",
+      "categoria": "bottiglie",
+      "target": [
+        "ristorante",
+        "bar",
+        "casa"
+      ],
+      "tecnologia": "Vetro",
+      "installazione": "Soprabanco",
+      "immagini": [
+        "/fotoProdotti/bottiglie/BottigliaInVetroPuffy75.jpg"
+      ],
+      "descrizione_breve": "Bottiglia in vetro Puffy 75cl.",
+      "descrizione_estesa": "BOTTIGLIA PUFFY 75CL\n\nBottiglia Puffy design esclusivo in vetro resistente, di alta qualità e trasparenza.\nConsigliata per ristoranti, bar o per uso domestico.",
+      "caratteristiche": [
+        {
+          "nome": "Capacità",
+          "valore": "75 cl"
+        },
+        {
+          "nome": "Peso",
+          "valore": "600 gr"
+        },
+        {
+          "nome": "Altezza totale",
+          "valore": "223 mm"
+        },
+        {
+          "nome": "Diametro",
+          "valore": "81.8 mm"
+        }
+      ],
+      "specifiche": {
+        "plus": "Design Puffy",
+        "capacita": "75 cl"
+      }
+    },
+    {
+      "id": "bottiglia-diam-70",
+      "nome": "Bottiglia Diam 70cl",
+      "categoria": "bottiglie",
+      "target": [
+        "ristorante",
+        "bar",
+        "casa"
+      ],
+      "tecnologia": "Vetro",
+      "installazione": "Soprabanco",
+      "immagini": [
+        "/fotoProdotti/bottiglie/BottigliaInVetroDiam70.jpg"
+      ],
+      "descrizione_breve": "Bottiglia in vetro Diam 70cl.",
+      "descrizione_estesa": "BOTTIGLIA DIAM 70CL\n\nBottiglia dal design semplice ed esclusivo.\nBottiglia consigliata per ristoranti, bar o per uso domestico.",
+      "caratteristiche": [
+        {
+          "nome": "Capacità",
+          "valore": "70 cl"
+        },
+        {
+          "nome": "Peso",
+          "valore": "750 gr"
+        },
+        {
+          "nome": "Altezza",
+          "valore": "213,2 mm"
+        },
+        {
+          "nome": "Diametro",
+          "valore": "73 mm"
+        }
+      ],
+      "specifiche": {
+        "plus": "Vetro Resistente",
+        "capacita": "70 cl"
+      }
+    },
+    {
+      "id": "bottiglia-slowly-75",
+      "nome": "Bottiglia Slowly 75cl",
+      "categoria": "bottiglie",
+      "target": [
+        "ristorante",
+        "bar",
+        "casa"
+      ],
+      "tecnologia": "Vetro",
+      "installazione": "Soprabanco",
+      "immagini": [
+        "/fotoProdotti/bottiglie/BottigliaInVetroSlowly75.jpg"
+      ],
+      "descrizione_breve": "Bottiglia in vetro Slowly 75cl.",
+      "descrizione_estesa": "BOTTIGLIA SLOWLY 75CL\n\nBottiglia Slowly design classico in vetro resistente, di alta qualità e trasparenza.\nConsigliata per ristoranti, bar o per uso domestico.",
+      "caratteristiche": [
+        {
+          "nome": "Capacità",
+          "valore": "75 cl"
+        },
+        {
+          "nome": "Peso",
+          "valore": "750 gr"
+        },
+        {
+          "nome": "Altezza totale",
+          "valore": "290 mm"
+        },
+        {
+          "nome": "Diametro",
+          "valore": "58 mm"
+        }
+      ],
+      "specifiche": {
+        "plus": "Design Classico",
+        "capacita": "75 cl"
+      }
+    },
+    {
+      "id": "bottiglia-old-75",
+      "nome": "Bottiglia Old 75cl",
+      "categoria": "bottiglie",
+      "target": [
+        "ristorante",
+        "bar",
+        "casa"
+      ],
+      "tecnologia": "Vetro",
+      "installazione": "Soprabanco",
+      "immagini": [
+        "/fotoProdotti/bottiglie/BottigliaInVetroOld75Trasparente.jpg"
+      ],
+      "descrizione_breve": "Bottiglia in vetro Old 75cl Trasparente.",
+      "descrizione_estesa": "BOTTIGLIA OLD 75CL\n\nBottiglia Old design raffinato in vetro resistente, di alta qualità e trasparenza.\nConsigliata per ristoranti, bar o per uso domestico.",
+      "caratteristiche": [
+        {
+          "nome": "Capacità",
+          "valore": "75 cl"
+        },
+        {
+          "nome": "Peso",
+          "valore": "720 gr"
+        },
+        {
+          "nome": "Altezza totale",
+          "valore": "292,5 mm"
+        },
+        {
+          "nome": "Diametro",
+          "valore": "83,7 mm"
+        }
+      ],
+      "specifiche": {
+        "plus": "Design Raffinato",
+        "capacita": "75 cl"
+      }
+    },
+    {
+      "id": "bottiglia-vintage-75",
+      "nome": "Bottiglia Vintage 75cl",
+      "categoria": "bottiglie",
+      "target": [
+        "ristorante",
+        "bar",
+        "casa"
+      ],
+      "tecnologia": "Vetro",
+      "installazione": "Soprabanco",
+      "immagini": [
+        "/fotoProdotti/bottiglie/BottigliaInVetroVintage75Trasparente.jpg"
+      ],
+      "descrizione_breve": "Bottiglia in vetro Vintage 75cl Trasparente.",
+      "descrizione_estesa": "BOTTIGLIA VINTAGE 75CL\n\nBottiglia Vintage design classico in vetro resistente, di alta qualità e trasparenza.\nConsigliata per ristoranti, bar o per uso domestico.",
+      "caratteristiche": [
+        {
+          "nome": "Capacità",
+          "valore": "75 cl"
+        },
+        {
+          "nome": "Peso",
+          "valore": "800 gr"
+        },
+        {
+          "nome": "Altezza totale",
+          "valore": "225 mm"
+        },
+        {
+          "nome": "Diametro",
+          "valore": "104 mm"
+        }
+      ],
+      "specifiche": {
+        "plus": "Stile Vintage",
+        "capacita": "75 cl"
+      }
+    },
+    {
       "id": "ozonizzatore-blueoxy",
       "nome": "Ozonizzatore BlueOxy",
       "categoria": "ozonizzatori",

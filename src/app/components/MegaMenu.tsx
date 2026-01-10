@@ -129,8 +129,8 @@ export default function MegaMenu({ isOpen, setIsOpen }: { isOpen: boolean; setIs
                         <FiDownload className="size-5 shrink-0" /> Brochure attività
                     </a>
                     <a 
-                    href="/brochure.pdf" 
-                    download="brochure.pdf"
+                    href="/brochurePrivati.pdf" 
+                    download="brochurePrivati.pdf"
                     className="border border-gray-300 bg-white/80 text-gray-700 w-[80%] md:w-[30%] flex flex-row items-center justify-center text-center gap-3 py-2 px-6 uppercase tracking-[0.2em] text-xs font-bold hover:border-[#11414d] hover:text-[#11414d] transition-all duration-300 cursor-pointer"
                     >
                         <FiDownload className="size-5 shrink-0" /> Brochure privati

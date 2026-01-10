@@ -72,7 +72,7 @@ export default function HeroSection({ links, onOpenMenu }: { links: HeroLink[], 
                 className="absolute top-[95%] left-1/2 -translate-x-1/2 -translate-y-1/2 z-20 flex flex-row items-center gap-2 group cursor-pointer animate-bounce py-4 px-8 border border-white/20 rounded-full backdrop-blur-xl"
             >
                 <span className="text-white/50 text-xs uppercase tracking-[0.3em] font-bold group-hover:text-white transition-colors">
-                    Crea il tuo depuratore
+                    Richiedi un preventivo
                 </span>
                 <FiArrowDown className="text-white text-xl" />
             </button>
