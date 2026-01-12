@@ -62,10 +62,17 @@ const categorie = [
     },
     { 
         id: "borracce", 
-        label: "Borracce e bottiglie", 
+        label: "Borracce", 
         desc: "Sostenibilità on the go", 
         img: "/fotoProdotti/borrace/crystal/crystalNylon.png", 
         href: "/prodotti?filter=borracce" 
+    },
+    { 
+        id: "bottiglie", 
+        label: "Bottiglie", 
+        desc: "Sostenibilità sempre", 
+        img: "/fotoProdotti/bottiglie/BottigliaInVetroBasic75Trasparente.jpg", 
+        href: "/prodotti?filter=bottiglie" 
     }
 ];
 
