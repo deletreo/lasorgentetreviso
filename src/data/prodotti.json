@@ -2715,7 +2715,7 @@
       "caratteristiche": [
         {
           "nome": "Potenza",
-          "valore": "750W"
+          "valore": "550W"
         },
         {
           "nome": "Frequenta",
@@ -2727,11 +2727,11 @@
         },
         {
           "nome": "Corrente elettrica",
-          "valore": "4A"
+          "valore": "3.25A"
         },
         {
           "nome": "Velocità rotazione",
-          "valore": "4000-4500RPm"
+          "valore": "3200-3600RPm"
         },
         {
           "nome": "Motore",
@@ -2768,6 +2768,46 @@
         {
           "nome": "Suono isolato",
           "valore": "Dirigibile + Cotone insonorizzato"
+        },
+        {
+          "nome": "Misura installazione",
+          "valore": "114/90"
+        },
+        {
+          "nome": "Intervallo Diametro",
+          "valore": "140, 160, 180"
+        },
+        {
+          "nome": "Modalità di commutazione",
+          "valore": "Telecomando e interruttore dell'aria"
+        },
+        {
+          "nome": "Sistema di smorzamento",
+          "valore": "Smorzamento complessivo"
+        },
+        {
+          "nome": "Materiale principale",
+          "valore": "Acciaio inossidabile"
+        },
+        {
+          "nome": "Sistema installazione",
+          "valore": "Lega espressa"
+        },
+        {
+          "nome": "Dispositivo di sovraccarico",
+          "valore": "Protezione da surriscaldamento e sovraccarico"
+        },
+        {
+          "nome": "Interruttore di protezione",
+          "valore": "Ripristino manuale"
+        },
+        {
+          "nome": "Vita utile",
+          "valore": "10 anni"
+        },
+        {
+          "nome": "Garanzia",
+          "valore": "2 anni"
         }
       ],
       "specifiche": {
@@ -3195,8 +3235,8 @@
         "/fotoProdotti/ozonizatore/blueoxy1.png",
         "/fotoProdotti/ozonizatore/blueoxy2.jpg"
       ],
-      "descrizione_breve": "Sistema di sanificazione ad ozono BlueOxy.",
-      "descrizione_estesa": "BLUEOXY: LA FORZA DELL'OZONO\n\nDispositivo ozonizzatore avanzato per lavatrice e uso domestico.\n\nDOPPIA FUNZIONE:\n1. Integrazione Lavatrice: Si collega al ciclo di lavaggio per igienizzare i capi senza residui chimici, eliminando batteri, virus, muffe e odori.\n2. Doccino Esterno: Permette di prelevare acqua ozonizzata per sanificare superfici, oggetti, frutta e verdura.\n\nSemplice, sicuro ed ecologico: migliora l'igiene quotidiana sfruttando la potenza naturale dell'ossidazione.",
+      "descrizione_breve": "Ozonizzatore per lavatrice di ultima generazione BlueOxy.",
+      "descrizione_estesa": "BLUEOXY – Tecnologia di Lavaggio a Ozono\n\nIl sistema BLUEOXY è un ozonizzatore per lavatrice di ultima generazione, progettato per introdurre ozono (O₃) nell'acqua di lavaggio e igienizzare i capi senza l'uso di detersivi chimici, o con un uso molto ridotto.\n\nFUNZIONAMENTO SCIENTIFICO DI BLUEOXY:\n\n1. Generazione dell'ozono:\nBLUEOXY preleva ossigeno (O₂) dall'aria e lo trasforma in ozono (O₃) grazie a una scarica elettrica ad alta tensione o a speciali lampade UV.\n\n2. Iniezione e miscelazione:\nL'ozono viene immesso nell'acqua fredda e indirizzato nella lavatrice, senza necessità di riscaldamento.\n\n3. Azione igienizzante e ossidante:\nL'ozono è un potente ossidante, capace di:\n• Eliminare batteri, virus, muffe e lieviti\n• Sciogliere grassi e sporco organico\n• Neutralizzare odori\n• Sbiancare delicatamente i tessuti\n\n4. Sicurezza e decomposizione naturale:\nDopo l'azione pulente, l'ozono si riconverte naturalmente in ossigeno (O₂), lasciando l'acqua pura e priva di residui chimici.\n\nI VANTAGGI DI BLUEOXY:\n• Lavaggio con acqua fredda, risparmio energetico\n• Riduzione significativa o eliminazione totale dei detersivi",
       "caratteristiche": [],
       "specifiche": {
         "plus": "Sanificazione Naturale",
